@@ -5,6 +5,7 @@ import lombok.Data;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 @Data
@@ -19,6 +20,7 @@ public class Pedido {
 
     @ManyToOne
     @JoinColumn(name = "cliente_id")
+	@JsonIgnore
     private Cliente cliente;
 
     @ManyToOne
