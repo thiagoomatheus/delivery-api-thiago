@@ -7,6 +7,10 @@ import java.time.LocalDateTime;
 import java.util.List;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+public enum OrderStatus {
+    PENDING,CONFIRMED
+}
+
 @Entity
 @Data
 public class Pedido {
@@ -15,7 +19,10 @@ public class Pedido {
     private Long id;
 
     private LocalDateTime dataHora;
-    private String status;
+	
+	@Enumerated(EnumType.STRING)
+    private OrderStatus status;
+	
     private BigDecimal valorTotal;
 
     @ManyToOne
