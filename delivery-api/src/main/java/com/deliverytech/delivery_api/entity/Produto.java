@@ -15,6 +15,7 @@ public class Produto {
     private String nome;
     private String descricao;
     private BigDecimal preco;
+	private boolean disponivel;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "restaurante_id")
