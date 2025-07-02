@@ -15,6 +15,9 @@ public class Restaurante {
     private String nome;
     private String cnpj;
     private String endereco;
+	private String telefone;
+	private String categoria;
+	private boolean ativo;
 
     @OneToMany(mappedBy = "restaurante", cascade = CascadeType.ALL)
 	@JsonIgnore
