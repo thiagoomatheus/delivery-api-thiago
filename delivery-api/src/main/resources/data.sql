@@ -1,34 +1,51 @@
--- data.sql
+-- Dados de exemplo para testes
+-- Arquivo: src/main/resources/data.sql
 
--- Inserindo Clientes
-INSERT INTO cliente (nome, email, telefone, endereco) VALUES
-('João Silva', 'joao.silva@email.com', '(11) 98765-4321', 'Rua das Flores, 123, São Paulo'),
-('Maria Oliveira', 'maria.o@email.com', '(21) 91234-5678', 'Avenida Copacabana, 456, Rio de Janeiro');
+-- Inserir clientes
+INSERT INTO clientes (nome, email, telefone, endereco, data_cadastro, ativo) VALUES
+('João Silva', 'joao@email.com', '(11) 99999-1111', 'Rua A, 123 - São Paulo/SP', NOW(), true),
+('Maria Santos', 'maria@email.com', '(11) 99999-2222', 'Rua B, 456 - São Paulo/SP', NOW(), true),
+('Pedro Oliveira', 'pedro@email.com', '(11) 99999-3333', 'Rua C, 789 - São Paulo/SP', NOW(), true);
 
--- Inserindo Restaurantes
-INSERT INTO restaurante (nome, cnpj, endereco) VALUES
-('Pizzaria do Zé', '12.345.678/0001-99', 'Rua da Pizza, 10, São Paulo'),
-('Hamburgueria Top', '98.765.432/0001-11', 'Avenida do Burger, 20, Rio de Janeiro');
+-- Inserir restaurantes
+INSERT INTO restaurantes (nome, categoria, endereco, telefone, taxa_entrega, avaliacao, ativo) VALUES
+('Pizzaria Bella', 'Italiana', 'Av. Paulista, 1000 - São Paulo/SP', '(11) 3333-1111', 5.00, 4.5, true),
+('Burger House', 'Hamburgueria', 'Rua Augusta, 500 - São Paulo/SP', '(11) 3333-2222', 3.50, 4.2, true),
+('Sushi Master', 'Japonesa', 'Rua Liberdade, 200 - São Paulo/SP', '(11) 3333-3333', 8.00, 4.8, true);
 
--- Inserindo Produtos para a Pizzaria do Zé (ID=1)
-INSERT INTO produto (nome, descricao, preco, restaurante_id) VALUES
-('Pizza Margherita', 'Molho, mussarela e manjericão', 45.00, 1),
-('Pizza Calabresa', 'Molho, mussarela e calabresa fatiada', 50.00, 1),
-('Refrigerante Lata', 'Coca-Cola, Guaraná ou Fanta', 5.00, 1);
+-- Inserir produtos
+INSERT INTO produtos (nome, descricao, preco, categoria, disponivel, restaurante_id) VALUES
+-- Pizzaria Bella
+('Pizza Margherita', 'Molho de tomate, mussarela e manjericão', 35.90, 'Pizza', true, 1),
+('Pizza Calabresa', 'Molho de tomate, mussarela e calabresa', 38.90, 'Pizza', true, 1),
+('Lasanha Bolonhesa', 'Lasanha tradicional com molho bolonhesa', 28.90, 'Massa', true, 1),
 
--- Inserindo Produtos para a Hamburgueria Top (ID=2)
-INSERT INTO produto (nome, descricao, preco, restaurante_id) VALUES
-('X-Burger Clássico', 'Pão, carne, queijo, alface e tomate', 30.00, 2),
-('X-Bacon Especial', 'Pão, carne, queijo, bacon crocante, cebola caramelizada', 35.50, 2),
-('Batata Frita', 'Porção individual de batata frita', 12.00, 2);
+-- Burger House
+('X-Burger', 'Hambúrguer, queijo, alface e tomate', 18.90, 'Hambúrguer', true, 2),
+('X-Bacon', 'Hambúrguer, queijo, bacon, alface e tomate', 22.90, 'Hambúrguer', true, 2),
+('Batata Frita', 'Porção de batata frita crocante', 12.90, 'Acompanhamento', true, 2),
 
--- Inserindo um Pedido de exemplo
--- Pedido do cliente João Silva (ID=1) no restaurante Pizzaria do Zé (ID=1)
-INSERT INTO pedido (data_hora, status, valor_total, cliente_id, restaurante_id) VALUES
-(CURRENT_TIMESTAMP, 'ENTREGUE', 95.00, 1, 1);
+-- Sushi Master
+('Combo Sashimi', '15 peças de sashimi variado', 45.90, 'Sashimi', true, 3),
+('Hot Roll Salmão', '8 peças de hot roll de salmão', 32.90, 'Hot Roll', true, 3),
+('Temaki Atum', 'Temaki de atum com cream cheese', 15.90, 'Temaki', true, 3);
 
--- Associando os produtos ao pedido (ID=1)
--- O pedido contém uma Pizza Margherita (ID=1) e uma Pizza Calabresa (ID=2)
-INSERT INTO pedido_produto (pedido_id, produto_id) VALUES
-(1, 1), -- Pizza Margherita
-(1, 2); -- Pizza Calabresa
+-- Inserir pedidos de exemplo
+INSERT INTO pedidos (numero_pedido, data_pedido, status, valor_total, observacoes, cliente_id, restaurante_id) VALUES
+('PED1234567890', NOW(), 'PENDENTE', 54.80, 'Sem cebola na pizza', 1, 1),
+('PED1234567891', NOW(), 'CONFIRMADO', 41.80, '', 2, 2),
+('PED1234567892', NOW(), 'ENTREGUE', 78.80, 'Wasabi à parte', 3, 3);
+
+-- Inserir itens dos pedidos
+INSERT INTO itens_pedido (quantidade, preco_unitario, subtotal, pedido_id, produto_id) VALUES
+-- Pedido 1 (João - Pizzaria Bella)
+(1, 35.90, 35.90, 1, 1), -- Pizza Margherita
+(1, 28.90, 28.90, 1, 3), -- Lasanha
+
+-- Pedido 2 (Maria - Burger House)
+(1, 22.90, 22.90, 2, 5), -- X-Bacon
+(1, 18.90, 18.90, 2, 4), -- X-Burger
+
+-- Pedido 3 (Pedro - Sushi Master)
+(1, 45.90, 45.90, 3, 7), -- Combo Sashimi
+(1, 32.90, 32.90, 3, 8); -- Hot Roll
