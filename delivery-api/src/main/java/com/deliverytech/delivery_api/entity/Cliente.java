@@ -9,16 +9,16 @@ public enum UserRole {
 }
 
 @Entity
-@Data // Anotação Lombok para getters, setters, etc.
+@Data
 public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
     private String email;
-	private String senha;
     private String telefone;
     private String endereco;
+    private boolean ativo;
 	
 	@Enumerated(EnumType.STRING)
 	private UserRole role;

@@ -11,15 +11,17 @@ public class Restaurante {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-	
     private String nome;
-    private String cnpj;
+    private String categoria;
     private String endereco;
-	private String telefone;
-	private String categoria;
-	private boolean ativo;
+    private String telefone;
+    private BigDecimal taxaEntrega;
+    private boolean ativo;
 
     @OneToMany(mappedBy = "restaurante", cascade = CascadeType.ALL)
 	@JsonIgnore
-    private List<Pedido> cardapio;
+    private List<Produto> produtos;
+
+    @OneToMany(mappedBy = "restaurante")
+    private List<Pedido> pedidos;
 }
