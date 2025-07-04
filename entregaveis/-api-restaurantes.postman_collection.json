@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "4e33a6dd-aaae-4405-a6ba-38cd3fc50844",
+		"name": "/api/restaurantes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46484585",
+		"_collection_link": "https://thiago-9274019.postman.co/workspace/2446310f-ef24-4762-8898-c610ce5577de/collection/46484585-4e33a6dd-aaae-4405-a6ba-38cd3fc50844?action=share&source=collection_link&creator=46484585"
+	},
+	"item": [
+		{
+			"name": "/api/clientes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://projeto-delivery-nurgt.run-eu-central1.goorm.site/api/clientes",
+					"protocol": "https",
+					"host": [
+						"projeto-delivery-nurgt",
+						"run-eu-central1",
+						"goorm",
+						"site"
+					],
+					"path": [
+						"api",
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/clientes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nome\": \"Antonio Oliveira\",\n\t\"email\": \"ao@gmail.com\",\n\t\"telefone\": \"(11) 99999-0001\",\n\t\"endereco\": \"Rua Brasil, 123\",\n\t\"data_cadastro\": \"2025-07-04T06:16:36.986Z\",\n\t\"ativo\": \"true\",\n\t\"role\": \"CUSTOMER\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://projeto-delivery-nurgt.run-eu-central1.goorm.site/api/clientes",
+					"protocol": "https",
+					"host": [
+						"projeto-delivery-nurgt",
+						"run-eu-central1",
+						"goorm",
+						"site"
+					],
+					"path": [
+						"api",
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/clientes/{id}",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "User-Agent",
+						"value": "insomnia/10.3.1"
+					}
+				],
+				"url": {
+					"raw": "https://projeto-delivery-nurgt.run-eu-central1.goorm.site/api/clientes/:id",
+					"protocol": "https",
+					"host": [
+						"projeto-delivery-nurgt",
+						"run-eu-central1",
+						"goorm",
+						"site"
+					],
+					"path": [
+						"api",
+						"clientes",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/clientes/{id}",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nome\": \"Antonio Oliveira\",\n\t\"email\": \"ao@gmail.com\",\n\t\"telefone\": \"(11) 99999-0001\",\n\t\"endereco\": \"Rua Brasil, 456\",\n\t\"data_cadastro\": \"2025-07-04T06:16:36.986Z\",\n\t\"ativo\": \"true\",\n\t\"role\": \"CUSTOMER\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://projeto-delivery-nurgt.run-eu-central1.goorm.site/api/clientes/:id",
+					"protocol": "https",
+					"host": [
+						"projeto-delivery-nurgt",
+						"run-eu-central1",
+						"goorm",
+						"site"
+					],
+					"path": [
+						"api",
+						"clientes",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/clientes/{id}",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/api/clientes/buscar?nome={nome}",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "/api/clientes/email/{email}",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
