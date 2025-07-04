@@ -1,12 +1,11 @@
 package com.deliverytech.delivery_api.entity;
 
+import com.deliverytech.delivery_api.enums.UserRole;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.*;
 import lombok.Data;
 import java.util.List;
-
-public enum UserRole {
-    CUSTOMER,RESTAURANT,DELIVERY_PERSON
-}
 
 @Entity
 @Data
@@ -18,11 +17,16 @@ public class Cliente {
     private String email;
     private String telefone;
     private String endereco;
-    private boolean ativo;
+    private boolean ativo = true;
+	
+	public void inativar() {
+		this.ativo = false;
+	}
 	
 	@Enumerated(EnumType.STRING)
 	private UserRole role;
 
     @OneToMany(mappedBy = "cliente")
+	@JsonIgnore
     private List<Pedido> pedidos;
 }

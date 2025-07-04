@@ -2,6 +2,7 @@ package com.deliverytech.delivery_api.service;
 
 import com.deliverytech.delivery_api.entity.*;
 import com.deliverytech.delivery_api.repository.*;
+import com.deliverytech.delivery_api.enums.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -152,4 +153,13 @@ public class PedidoService {
 
         return pedidoRepository.save(pedido);
     }
+	
+	public Pedido atualizarStatus(Long id, StatusPedido novoStatus) {
+		Pedido pedido = buscarPorId(id)
+            .orElseThrow(() -> new IllegalArgumentException("Pedido não encontrado: " + id));
+		
+		pedido.setStatus(novoStatus);
+		
+		return pedidoRepository.save(pedido);
+	}
 }
