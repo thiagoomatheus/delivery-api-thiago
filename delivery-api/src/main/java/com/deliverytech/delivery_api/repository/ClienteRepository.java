@@ -1,6 +1,6 @@
 package com.deliverytech.delivery_api.repository;
 
-import com.deliverytech.delivery_api.entity.Cliente;
+import com.deliverytech.delivery_api.model.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

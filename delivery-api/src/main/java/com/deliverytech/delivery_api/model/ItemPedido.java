@@ -1,4 +1,4 @@
-package com.deliverytech.delivery_api.entity;
+package com.deliverytech.delivery_api.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

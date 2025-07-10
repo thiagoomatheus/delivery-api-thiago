@@ -1,7 +1,7 @@
 package com.deliverytech.delivery_api.service;
 
-import com.deliverytech.delivery_api.entity.Produto;
-import com.deliverytech.delivery_api.entity.Restaurante;
+import com.deliverytech.delivery_api.model.Produto;
+import com.deliverytech.delivery_api.model.Restaurante;
 import com.deliverytech.delivery_api.repository.ProdutoRepository;
 import com.deliverytech.delivery_api.repository.RestauranteRepository;
 import org.springframework.beans.factory.annotation.Autowired;

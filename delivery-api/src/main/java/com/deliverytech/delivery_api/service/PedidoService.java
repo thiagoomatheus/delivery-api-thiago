@@ -1,8 +1,7 @@
 package com.deliverytech.delivery_api.service;
 
-import com.deliverytech.delivery_api.entity.*;
+import com.deliverytech.delivery_api.model.*;
 import com.deliverytech.delivery_api.repository.*;
-import com.deliverytech.delivery_api.enums.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

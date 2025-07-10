@@ -1,4 +1,4 @@
-package com.deliverytech.delivery_api.enums;
+package com.deliverytech.delivery_api.model;
 
 public enum StatusPedido {
     PENDENTE,

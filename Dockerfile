@@ -1,7 +1,7 @@
 # Etapa de build
 FROM maven:3.9.10-eclipse-temurin-21 AS build
 WORKDIR /app
-COPY . .
+COPY ./delivery-api .
 RUN mvn clean package -DskipTests
 
 # Etapa de runtime

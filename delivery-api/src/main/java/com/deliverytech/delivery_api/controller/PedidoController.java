@@ -1,7 +1,7 @@
 package com.deliverytech.delivery_api.controller;
 
-import com.deliverytech.delivery_api.entity.Pedido;
-import com.deliverytech.delivery_api.enums.StatusPedido;
+import com.deliverytech.delivery_api.model.Pedido;
+import com.deliverytech.delivery_api.model.StatusPedido;
 import com.deliverytech.delivery_api.service.PedidoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

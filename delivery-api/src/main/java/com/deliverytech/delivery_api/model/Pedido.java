@@ -1,6 +1,6 @@
-package com.deliverytech.delivery_api.entity;
+package com.deliverytech.delivery_api.model;
 
-import com.deliverytech.delivery_api.enums.StatusPedido;
+import com.deliverytech.delivery_api.model.StatusPedido;
 
 import jakarta.persistence.*;
 import lombok.Data;

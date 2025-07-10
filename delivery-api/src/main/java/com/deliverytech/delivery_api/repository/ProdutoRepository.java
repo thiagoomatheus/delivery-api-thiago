@@ -1,7 +1,7 @@
 package com.deliverytech.delivery_api.repository;
 
-import com.deliverytech.delivery_api.entity.Produto;
-import com.deliverytech.delivery_api.entity.Restaurante;
+import com.deliverytech.delivery_api.model.Produto;
+import com.deliverytech.delivery_api.model.Restaurante;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
