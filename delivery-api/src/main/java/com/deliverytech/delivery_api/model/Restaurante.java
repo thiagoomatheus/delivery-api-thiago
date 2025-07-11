@@ -1,37 +1,36 @@
 package com.deliverytech.delivery_api.model;
 
 import jakarta.persistence.*;
-import lombok.Data;
-import java.util.List;
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import lombok.*;
 import java.math.BigDecimal;
+//import java.time.LocalTime;
+import java.util.List;
 
 @Entity
-@Data // Anotação Lombok para getters, setters, etc.
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Restaurante {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String nome;
+
     private String categoria;
-    private String endereco;
+
     private String telefone;
+
     private BigDecimal taxaEntrega;
-    private boolean ativo;
-	private BigDecimal avaliacao;
-	
-	public boolean isAtivo() {
-		return ativo;
-	}
-	public Boolean getAtivo() {
-		return ativo;
-	}
+    
+    @Column(name = "tempo_entrega_minutos", nullable = false)
+    private Integer tempoEntregaMinutos;
+
+    @Builder.Default
+    private Boolean ativo = true;
 
     @OneToMany(mappedBy = "restaurante", cascade = CascadeType.ALL)
-	@JsonIgnore
     private List<Produto> produtos;
-
-    @OneToMany(mappedBy = "restaurante")
-	@JsonIgnore
-    private List<Pedido> pedidos;
 }

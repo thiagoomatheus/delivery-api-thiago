@@ -1,33 +1,32 @@
 package com.deliverytech.delivery_api.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import jakarta.persistence.*;
-import lombok.Data;
-import java.util.List;
+import lombok.*;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
 public class Cliente {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String nome;
-    private String email;
-    private String telefone;
-    private String endereco;
-	private LocalDateTime data_cadastro;
-    private boolean ativo = true;
-	
-	public void inativar() {
-		this.ativo = false;
-	}
-	
-	@Enumerated(EnumType.STRING)
-	private UserRole role;
 
-    @OneToMany(mappedBy = "cliente")
-	@JsonIgnore
+    private String nome;
+
+    @Column(unique = true)
+    private String email;
+
+    @Builder.Default
+    private Boolean ativo = true;
+
+    @Builder.Default
+    private LocalDateTime dataCriacao = LocalDateTime.now();
+
+    @OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
     private List<Pedido> pedidos;
 }

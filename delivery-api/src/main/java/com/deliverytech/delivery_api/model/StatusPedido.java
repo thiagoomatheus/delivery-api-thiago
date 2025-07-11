@@ -1,11 +1,10 @@
 package com.deliverytech.delivery_api.model;
 
 public enum StatusPedido {
-    PENDENTE,
+    CRIADO,
     CONFIRMADO,
-    PREPARANDO,
-    SAIU_PARA_ENTREGA,
+    EM_PREPARACAO,
+    ENVIADO,
     ENTREGUE,
     CANCELADO
 }
- 
