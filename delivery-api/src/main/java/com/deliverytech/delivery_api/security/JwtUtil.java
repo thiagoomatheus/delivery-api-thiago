@@ -15,7 +15,7 @@ import java.util.function.Function;
 @Component
 public class JwtUtil {
 
-    private final String SECRET_KEY = "super-secret-key-para-assinatura-jwt-muito-segura-e-grande-256bits";
+    private final String SECRET_KEY = "secret-key";
 
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);

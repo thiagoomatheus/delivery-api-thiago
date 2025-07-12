@@ -64,6 +64,7 @@ CREATE TABLE usuario (
     email VARCHAR(255) NOT NULL,
     senha VARCHAR(500) NOT NULL,
     nome VARCHAR(255) NOT NULL,
+    ativo BOOLEAN NOT NULL,
     role VARCHAR(50) NOT NULL,
     data_criacao TIMESTAMP NOT NULL,
     restaurante_id BIGINT
