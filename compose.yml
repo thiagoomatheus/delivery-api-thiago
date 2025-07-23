@@ -8,8 +8,6 @@ services:
     environment:
       - SPRING_PROFILES_ACTIVE=default
     restart: unless-stopped
-    networks:
-      - delivery-network
 
   grafana:
     image: grafana/grafana-oss:latest
