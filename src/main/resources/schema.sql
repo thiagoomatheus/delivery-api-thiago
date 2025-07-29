@@ -3,18 +3,14 @@ CREATE TABLE cliente (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
     email VARCHAR(255) UNIQUE NOT NULL,
-    telefone VARCHAR(20),
-    endereco VARCHAR(255) NOT NULL,
-    data_criacao TIMESTAMP NOT NULL, -- Corresponde ao NOW() no data.sql
-    ativo BOOLEAN NOT NULL,           -- Adicionado de data.sql
-    role VARCHAR(50) NOT NULL
+    ativo BOOLEAN NOT NULL,
+    data_criacao TIMESTAMP NOT NULL
 );
 
 CREATE TABLE restaurante (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
     categoria VARCHAR(255),
-    endereco VARCHAR(255) NOT NULL,
     telefone VARCHAR(20),
     taxa_entrega DECIMAL(10, 2),
     avaliacao DECIMAL(3, 1),
@@ -26,9 +22,9 @@ CREATE TABLE restaurante (
 CREATE TABLE produto (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
+    categoria VARCHAR(255),          -- Adicionado de data.sql
     descricao VARCHAR(500),
     preco DECIMAL(10, 2) NOT NULL,
-    categoria VARCHAR(255),          -- Adicionado de data.sql
     disponivel BOOLEAN NOT NULL,     -- Adicionado de data.sql
     restaurante_id BIGINT,
     FOREIGN KEY (restaurante_id) REFERENCES restaurante(id) -- Corrigida referência do nome da tabela

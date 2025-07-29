@@ -33,17 +33,18 @@ public class ClienteServiceImpl implements ClienteService {
     @Override
     public Cliente atualizar(Long id, Cliente atualizado) {
         return clienteRepository.findById(id)
-                .map(c -> {
-                    c.setNome(atualizado.getNome());
-                    return clienteRepository.save(c);
-                }).orElseThrow(() -> new RuntimeException("Cliente não encontrado"));
+            .map(c -> {
+                c.setNome(atualizado.getNome());
+                return clienteRepository.save(c);
+            }).orElseThrow(() -> new RuntimeException("Cliente não encontrado"));
     }
 
     @Override
     public void ativarDesativar(Long id) {
-        clienteRepository.findById(id).ifPresent(c -> {
-            c.setAtivo(!c.getAtivo());
-            clienteRepository.save(c);
-        });
+        Cliente cliente = clienteRepository.findById(id)
+            .orElseThrow(() -> new IllegalArgumentException("Cliente não encontrado"));
+
+        cliente.setAtivo(!cliente.getAtivo());
+        clienteRepository.save(cliente);
     }
 }

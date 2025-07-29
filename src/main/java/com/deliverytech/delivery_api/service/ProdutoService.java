@@ -11,4 +11,5 @@ public interface ProdutoService {
     List<Produto> buscarPorRestaurante(Long restauranteId);
     Produto atualizar(Long id, Produto produtoAtualizado);
     void alterarDisponibilidade(Long id, boolean disponivel);
+    List<Produto> buscarTodos();
 }
