@@ -1,11 +1,11 @@
--- Dados de exemplo para testes
+/* -- Dados de exemplo para testes
 -- Arquivo: src/main/resources/data.sql
 
 -- Inserir clientes
-INSERT INTO cliente (nome, email, telefone, endereco, data_criacao, ativo, role) VALUES
-('João Silva', 'joao@email.com', '(11) 99999-1111', 'Rua A, 123 - São Paulo/SP', NOW(), true, 'CUSTOMER'),
-('Maria Santos', 'maria@email.com', '(11) 99999-2222', 'Rua B, 456 - São Paulo/SP', NOW(), true, 'CUSTOMER'),
-('Pedro Oliveira', 'pedro@email.com', '(11) 99999-3333', 'Rua C, 789 - São Paulo/SP', NOW(), true, 'CUSTOMER');
+INSERT INTO cliente (nome, email, data_criacao, ativo) VALUES
+('João Silva', 'joao@email.com', NOW(), true),
+('Maria Santos', 'maria@email.com', NOW(), true),
+('Pedro Oliveira', 'pedro@email.com', NOW(), true);
 
 -- Inserir restaurantes
 INSERT INTO restaurante (nome, categoria, endereco, telefone, taxa_entrega, avaliacao, tempo_entrega_minutos, ativo) VALUES
@@ -47,4 +47,4 @@ INSERT INTO item_pedido (quantidade, preco_unitario, pedido_id, produto_id) VALU
 
 -- Pedido 3 (Pedro - Sushi Master)
 (1, 45.90, 3, 7), -- Combo Sashimi
-(1, 32.90, 3, 8); -- Hot Roll
+(1, 32.90, 3, 8); -- Hot Roll */
