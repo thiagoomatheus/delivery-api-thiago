@@ -40,7 +40,8 @@ public class PedidoController {
         )
         @ApiResponses(value = {
                 @ApiResponse(responseCode = "200", description = "Pedido criado com sucesso"),
-                @ApiResponse(responseCode = "400", description = "Dados inválidos ou cliente/restaurante não encontrado")
+                @ApiResponse(responseCode = "400", description = "Dados inválidos ou cliente/restaurante não encontrado"),
+                @ApiResponse(responseCode = "404", description = "Cliente ou restaurante não encontrado")
         })
         @PostMapping
         public ResponseEntity<PedidoResponse> criar(
@@ -83,9 +84,9 @@ public class PedidoController {
                 List<ItemPedidoResponse> itensResp = salvo.getItens().stream()
                         .map(i -> new ItemPedidoResponse(i.getProduto().getId(), i.getProduto().getNome(),
                                 i.getQuantidade(), i.getPrecoUnitario()))
-                        .collect(Collectors.toList());
+                        .collect(Collectors.toList());  
 
-                return ResponseEntity.ok(new PedidoResponse(
+                return ResponseEntity.status(201).body(new PedidoResponse(
                         salvo.getId(),
                         cliente.getId(),
                         restaurante.getId(),
@@ -95,4 +96,73 @@ public class PedidoController {
                         salvo.getDataPedido(),
                         itensResp));
         }
+
+        @Operation(
+                summary = "Buscar pedido por ID",
+                description = "Busca um pedido específico pelo seu ID."
+        )
+        @ApiResponses(value = {
+                @ApiResponse(responseCode = "200", description = "Pedido encontrado"),
+                @ApiResponse(responseCode = "404", description = "Pedido não encontrado")
+        })
+        @GetMapping("/{id}")
+        public ResponseEntity<PedidoResponse> buscarPorId(
+                @Parameter(description = "ID do pedido", example = "1", required = true)
+                @PathVariable Long id
+        ) {
+                Pedido pedido = pedidoService.buscarPorId(id)
+                        .orElseThrow(() -> new RuntimeException("Pedido não encontrado"));
+                List<ItemPedidoResponse> itensResp = pedido.getItens().stream()
+                        .map(i -> new ItemPedidoResponse(i.getProduto().getId(), i.getProduto().getNome(),
+                                i.getQuantidade(), i.getPrecoUnitario()))
+                        .collect(Collectors.toList());
+                PedidoResponse response = new PedidoResponse(
+                        pedido.getId(),
+                        pedido.getCliente().getId(),
+                        pedido.getRestaurante().getId(),
+                        pedido.getEnderecoEntrega(),
+                        pedido.getTotal(),
+                        pedido.getStatus(),
+                        pedido.getDataPedido(),
+                        itensResp
+                );
+                return ResponseEntity.ok(response);
+        }
+
+        @Operation(
+                summary = "Atualizar status de um pedido",
+                description = "Atualiza o status de um pedido existente."
+        )
+        @ApiResponses(value = {
+                @ApiResponse(responseCode = "200", description = "Status do pedido atualizado com sucesso"),
+                @ApiResponse(responseCode = "400", description = "Dados inválidos ou pedido não encontrado")
+        })
+        @PutMapping("/{id}/status")
+        public ResponseEntity<PedidoResponse> atualizarStatus(
+                @Parameter(description = "ID do pedido", example = "1", required = true)
+                @PathVariable Long id,
+                @Parameter(description = "Novo status do pedido", example = "ENTREGUE", required = true)
+                @RequestParam StatusPedido status
+        ) {
+                Pedido pedido = pedidoService.buscarPorId(id)
+                        .orElseThrow(() -> new RuntimeException("Pedido não encontrado"));
+                pedido.setStatus(status);
+                Pedido atualizado = pedidoService.atualizarStatus(id, status);
+                List<ItemPedidoResponse> itensResp = atualizado.getItens().stream()
+                        .map(i -> new ItemPedidoResponse(i.getProduto().getId(), i.getProduto().getNome(),
+                                i.getQuantidade(), i.getPrecoUnitario()))
+                        .collect(Collectors.toList());
+                PedidoResponse response = new PedidoResponse(
+                        atualizado.getId(),
+                        atualizado.getCliente().getId(),
+                        atualizado.getRestaurante().getId(),
+                        atualizado.getEnderecoEntrega(),
+                        atualizado.getTotal(),
+                        atualizado.getStatus(),
+                        atualizado.getDataPedido(),
+                        itensResp
+                );
+                return ResponseEntity.ok(response);
+        }
+
 }
