@@ -21,6 +21,7 @@ public class Cliente {
     private String nome;
 
     @Column(unique = true)
+    @NotBlank(message = "Email é obrigatório")
     private String email;
 
     @Builder.Default
