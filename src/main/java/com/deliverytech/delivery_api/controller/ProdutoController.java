@@ -1,7 +1,6 @@
 package com.deliverytech.delivery_api.controller;
 
 import com.deliverytech.delivery_api.dto.request.ProdutoRequest;
-import com.deliverytech.delivery_api.dto.response.ClienteResponse;
 import com.deliverytech.delivery_api.dto.response.ProdutoResponse;
 import com.deliverytech.delivery_api.model.Produto;
 import com.deliverytech.delivery_api.model.Restaurante;
