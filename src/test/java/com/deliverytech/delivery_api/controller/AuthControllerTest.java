@@ -1,177 +1,205 @@
 package com.deliverytech.delivery_api.controller;
 
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.times;
-import static org.mockito.Mockito.verify;
-import static org.mockito.Mockito.when;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
-import java.time.LocalDateTime;
-import java.util.Optional;
-
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.http.MediaType;
-import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.MvcResult;
-
 import com.deliverytech.delivery_api.dto.request.LoginRequest;
 import com.deliverytech.delivery_api.dto.request.RegisterRequest;
 import com.deliverytech.delivery_api.model.Role;
 import com.deliverytech.delivery_api.model.Usuario;
 import com.deliverytech.delivery_api.repository.UsuarioRepository;
-import com.deliverytech.delivery_api.security.JwtAuthenticationFilter;
 import com.deliverytech.delivery_api.security.JwtUtil;
-import com.deliverytech.delivery_api.security.UsuarioDetailsServiceImpl;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.http.MediaType;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.BadCredentialsException;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
+import java.util.Optional;
 
-@WebMvcTest(
-  controllers = AuthController.class,
-  excludeAutoConfiguration = {SecurityAutoConfiguration.class}
-)
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.ArgumentMatchers.argThat;
+import static org.mockito.Mockito.*;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+
+@ExtendWith(MockitoExtension.class)
 class AuthControllerTest {
 
-    @Autowired
-    private MockMvc mockMvc;
-
-    @MockBean
-    private JwtUtil jwtUtil;
-
-    @MockBean
-    private UserDetailsService userDetailsService;
-
-    @MockBean
-    private UsuarioDetailsServiceImpl usuarioService;
-
-    @MockBean
+    @Mock
     private UsuarioRepository usuarioRepository;
 
-    @MockBean
+    @Mock
     private PasswordEncoder passwordEncoder;
 
-    @Autowired
-    private ObjectMapper objectMapper;
-
-    @MockBean
+    @Mock
     private AuthenticationManager authenticationManager;
 
-    @MockBean
-    private JwtAuthenticationFilter jwtAuthenticationFilter;
+    @Mock
+    private JwtUtil jwtUtil;
 
-    private Usuario usuario;
+    @InjectMocks
+    private AuthController authController;
+
+    private MockMvc mockMvc;
+    private ObjectMapper objectMapper;
 
     @BeforeEach
     void setUp() {
-        usuario = new Usuario(null, "email@email.com", "senha", "nome", Role.CLIENTE, true, LocalDateTime.now(), null);
-    }
-
-    @Test
-    @DisplayName("Deve criar um novo usuário")
-    void deveCriarNovoUsuario() throws Exception {
-        // Arrange
-        when(usuarioRepository.save(any(Usuario.class))).thenReturn(usuario);
-
-        // Act and Assert
-        mockMvc.perform(post("/api/auth/register")
-            .contentType(MediaType.APPLICATION_JSON)
-            .content(objectMapper.writeValueAsString(usuario)))
-            .andExpect(status().isOk());
-    }
-
-    @Test
-    @DisplayName("Deve retornar erro ao tentar registrar usuário com email já cadastrado")
-    void deveRetornarErroEmailJaCadastrado() throws Exception {
-        // Arrange
-        when(usuarioRepository.findByEmail(usuario.getEmail())).thenReturn(Optional.of(usuario));
-
-        // Act and Assert
-        mockMvc.perform(post("/api/auth/register")
-            .contentType(MediaType.APPLICATION_JSON)
-            .content(objectMapper.writeValueAsString(usuario)))
-            .andExpect(status().isBadRequest());
-    }
-
-    @Test
-    @DisplayName("Deve retonar erro ao tentar autenticar um usuário sem email cadastrado")
-    void deveRetornarErroEmailNaoCadastrado() throws Exception {
-
-        when(usuarioRepository.findByEmail("test@example.com")).thenReturn(Optional.empty());
-
-        LoginRequest loginRequest = new LoginRequest("test@example.com", "senha123");
-
-        // Act and Assert
-        mockMvc.perform(post("/api/auth/login")
-            .contentType(MediaType.APPLICATION_JSON)
-            .content(objectMapper.writeValueAsString(loginRequest)))
-            .andExpect(status().isNotFound());
+        mockMvc = MockMvcBuilders.standaloneSetup(authController).build();
+        objectMapper = new ObjectMapper();
     }
 
     @Test
     @DisplayName("Deve registrar um novo usuário com sucesso")
-    void deveRegistrarNovoUsuarioComSucesso() throws Exception {
-        // Arrange
-        when(usuarioRepository.findByEmail(usuario.getEmail())).thenReturn(Optional.empty());
+    void deveRegistrarNovoUsuario() throws Exception {
+        RegisterRequest request = new RegisterRequest("novo@email.com", "senha123", "Novo Usuário", Role.CLIENTE, null);
+        Usuario usuario = Usuario.builder()
+                .email(request.getEmail())
+                .senha("encodedPassword")
+                .nome(request.getNome())
+                .role(Role.CLIENTE)
+                .ativo(true)
+                .build();
 
-        // Act
-        MvcResult result = mockMvc.perform(post("/api/auth/register")
-            .contentType(MediaType.APPLICATION_JSON)
-            .content(objectMapper.writeValueAsString(usuario)))
+        when(usuarioRepository.findByEmail(request.getEmail())).thenReturn(Optional.empty());
+        when(passwordEncoder.encode(request.getSenha())).thenReturn("encodedPassword");
+        when(usuarioRepository.save(any(Usuario.class))).thenReturn(usuario);
+        when(jwtUtil.generateToken(any(User.class), any(Usuario.class))).thenReturn("mockedJwtToken");
+
+        mockMvc.perform(post("/api/auth/register")
+                    .contentType(MediaType.APPLICATION_JSON)
+                    .content(objectMapper.writeValueAsString(request)))
             .andExpect(status().isOk())
-            .andReturn();
+            .andExpect(content().string("mockedJwtToken"));
 
-        // Assert
-        String token = result.getResponse().getContentAsString();
-        assertNotNull(token);
+        verify(usuarioRepository, times(1)).findByEmail(request.getEmail());
+        verify(passwordEncoder, times(1)).encode(request.getSenha());
+        verify(usuarioRepository, times(1)).save(any(Usuario.class));
+        verify(jwtUtil, times(1)).generateToken(any(User.class), any(Usuario.class));
     }
 
     @Test
-    @DisplayName("Deve retornar erro ao tentar registrar usuário com email já cadastrado")
-    void deveRetornarErroAoTentarRegistrarUsuarioComEmailJaCadastrado() throws Exception {
-        // Arrange
-        when(usuarioRepository.findByEmail(usuario.getEmail())).thenReturn(Optional.of(new Usuario()));
+    @DisplayName("Não deve registrar usuário se o email já estiver cadastrado")
+    void deveNegarRegistroUsuarioComEmailExistente() throws Exception {
+        RegisterRequest request = new RegisterRequest("existente@email.com", "senha123", "Usuário Existente", Role.CLIENTE, null);
+        Usuario existingUser = Usuario.builder().email(request.getEmail()).build();
 
-        // Act
-        MvcResult result = mockMvc.perform(post("/api/auth/register")
-            .contentType(MediaType.APPLICATION_JSON)
-            .content(objectMapper.writeValueAsString(usuario)))
+        when(usuarioRepository.findByEmail(request.getEmail())).thenReturn(Optional.of(existingUser));
+
+        mockMvc.perform(post("/api/auth/register")
+                    .contentType(MediaType.APPLICATION_JSON)
+                    .content(objectMapper.writeValueAsString(request)))
             .andExpect(status().isBadRequest())
-            .andReturn();
+            .andExpect(content().string("Email já cadastrado"));
 
-        // Assert
-        String errorMessage = result.getResponse().getContentAsString();
-        assertEquals("Email já cadastrado", errorMessage);
+        verify(usuarioRepository, times(1)).findByEmail(request.getEmail());
+        verifyNoInteractions(passwordEncoder);
+        verify(usuarioRepository, never()).save(any(Usuario.class));
+        verifyNoInteractions(jwtUtil);
     }
 
     @Test
-    @DisplayName("Deve retornar erro ao tentar registrar usuário com dados inválidos")
-    void deveRetornarErroAoTentarRegistrarUsuarioComDadosInvalidos() throws Exception {
-        // Arrange
-        RegisterRequest request = new RegisterRequest("", "", "", null, null);
+    @DisplayName("Deve registrar usuário com role padrão CLIENTE se não for especificado")
+    void deveRegistrarUsuarioComRolePadrao() throws Exception {
+        RegisterRequest request = new RegisterRequest("default@email.com", "senha123", "Default User", null, null);
+        Usuario usuario = Usuario.builder()
+            .email(request.getEmail())
+            .senha("encodedPassword")
+            .nome(request.getNome())
+            .role(Role.CLIENTE)
+            .ativo(true)
+            .build();
 
-        // Act
-        MvcResult result = mockMvc.perform(post("/api/auth/register")
-            .contentType(MediaType.APPLICATION_JSON)
-            .content(objectMapper.writeValueAsString(request)))
-            .andExpect(status().isBadRequest())
-            .andReturn();
+        when(usuarioRepository.findByEmail(request.getEmail())).thenReturn(Optional.empty());
+        when(passwordEncoder.encode(request.getSenha())).thenReturn("encodedPassword");
+        when(usuarioRepository.save(any(Usuario.class))).thenReturn(usuario);
+        when(jwtUtil.generateToken(any(User.class), any(Usuario.class))).thenReturn("mockedJwtToken");
 
-        // Assert
-        String errorMessage = result.getResponse().getContentAsString();
-        assertNotNull(errorMessage);
+        mockMvc.perform(post("/api/auth/register")
+                    .contentType(MediaType.APPLICATION_JSON)
+                    .content(objectMapper.writeValueAsString(request)))
+            .andExpect(status().isOk())
+            .andExpect(content().string("mockedJwtToken"));
+
+        verify(usuarioRepository, times(1)).save(argThat(u -> u.getRole().equals(Role.CLIENTE)));
     }
+
+    @Test
+    @DisplayName("Deve efetuar login com sucesso e retornar JWT")
+    void deveEfetuarLogin() throws Exception {
+        LoginRequest request = new LoginRequest("teste@email.com", "senha123");
+        Usuario usuario = Usuario.builder()
+            .email(request.getEmail())
+            .senha("encodedPassword")
+            .role(Role.CLIENTE)
+            .ativo(true)
+            .build();
+
+        when(usuarioRepository.findByEmail(request.getEmail())).thenReturn(Optional.of(usuario));
+        Authentication authentication = mock(Authentication.class);
+        when(authenticationManager.authenticate(any(UsernamePasswordAuthenticationToken.class))).thenReturn(authentication);
+        when(jwtUtil.generateToken(any(User.class), any(Usuario.class))).thenReturn("anotherMockedJwtToken");
+        when(passwordEncoder.matches(request.getSenha(), usuario.getSenha())).thenReturn(true);
+
+        mockMvc.perform(post("/api/auth/login")
+                    .contentType(MediaType.APPLICATION_JSON)
+                    .content(objectMapper.writeValueAsString(request)))
+            .andExpect(status().isOk())
+            .andExpect(content().string("anotherMockedJwtToken"));
+
+        verify(usuarioRepository, times(1)).findByEmail(request.getEmail());
+        verify(authenticationManager, times(1)).authenticate(any(UsernamePasswordAuthenticationToken.class));
+        verify(jwtUtil, times(1)).generateToken(any(User.class), any(Usuario.class));
+    }
+
+    @Test
+    @DisplayName("Deve retornar 401 para credenciais de login inválidas")
+    void deveRetornar401ParaCredenciaisInvalidas() throws Exception {
+        LoginRequest request = new LoginRequest("teste@email.com", "senhaInvalida");
+        Usuario usuario = Usuario.builder()
+            .email(request.getEmail())
+            .senha("encodedPassword")
+            .role(Role.CLIENTE)
+            .ativo(true)
+            .build();
+
+        when(usuarioRepository.findByEmail(request.getEmail())).thenReturn(Optional.of(usuario));
+
+        mockMvc.perform(post("/api/auth/login")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(objectMapper.writeValueAsString(request)))
+            .andExpect(status().isUnauthorized());
+
+        verify(usuarioRepository, times(1)).findByEmail(request.getEmail());
+        verifyNoInteractions(jwtUtil);
+    }
+
     
+
+    @Test
+    @DisplayName("Deve retornar 404 para usuário não encontrado no login")
+    void deveRetornar404ParaUsuarioNaoEncontrado() throws Exception {
+        LoginRequest request = new LoginRequest("naoexiste@email.com", "senha123");
+
+        when(usuarioRepository.findByEmail(request.getEmail())).thenReturn(Optional.empty());
+        mockMvc.perform(post("/api/auth/login")
+                    .contentType(MediaType.APPLICATION_JSON)
+                    .content(objectMapper.writeValueAsString(request)))
+            .andExpect(status().isNotFound());
+
+        verify(usuarioRepository, times(1)).findByEmail(request.getEmail());
+        verifyNoInteractions(authenticationManager);
+        verifyNoInteractions(jwtUtil);
+    }
 }
