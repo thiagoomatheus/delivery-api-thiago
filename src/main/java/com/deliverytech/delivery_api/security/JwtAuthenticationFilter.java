@@ -1,6 +1,5 @@
 package com.deliverytech.delivery_api.security;
 
-//import com.deliverytech.delivery_api.repository.UsuarioRepository;
 import io.jsonwebtoken.ExpiredJwtException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -48,7 +47,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             var userDetails = userDetailsService.loadUserByUsername(username);
             if (jwtUtil.isTokenValid(jwt, userDetails)) {
                 UsernamePasswordAuthenticationToken authToken = new UsernamePasswordAuthenticationToken(
-                        userDetails, null, userDetails.getAuthorities());
+                    userDetails, null, userDetails.getAuthorities());
                 authToken.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
                 SecurityContextHolder.getContext().setAuthentication(authToken);
             }

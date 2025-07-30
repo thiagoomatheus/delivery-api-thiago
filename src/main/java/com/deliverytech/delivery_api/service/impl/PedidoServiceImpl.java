@@ -23,6 +23,11 @@ public class PedidoServiceImpl implements PedidoService {
     }
 
     @Override
+    public List<Pedido> buscarTodos() {
+        return pedidoRepository.findAll();
+    }
+
+    @Override
     public Optional<Pedido> buscarPorId(Long id) {
         return pedidoRepository.findById(id);
     }
