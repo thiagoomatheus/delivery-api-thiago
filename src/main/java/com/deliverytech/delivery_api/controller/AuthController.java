@@ -13,6 +13,9 @@ import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
+
+import java.util.Optional;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -55,13 +58,13 @@ public class AuthController {
         }
 
         Usuario usuario = Usuario.builder()
-                .email(request.getEmail())
-                .senha(passwordEncoder.encode(request.getSenha()))
-                .nome(request.getNome())
-                .role(request.getRole() != null ? request.getRole() : Role.CLIENTE)
-                .ativo(true)
-                .restauranteId(request.getRestauranteId())
-                .build();
+            .email(request.getEmail())
+            .senha(passwordEncoder.encode(request.getSenha()))
+            .nome(request.getNome())
+            .role(request.getRole() != null ? request.getRole() : Role.CLIENTE)
+            .ativo(true)
+            .restauranteId(request.getRestauranteId())
+            .build();
 
         usuarioRepository.save(usuario);
         String token = jwtUtil.generateToken(User.withUsername(usuario.getEmail()).password(usuario.getSenha()).authorities("ROLE_" + usuario.getRole().name()).build(), usuario);
@@ -75,7 +78,9 @@ public class AuthController {
     )
     @ApiResponses(value = {
         @ApiResponse(responseCode = "200", description = "Login bem-sucedido, token retornado"),
-        @ApiResponse(responseCode = "401", description = "Credenciais inválidas")
+        @ApiResponse(responseCode = "400", description = "Dados inválidos"),
+        @ApiResponse(responseCode = "401", description = "Credenciais inválidas"),
+        @ApiResponse(responseCode = "404", description = "Usuário não encontrado")
     })
     public ResponseEntity<String> login(
         @Parameter(
@@ -84,11 +89,26 @@ public class AuthController {
             required = true
         )
         @Valid @RequestBody LoginRequest request
-        ) {
+    ) {
+
+        if (request.getEmail() == null || request.getSenha() == null) {
+            return ResponseEntity.badRequest().body("Dados inválidos");
+        }
+
+        Optional<Usuario> usuario = usuarioRepository.findByEmail(request.getEmail());
+
+        if (usuario.isEmpty()) {
+            return ResponseEntity.status(404).body("Usuário não encontrado");
+        }
+
+        if (!passwordEncoder.matches(request.getSenha(), usuario.get().getSenha())) {
+            return ResponseEntity.status(401).body("Credenciais inválidas");
+        }
+
         authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(request.getEmail(), request.getSenha()));
-        Usuario usuario = usuarioRepository.findByEmail(request.getEmail())
-            .orElseThrow(() -> new RuntimeException("Usuário não encontrado"));
-        String token = jwtUtil.generateToken(User.withUsername(usuario.getEmail()).password(usuario.getSenha()).authorities("ROLE_" + usuario.getRole().name()).build(), usuario);
+
+        String token = jwtUtil.generateToken(User.withUsername(usuario.get().getEmail()).password(usuario.get().getSenha()).authorities("ROLE_" + usuario.get().getRole().name()).build(), usuario.get());
+        
         return ResponseEntity.ok(token);
     }
 }
