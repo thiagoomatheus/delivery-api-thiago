@@ -7,7 +7,6 @@ import com.deliverytech.delivery_api.converter.EnderecoConverter;
 
 import jakarta.persistence.Convert;
 import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
