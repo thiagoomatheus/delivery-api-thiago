@@ -6,6 +6,8 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 
+import com.deliverytech.delivery_api.converter.EnderecoConverter;
+
 @Entity
 @Data
 @NoArgsConstructor
@@ -36,6 +38,6 @@ public class Pedido {
     @OneToMany(mappedBy = "pedido", cascade = CascadeType.ALL)
     private List<ItemPedido> itens;
 
-    @Embedded
+    @Convert(converter = EnderecoConverter.class)
     private Endereco enderecoEntrega;
 }

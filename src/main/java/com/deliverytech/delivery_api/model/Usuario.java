@@ -31,5 +31,6 @@ public class Usuario {
     @Builder.Default
     private LocalDateTime dataCriacao = LocalDateTime.now();
 
+    @Column(name = "restaurante_id")
     private Long restauranteId;
 }
