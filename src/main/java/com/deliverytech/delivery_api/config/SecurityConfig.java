@@ -29,10 +29,13 @@ public class SecurityConfig {
         return http
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/auth/**", "/swagger-ui.html", "/swagger-ui/**", "/v3/api-docs/**",
-                                "/h2-console/**", "/index.html", "/static/**", "/info", "/health", "/actuator/**")
-                        .permitAll()
-                        .anyRequest().authenticated())
+                    .requestMatchers("/api/auth/**", "/swagger-ui.html", "/swagger-ui/**", "/v3/api-docs/**",
+                            "/h2-console/**", "/index.html", "/static/**", "/info", "/health", "/actuator/**")
+                    .permitAll()
+                    .requestMatchers("/api/usuarios/**").hasRole("ADMIN")
+                    .anyRequest()
+                    .authenticated()
+                )
                 .sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .headers(headers -> headers.frameOptions(frameOptions -> frameOptions.sameOrigin()))
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class)
