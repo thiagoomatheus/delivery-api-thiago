@@ -23,9 +23,7 @@ public class UsuarioRequest {
     @NotBlank
     private String senha;
 
-    @NotBlank
     private Role role;
 
-    @NotBlank
     private Long restauranteId;
 }
