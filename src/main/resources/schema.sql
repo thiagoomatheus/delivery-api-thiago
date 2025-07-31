@@ -1,4 +1,3 @@
--- Tabela Clientes (corrigido nome e adicionadas colunas)
 CREATE TABLE cliente (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
@@ -18,19 +17,17 @@ CREATE TABLE restaurante (
     tempo_entrega_minutos INT NOT NULL
 );
 
--- Tabela Produtos (corrigido nome e adicionadas colunas)
 CREATE TABLE produto (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
-    categoria VARCHAR(255),          -- Adicionado de data.sql
+    categoria VARCHAR(255),
     descricao VARCHAR(500),
     preco DECIMAL(10, 2) NOT NULL,
-    disponivel BOOLEAN NOT NULL,     -- Adicionado de data.sql
+    disponivel BOOLEAN NOT NULL,
     restaurante_id BIGINT,
-    FOREIGN KEY (restaurante_id) REFERENCES restaurante(id) -- Corrigida referência do nome da tabela
+    FOREIGN KEY (restaurante_id) REFERENCES restaurante(id)
 );
 
--- Tabela Pedidos (corrigido nome e adicionadas colunas, renomeada data_hora)
 CREATE TABLE pedido (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     data_pedido TIMESTAMP NOT NULL,
@@ -43,10 +40,8 @@ CREATE TABLE pedido (
     FOREIGN KEY (restaurante_id) REFERENCES restaurante(id)
 );
 
--- Tabela Itens_Pedido (adicionada para corresponder ao data.sql)
--- Substitui a tabela de junção pedido_produto
 CREATE TABLE item_pedido (
-    id BIGINT AUTO_INCREMENT PRIMARY KEY, -- Chave primária para identificar cada item único
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
     quantidade INT NOT NULL,
     preco_unitario DECIMAL(10, 2) NOT NULL,
     pedido_id BIGINT,
@@ -55,13 +50,35 @@ CREATE TABLE item_pedido (
     FOREIGN KEY (produto_id) REFERENCES produto(id)
 );
 
+CREATE TABLE entregador (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    telefone VARCHAR(20) NOT NULL,
+    ativo BOOLEAN NOT NULL,
+    data_criacao TIMESTAMP NOT NULL
+);
+
+CREATE TABLE entrega (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    endereco_entrega VARCHAR(255) NOT NULL,
+    status VARCHAR(50) NOT NULL,
+    horario_estimado_entrega TIMESTAMP NOT NULL,
+    horario_realizado_entrega TIMESTAMP,
+    taxa_entrega DECIMAL(10, 2) NOT NULL,
+    pedido_id BIGINT,
+    entregador_id BIGINT,
+    FOREIGN KEY (pedido_id) REFERENCES pedido(id),
+    FOREIGN KEY (entregador_id) REFERENCES entregador(id)
+);
+
 CREATE TABLE usuario (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    email VARCHAR(255) NOT NULL,
-    senha VARCHAR(500) NOT NULL,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    senha VARCHAR(255) NOT NULL,
     nome VARCHAR(255) NOT NULL,
-    ativo BOOLEAN NOT NULL,
     role VARCHAR(50) NOT NULL,
+    ativo BOOLEAN NOT NULL,
     data_criacao TIMESTAMP NOT NULL,
-    restaurante_id BIGINT
+    restaurante_id BIGINT NOT NULL
 );
