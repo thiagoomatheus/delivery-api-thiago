@@ -2,8 +2,9 @@ version: '3.8'
 
 services:
   delivery-api:
-    build: .
-    dockerfile: ./Dockerfile
+    build:
+      context: .
+      dockerfile: ./Dockerfile
     ports:
       - "8080:8080"
     environment:
