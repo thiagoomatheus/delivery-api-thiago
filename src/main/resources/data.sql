@@ -10,7 +10,21 @@ INSERT INTO cliente (nome, email, ativo, data_criacao) VALUES
 INSERT INTO restaurante (nome, categoria, telefone, taxa_entrega, avaliacao, tempo_entrega_minutos, ativo) VALUES
 ('Pizzaria Bella', 'Italiana', '(11) 3333-1111', 5.00, 4.5, 45, true),
 ('Burger House', 'Hamburgueria', '(11) 3333-2222', 3.50, 4.2, 30, true),
-('Sushi Master', 'Japonesa', '(11) 3333-3333', 8.00, 4.8, 40, true);
+('Sushi Master', 'Japonesa', '(11) 3333-3333', 8.00, 4.8, 40, true),
+('Chicken Express', 'Restaurante', '(11) 3333-4444', 6.00, 4.3, 50, true),
+('Pasta Paradise', 'Italiana', '(11) 3333-5555', 7.00, 4.4, 35, true),
+('Pizza Express', 'Italiana', '(11) 3333-6666', 4.50, 4.1, 25, true),
+('Pastel do João', 'Pastelaria', '(11) 3333-7777', 2.50, 4.0, 20, true),
+('Bora Bora', 'Restaurante', '(11) 3333-8888', 9.00, 4.6, 55, true),
+('Madeiro', 'Hamburgueria', '(11) 3333-9999', 10.00, 4.7, 60, true),
+('Sushi Express', 'Japonesa', '(11) 3333-0000', 5.50, 4.2, 40, true),
+('Comida Caseira', 'Restaurante', '(11) 3333-1111', 2.00, 4.0, 15, true),
+('Churras Gaúcho', 'Restaurante', '(11) 3333-1111', 2.00, 4.0, 15, true),
+('Pizzaria do Zezinho', 'Italiana', '(11) 3333-1111', 2.00, 4.0, 15, true),
+('Coxinhas Gostosas', 'Lanchonete', '(11) 3333-1111', 2.00, 4.0, 15, true),
+('Comida Mexicana', 'Mexicana', '(11) 3333-1111', 2.00, 4.0, 15, true),
+('Comida Brasileira', 'Brasileira', '(11) 3333-1111', 2.00, 4.0, 15, true),
+('Tailand Express', 'Tailandesa', '(11) 3333-1111', 2.00, 4.0, 15, true);
 
 -- Inserir produtos
 INSERT INTO produto (nome, categoria, descricao, preco, disponivel, restaurante_id) VALUES
