@@ -5,8 +5,13 @@ import com.deliverytech.delivery_api.dto.response.UsuarioResponse;
 import com.deliverytech.delivery_api.model.Usuario;
 import com.deliverytech.delivery_api.service.impl.UsuarioServiceImpl;
 
+import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
+import lombok.RequiredArgsConstructor;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -17,14 +22,21 @@ import org.springframework.web.server.ResponseStatusException;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Tag(name = "Usuários", description = "Operações relacionadas aos usuários")
 @RestController
 @RequestMapping("/api/usuarios")
+@RequiredArgsConstructor
 public class UsuarioController {
 
     @Autowired
     private UsuarioServiceImpl usuarioService;
 
     @PostMapping
+    @Operation(summary = "Criar um novo usuário", description = "Cria um novo usuário com base nos dados fornecidos.")
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "201", description = "Usuário criado com sucesso"),
+        @ApiResponse(responseCode = "400", description = "Dados inválidos")
+    })
     public ResponseEntity<UsuarioResponse> criarUsuario(
         @Parameter(
             name = "request",
@@ -45,6 +57,11 @@ public class UsuarioController {
     }
 
     @GetMapping
+    @Operation(summary = "Listar todos os usuários", description = "Retorna uma lista de todos os usuários cadastrados.")
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "Lista de usuários retornada com sucesso"),
+        @ApiResponse(responseCode = "404", description = "Nenhum usuário encontrado")
+    })
     public ResponseEntity<List<UsuarioResponse>> listarTodosUsuarios() {
         List<Usuario> usuarios = usuarioService.listarTodos();
         List<UsuarioResponse> responses = usuarios.stream()
@@ -54,7 +71,24 @@ public class UsuarioController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<UsuarioResponse> buscarUsuarioPorId(@PathVariable Long id) {
+    @Operation(
+        summary = "Buscar um usuário por ID",
+        description = "Retorna os detalhes de um usuário especifico pelo ID."
+    )
+    @ApiResponses(
+        value = {
+            @ApiResponse(responseCode = "200", description = "Usuário encontrado com sucesso"),
+            @ApiResponse(responseCode = "404", description = "Usuário nao encontrado")
+        }
+    )
+    public ResponseEntity<UsuarioResponse> buscarUsuarioPorId(
+        @Parameter(
+            name = "id",
+            required = true,
+            example = "1"
+        )
+        @PathVariable Long id
+    ) {
         try {
             Usuario usuario = usuarioService.buscarPorId(id).orElse(null);
             if (usuario == null) {
@@ -68,7 +102,25 @@ public class UsuarioController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<UsuarioResponse> atualizarUsuario(@PathVariable Long id, @Valid @RequestBody UsuarioRequest request) {
+    @Operation(summary = "Atualizar um usuário", description = "Atualiza os detalhes de um usuário existente.")
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "Usuário atualizado com sucesso"),
+        @ApiResponse(responseCode = "404", description = "Usuário nao encontrado")
+    })
+    public ResponseEntity<UsuarioResponse> atualizarUsuario(
+        @Parameter(
+            name = "id",
+            required = true,
+            example = "1"
+        )
+        @PathVariable Long id,
+        @Parameter(
+            name = "request",
+            required = true,
+            example = "{\"nome\": \"João\", \"email\": \"joao@email\", \"senha\": \"123456\", \"role\": \"CLIENTE\", \"restauranteId\": 1}"
+        )
+        @Valid @RequestBody UsuarioRequest request
+    ) {
         try {
             Usuario usuarioAtualizado = new Usuario();
             usuarioAtualizado.setNome(request.getNome());
@@ -85,7 +137,19 @@ public class UsuarioController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deletarUsuario(@PathVariable Long id) {
+    @Operation(summary = "Deletar um usuário", description = "Deleta um usuário pelo ID.")
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "204", description = "Usuário deletado com sucesso"),
+        @ApiResponse(responseCode = "404", description = "Usuário nao encontrado")
+    })
+    public ResponseEntity<Void> deletarUsuario(
+        @Parameter(
+            name = "id",
+            required = true,
+            example = "1"
+        )
+        @PathVariable Long id
+    ) {
         usuarioService.deletar(id);
         return ResponseEntity.noContent().build();
     }
