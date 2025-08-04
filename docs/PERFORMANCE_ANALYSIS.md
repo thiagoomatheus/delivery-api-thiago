@@ -8,16 +8,40 @@ Os endpoints testados foram os seguintes:
 - **POST: /api/pedidos - Cadastro de pedido**
 - **GET:  /api/pedidos/{id} - Busca de pedido por id**
 
-Com 100 acessos simultâneos percebe-se uma perfomance muito positiva, sendo que 100% das operação retornaram SUCESSO. O tempo médio das operações ficou abaixo dos 100ms para três operações: listagem de restaurantes, cadastro de pedido e busca de pedido por id, enquanto, a operação de login obteve um tempo médio de resposta próximo dos 400ms.
+Os cenários testados foram os seguintes:
+- **Cenario 1: Login - 100 acessos**
+- **Cenario 2: Login e listagem de restaurantes - 500 acessos**
+- **Cenario 3: Login e cadastro de pedido - 200 acessos**
+- **Cenario 4: Login e busca de pedido por id - 300 acessos**
 
-Outro ponto de destaque para este cenário foi a indicador Apdex, o qual obeteve pontuação máxima em todas as operações, com exceção da operação de login, que obteve pontuação de 0.998, ou seja, muito próximo do máximo.
+## Resultados
 
-O cenário com 200 acessos simultâneos também obeteve 100% de SUCESSO nas requisições enviadas, porém, já mostrou indícios de sobrecarga. O tempo médio de resposta, que com 100 acessos não havia passado dos 100ms e 400ms, agora mostrou um salto considerável, ficando na faixa dos 700ms a 1050ms, dependendo da operação. Outro ponto de atenção se dá ao tempo máximo de resposta, em especial nas operações de listagem de restaurantes, cadastro de pedido e busca de pedido por id, já que passaram da faixa de 400 ms no teste com 100 acessos para 3000ms a 4000ms com 200 acessos simultâneos.
+### Cenario 1 - Login - 100 acessos
 
-Entrando no cenário com 500 acessos simultâneos a sobrecarga fica bem clara, sendo que já se registra 25 erros na operação de consulta de pedido. Apesar do número de erros ser pequeno em relação da quantidade de operações realizadas, indicadores como tempo de resposta médio, tempo de resposta máximo e Apdex mostram uma experiência negativa para o usuário. Contata-se também uma dificuldade maior na operação de consulta de pedido, já que, com a operação de cadastro de pedido sendo realizada, obtemos mais dados nesta tambela no banco.
+Link para o relatório: [html](../jmeter/test-results/HTML/login-simultaneos/index.html)
 
-No cenário de 1000 acessos simultâneos percebe-se um gargalo muito evidente. As operações que registram erros representam 13,1% do total, sendo a operação de consulta de pedido por id a mais afetada. A operação de cadastro de pedido também passa a registrar erro neste cenário e tem performance bem negativa. Apesar das operações listagem de restaurantes e login não registrarem erro vemos uma experiência ruim, chegando a registrar tempo médio de resposta próximo entre 18ms e 26ms.
+Percebe-se uma perfomance muito positiva, sendo que 100% das operação retornaram SUCESSO. O tempo médio de resposta ficou na faixa dos 300ms, sendo que seu tempo máximo foi de 535ms. Olhando para o indicador Apdex, podemos observar a pontuação de 0.990, o que indica uma excelente experiência para o usuário.
 
-Em conclusão geral, percebe-se que a operação de login foi a mais estável e foi o que menos sofreu alterações com a alta carga. A operação de cadastro de pedido e busca de pedido por id foram as que mais sofreram alterações e fica claro o quanto o maior número de dados pode afetar a perfomance. Isso coloca a operação de listagem de restaurantes em evidência, já que, por contar com alguns poucos restaurantes cadastrados, performou junto com a média, no entanto, caso houvesse um banco mais populado poderia sofrer com a performance.
+### Cenario 2 - Login e listagem de restaurantes - 500 acessos
+
+Link para o relatório: [html](../jmeter/test-results/HTML/listagem-restaurantes/index.html)
+
+Neste cenário obtivemos uma experiência negativa para o usuário, apesar de que 100% das operações retornaram SUCESSO. No entanto, o tempo médio de resposta ficou na faixa dos 9000ms, sendo que seu tempo máximo foi de ~18000ms. Há de se considerar que com um número maior de restaurantes listados, o tempo médio de resposta pode aumentar.
+
+### Cenario 3 - Login e cadastro de pedido - 200 acessos
+
+Link para o relatório: [html](../jmeter/test-results/HTML/cadastro-pedido/index.html)
+
+O teste deste cenário apresentou um tempo de resposta médio na faixa dos 1050ms, sendo que o tempo máximo foi abaixo dos 3000ms. O indicador Apdex ficou próximo da pontuação média, indicando uma experiência relativamente positiva para o usuário. Olhando para o gráfico de "Reponse Time Overview", vemos que a maior parte do tempo de resposta ficou abaixo dos 1500ms.
+
+### Cenario 4 - Login e busca de pedido por id - 300 acessos
+
+Link para o relatório: [html](../jmeter/test-results/HTML/busca-pedido/index.html)
+
+Neste cenário também obtivemos uma perfomance que trás uma experiência negativa para o usuário. O tempo médio de resposta ficou na faixa dos 4000ms, sendo que seu tempo máximo foi na faixa dos 11000ms. Algo que é perceptível é o quanto o temos um salto no tempo de resposta a partir de 50% da conclusão do teste, sendo que pode-se observar um salto mais acentuado a partir de 90% do teste.
+
+## Melhorias
 
 A implantação de cache com Redis poderia trazer uma melhoria considerável a perfomance dos testes, já que dessa forma, as operações de listagem de restaurantes e busca de pedido por id, operações estas que tendem a ser a que apresentem mais gargalo pela quantidade de dados, seriam beneficiadas por não ter fazer uma busca no banco de dados todas as operações.
+
+Alem disso, podemos implementar um sistema de load balancer, onde se o sistema estiver sobrecarregado, ele poderia distribuir as operações para outros servidores, aumentando assim a performance.
