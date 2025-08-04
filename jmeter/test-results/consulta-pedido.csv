@@ -1,0 +1,601 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1754325364797,374,login,200,,Consulta de pedido 1-1,text,true,,635,246,12,12,http://localhost:8080/api/auth/login,374,0,1
+1754325364831,385,login,200,,Consulta de pedido 1-2,text,true,,635,246,13,13,http://localhost:8080/api/auth/login,385,0,0
+1754325364864,398,login,200,,Consulta de pedido 1-3,text,true,,635,246,15,15,http://localhost:8080/api/auth/login,398,0,1
+1754325364930,405,login,200,,Consulta de pedido 1-5,text,true,,635,246,17,17,http://localhost:8080/api/auth/login,405,0,0
+1754325364895,472,login,200,,Consulta de pedido 1-4,text,true,,635,246,18,18,http://localhost:8080/api/auth/login,472,0,1
+1754325364964,463,login,200,,Consulta de pedido 1-6,text,true,,635,246,20,20,http://localhost:8080/api/auth/login,463,0,4
+1754325364998,495,login,200,,Consulta de pedido 1-7,text,true,,635,246,22,22,http://localhost:8080/api/auth/login,495,0,1
+1754325365170,434,300 acessos,200,,Consulta de pedido 1-1,text,true,,861,393,25,25,http://localhost:8080/api/pedidos/1,434,0,0
+1754325365063,549,login,200,,Consulta de pedido 1-9,text,true,,635,246,24,24,http://localhost:8080/api/auth/login,549,0,2
+1754325365221,445,300 acessos,200,,Consulta de pedido 1-2,text,true,,861,393,26,26,http://localhost:8080/api/pedidos/1,444,0,0
+1754325365114,611,login,200,,Consulta de pedido 1-10,text,true,,635,246,27,27,http://localhost:8080/api/auth/login,611,0,1
+1754325365027,717,login,200,,Consulta de pedido 1-8,text,true,,635,246,27,27,http://localhost:8080/api/auth/login,717,0,1
+1754325365262,522,300 acessos,200,,Consulta de pedido 1-3,text,true,,861,393,28,28,http://localhost:8080/api/pedidos/1,522,0,0
+1754325365160,624,login,200,,Consulta de pedido 1-12,text,true,,635,246,28,28,http://localhost:8080/api/auth/login,624,0,1
+1754325365208,668,login,200,,Consulta de pedido 1-13,text,true,,635,246,30,30,http://localhost:8080/api/auth/login,668,0,0
+1754325365226,674,login,200,,Consulta de pedido 1-14,text,true,,635,246,31,31,http://localhost:8080/api/auth/login,674,0,0
+1754325365128,796,login,200,,Consulta de pedido 1-11,text,true,,635,246,32,32,http://localhost:8080/api/auth/login,796,0,0
+1754325365258,669,login,200,,Consulta de pedido 1-15,text,true,,635,246,32,32,http://localhost:8080/api/auth/login,669,0,0
+1754325365291,788,login,200,,Consulta de pedido 1-16,text,true,,635,246,36,36,http://localhost:8080/api/auth/login,788,0,1
+1754325365325,829,login,200,,Consulta de pedido 1-17,text,true,,635,246,39,39,http://localhost:8080/api/auth/login,829,0,0
+1754325365358,821,login,200,,Consulta de pedido 1-18,text,true,,635,246,39,39,http://localhost:8080/api/auth/login,821,0,0
+1754325365335,860,300 acessos,200,,Consulta de pedido 1-5,text,true,,861,393,40,40,http://localhost:8080/api/pedidos/1,848,0,0
+1754325365392,894,login,200,,Consulta de pedido 1-19,text,true,,635,246,42,42,http://localhost:8080/api/auth/login,894,0,1
+1754325365423,948,login,200,,Consulta de pedido 1-20,text,true,,635,246,44,44,http://localhost:8080/api/auth/login,948,0,4
+1754325365522,861,login,200,,Consulta de pedido 1-23,text,true,,635,246,45,45,http://localhost:8080/api/auth/login,861,0,0
+1754325365490,906,login,200,,Consulta de pedido 1-22,text,true,,635,246,45,45,http://localhost:8080/api/auth/login,906,0,0
+1754325365885,514,login,200,,Consulta de pedido 1-34,text,true,,635,246,45,45,http://localhost:8080/api/auth/login,514,0,0
+1754325365372,1044,300 acessos,200,,Consulta de pedido 1-4,text,true,,861,393,46,46,http://localhost:8080/api/pedidos/1,1042,0,0
+1754325365567,850,login,200,,Consulta de pedido 1-24,text,true,,635,246,45,45,http://localhost:8080/api/auth/login,850,0,0
+1754325365428,1014,300 acessos,200,,Consulta de pedido 1-6,text,true,,861,393,45,45,http://localhost:8080/api/pedidos/1,1010,0,0
+1754325365459,1019,login,200,,Consulta de pedido 1-21,text,true,,635,246,45,45,http://localhost:8080/api/auth/login,1019,0,0
+1754325365494,1008,300 acessos,200,,Consulta de pedido 1-7,text,true,,861,393,46,46,http://localhost:8080/api/pedidos/1,1000,0,0
+1754325365621,924,login,200,,Consulta de pedido 1-26,text,true,,635,246,46,46,http://localhost:8080/api/auth/login,924,0,1
+1754325365595,992,login,200,,Consulta de pedido 1-25,text,true,,635,246,48,48,http://localhost:8080/api/auth/login,992,0,0
+1754325365655,1110,login,200,,Consulta de pedido 1-27,text,true,,635,246,53,53,http://localhost:8080/api/auth/login,1109,0,0
+1754325365688,1116,login,200,,Consulta de pedido 1-28,text,true,,635,246,54,54,http://localhost:8080/api/auth/login,1116,0,2
+1754325365720,1086,login,200,,Consulta de pedido 1-29,text,true,,635,246,54,54,http://localhost:8080/api/auth/login,1086,0,0
+1754325365788,1180,login,200,,Consulta de pedido 1-31,text,true,,635,246,59,59,http://localhost:8080/api/auth/login,1180,0,0
+1754325365754,1226,login,200,,Consulta de pedido 1-30,text,true,,635,246,60,60,http://localhost:8080/api/auth/login,1226,0,4
+1754325365820,1261,login,200,,Consulta de pedido 1-32,text,true,,635,246,63,63,http://localhost:8080/api/auth/login,1261,0,0
+1754325365853,1255,login,200,,Consulta de pedido 1-33,text,true,,635,246,64,64,http://localhost:8080/api/auth/login,1255,0,0
+1754325366017,1121,login,200,,Consulta de pedido 1-38,text,true,,635,246,65,65,http://localhost:8080/api/auth/login,1121,0,1
+1754325365952,1193,login,200,,Consulta de pedido 1-36,text,true,,635,246,65,65,http://localhost:8080/api/auth/login,1193,0,0
+1754325365984,1198,login,200,,Consulta de pedido 1-37,text,true,,635,246,66,66,http://localhost:8080/api/auth/login,1198,0,1
+1754325365726,1506,300 acessos,200,,Consulta de pedido 1-10,text,true,,861,393,67,67,http://localhost:8080/api/pedidos/1,1500,0,0
+1754325365745,1513,300 acessos,200,,Consulta de pedido 1-8,text,true,,861,393,67,67,http://localhost:8080/api/pedidos/1,1513,0,0
+1754325366117,1169,login,200,,Consulta de pedido 1-41,text,true,,635,246,67,67,http://localhost:8080/api/auth/login,1169,0,1
+1754325366083,1222,login,200,,Consulta de pedido 1-40,text,true,,635,246,68,68,http://localhost:8080/api/auth/login,1222,0,1
+1754325366396,945,300 acessos,200,,Consulta de pedido 1-22,text,true,,861,393,69,69,http://localhost:8080/api/pedidos/1,945,0,0
+1754325366051,1389,login,200,,Consulta de pedido 1-39,text,true,,635,246,70,70,http://localhost:8080/api/auth/login,1389,0,0
+1754325366182,1334,login,200,,Consulta de pedido 1-43,text,true,,635,246,73,73,http://localhost:8080/api/auth/login,1334,0,1
+1754325365877,1656,300 acessos,200,,Consulta de pedido 1-13,text,true,,861,393,73,73,http://localhost:8080/api/pedidos/1,1655,0,0
+1754325365612,1936,300 acessos,200,,Consulta de pedido 1-9,text,true,,861,393,73,73,http://localhost:8080/api/pedidos/1,1936,0,0
+1754325366479,1086,300 acessos,200,,Consulta de pedido 1-21,text,true,,861,393,72,72,http://localhost:8080/api/pedidos/1,1084,0,0
+1754325365900,1669,300 acessos,200,,Consulta de pedido 1-14,text,true,,861,393,72,72,http://localhost:8080/api/pedidos/1,1669,0,0
+1754325365928,1653,300 acessos,200,,Consulta de pedido 1-15,text,true,,861,393,71,71,http://localhost:8080/api/pedidos/1,1653,0,0
+1754325366151,1438,login,200,,Consulta de pedido 1-42,text,true,,635,246,70,70,http://localhost:8080/api/auth/login,1438,0,0
+1754325365925,1665,300 acessos,200,,Consulta de pedido 1-11,text,true,,861,393,70,70,http://localhost:8080/api/pedidos/1,1665,0,0
+1754325366248,1385,login,200,,Consulta de pedido 1-45,text,true,,635,246,70,70,http://localhost:8080/api/auth/login,1385,0,0
+1754325366315,1364,login,200,,Consulta de pedido 1-47,text,true,,635,246,72,72,http://localhost:8080/api/auth/login,1364,0,0
+1754325366216,1489,login,200,,Consulta de pedido 1-44,text,true,,635,246,72,72,http://localhost:8080/api/auth/login,1489,0,0
+1754325366588,1139,300 acessos,200,,Consulta de pedido 1-25,text,true,,861,393,73,73,http://localhost:8080/api/pedidos/1,1138,0,0
+1754325366347,1407,login,200,,Consulta de pedido 1-48,text,true,,635,246,73,73,http://localhost:8080/api/auth/login,1407,0,0
+1754325366414,1436,login,200,,Consulta de pedido 1-50,text,true,,635,246,76,76,http://localhost:8080/api/auth/login,1436,0,0
+1754325366380,1490,login,200,,Consulta de pedido 1-49,text,true,,635,246,77,77,http://localhost:8080/api/auth/login,1489,0,1
+1754325365919,2048,login,200,,Consulta de pedido 1-35,text,true,,635,246,80,80,http://localhost:8080/api/auth/login,2048,0,0
+1754325366482,1493,login,200,,Consulta de pedido 1-52,text,true,,635,246,80,80,http://localhost:8080/api/auth/login,1493,0,2
+1754325366079,1908,300 acessos,200,,Consulta de pedido 1-16,text,true,,861,393,80,80,http://localhost:8080/api/pedidos/1,1908,0,0
+1754325366807,1208,300 acessos,200,,Consulta de pedido 1-29,text,true,,861,393,80,80,http://localhost:8080/api/pedidos/1,1208,0,0
+1754325367569,509,login,200,,Consulta de pedido 1-85,text,true,,635,246,81,81,http://localhost:8080/api/auth/login,509,0,0
+1754325366546,1610,login,200,,Consulta de pedido 1-54,text,true,,635,246,83,83,http://localhost:8080/api/auth/login,1610,0,0
+1754325366611,1549,login,200,,Consulta de pedido 1-56,text,true,,635,246,83,83,http://localhost:8080/api/auth/login,1549,0,1
+1754325366578,1592,login,200,,Consulta de pedido 1-55,text,true,,635,246,84,84,http://localhost:8080/api/auth/login,1592,0,1
+1754325366154,2020,300 acessos,200,,Consulta de pedido 1-17,text,true,,861,393,84,84,http://localhost:8080/api/pedidos/1,2017,0,0
+1754325366969,1237,300 acessos,200,,Consulta de pedido 1-31,text,true,,861,393,84,84,http://localhost:8080/api/pedidos/1,1237,0,0
+1754325366743,1542,login,200,,Consulta de pedido 1-60,text,true,,635,246,85,85,http://localhost:8080/api/auth/login,1542,0,1
+1754325366711,1664,login,200,,Consulta de pedido 1-59,text,true,,635,246,88,88,http://localhost:8080/api/auth/login,1664,0,0
+1754325366678,1701,login,200,,Consulta de pedido 1-58,text,true,,635,246,88,88,http://localhost:8080/api/auth/login,1701,0,0
+1754325366777,1699,login,200,,Consulta de pedido 1-61,text,true,,635,246,91,91,http://localhost:8080/api/auth/login,1699,0,0
+1754325366286,2212,300 acessos,200,,Consulta de pedido 1-19,text,true,,861,393,92,92,http://localhost:8080/api/pedidos/1,2212,0,0
+1754325367109,1404,300 acessos,200,,Consulta de pedido 1-33,text,true,,861,393,91,91,http://localhost:8080/api/pedidos/1,1404,0,0
+1754325367966,599,login,200,,Consulta de pedido 1-97,text,true,,635,246,92,92,http://localhost:8080/api/auth/login,599,0,1
+1754325366809,1772,login,200,,Consulta de pedido 1-62,text,true,,635,246,92,92,http://localhost:8080/api/auth/login,1772,0,1
+1754325366908,1769,login,200,,Consulta de pedido 1-65,text,true,,635,246,95,95,http://localhost:8080/api/auth/login,1769,0,1
+1754325365784,2926,300 acessos,200,,Consulta de pedido 1-12,text,true,,861,393,96,96,http://localhost:8080/api/pedidos/1,2918,0,0
+1754325366400,2342,300 acessos,200,,Consulta de pedido 1-34,text,true,,861,393,96,96,http://localhost:8080/api/pedidos/1,2342,0,0
+1754325366384,2381,300 acessos,200,,Consulta de pedido 1-23,text,true,,861,393,96,96,http://localhost:8080/api/pedidos/1,2368,0,0
+1754325366371,2419,300 acessos,200,,Consulta de pedido 1-20,text,true,,861,393,96,96,http://localhost:8080/api/pedidos/1,2419,0,0
+1754325366975,1820,login,200,,Consulta de pedido 1-67,text,true,,635,246,95,95,http://localhost:8080/api/auth/login,1820,0,1
+1754325367073,1728,login,200,,Consulta de pedido 1-70,text,true,,635,246,95,95,http://localhost:8080/api/auth/login,1728,0,0
+1754325366941,1892,login,200,,Consulta de pedido 1-66,text,true,,635,246,96,96,http://localhost:8080/api/auth/login,1892,0,1
+1754325367040,1820,login,200,,Consulta de pedido 1-69,text,true,,635,246,97,97,http://localhost:8080/api/auth/login,1820,0,0
+1754325366417,2451,300 acessos,200,,Consulta de pedido 1-24,text,true,,861,393,97,97,http://localhost:8080/api/pedidos/1,2451,0,0
+1754325367305,1570,300 acessos,200,,Consulta de pedido 1-40,text,true,,861,393,96,96,http://localhost:8080/api/pedidos/1,1566,0,0
+1754325366282,2660,login,200,,Consulta de pedido 1-46,text,true,,635,246,97,97,http://localhost:8080/api/auth/login,2660,0,0
+1754325367107,1867,login,200,,Consulta de pedido 1-71,text,true,,635,246,98,98,http://localhost:8080/api/auth/login,1867,0,0
+1754325367139,1864,login,200,,Consulta de pedido 1-72,text,true,,635,246,99,99,http://localhost:8080/api/auth/login,1864,0,1
+1754325367172,1868,login,200,,Consulta de pedido 1-73,text,true,,635,246,100,100,http://localhost:8080/api/auth/login,1868,0,0
+1754325367206,1903,login,200,,Consulta de pedido 1-74,text,true,,635,246,102,102,http://localhost:8080/api/auth/login,1903,0,0
+1754325367240,2042,login,200,,Consulta de pedido 1-75,text,true,,635,246,107,107,http://localhost:8080/api/auth/login,2042,0,0
+1754325367305,2004,login,200,,Consulta de pedido 1-77,text,true,,635,246,108,108,http://localhost:8080/api/auth/login,2004,0,0
+1754325367272,2038,login,200,,Consulta de pedido 1-76,text,true,,635,246,108,108,http://localhost:8080/api/auth/login,2038,0,0
+1754325366545,2770,300 acessos,200,,Consulta de pedido 1-26,text,true,,861,393,108,108,http://localhost:8080/api/pedidos/1,2770,0,0
+1754325366450,2953,login,200,,Consulta de pedido 1-51,text,true,,635,246,110,110,http://localhost:8080/api/auth/login,2953,0,0
+1754325367341,2116,login,200,,Consulta de pedido 1-78,text,true,,635,246,112,112,http://localhost:8080/api/auth/login,2116,0,1
+1754325367372,2086,login,200,,Consulta de pedido 1-79,text,true,,635,246,112,112,http://localhost:8080/api/auth/login,2086,0,1
+1754325367679,1805,300 acessos,200,,Consulta de pedido 1-47,text,true,,861,393,113,113,http://localhost:8080/api/pedidos/1,1805,0,0
+1754325367405,2090,login,200,,Consulta de pedido 1-80,text,true,,635,246,112,112,http://localhost:8080/api/auth/login,2090,0,0
+1754325367536,2131,login,200,,Consulta de pedido 1-84,text,true,,635,246,117,117,http://localhost:8080/api/auth/login,2131,0,1
+1754325367507,2170,login,200,,Consulta de pedido 1-83,text,true,,635,246,117,117,http://localhost:8080/api/auth/login,2170,0,0
+1754325367441,2271,login,200,,Consulta de pedido 1-81,text,true,,635,246,118,118,http://localhost:8080/api/auth/login,2271,0,1
+1754325366765,2959,300 acessos,200,,Consulta de pedido 1-27,text,true,,861,393,118,118,http://localhost:8080/api/pedidos/1,2956,0,0
+1754325366512,3332,login,200,,Consulta de pedido 1-53,text,true,,635,246,121,121,http://localhost:8080/api/auth/login,3332,0,0
+1754325366645,3227,login,200,,Consulta de pedido 1-57,text,true,,635,246,122,122,http://localhost:8080/api/auth/login,3227,0,0
+1754325367634,2251,login,200,,Consulta de pedido 1-87,text,true,,635,246,123,123,http://localhost:8080/api/auth/login,2250,0,1
+1754325367746,2199,login,200,,Consulta de pedido 1-90,text,true,,635,246,125,125,http://localhost:8080/api/auth/login,2199,0,0
+1754325367601,2382,login,200,,Consulta de pedido 1-86,text,true,,635,246,126,126,http://localhost:8080/api/auth/login,2382,0,1
+1754325367975,2016,300 acessos,200,,Consulta de pedido 1-52,text,true,,861,393,126,126,http://localhost:8080/api/pedidos/1,2016,0,0
+1754325367668,2338,login,200,,Consulta de pedido 1-88,text,true,,635,246,125,125,http://localhost:8080/api/auth/login,2338,0,1
+1754325367767,2265,login,200,,Consulta de pedido 1-91,text,true,,635,246,126,126,http://localhost:8080/api/auth/login,2265,0,1
+1754325367801,2380,login,200,,Consulta de pedido 1-92,text,true,,635,246,131,131,http://localhost:8080/api/auth/login,2380,0,0
+1754325367898,2436,login,200,,Consulta de pedido 1-95,text,true,,635,246,135,135,http://localhost:8080/api/auth/login,2436,0,0
+1754325367868,2466,login,200,,Consulta de pedido 1-94,text,true,,635,246,135,135,http://localhost:8080/api/auth/login,2466,0,0
+1754325367836,2517,login,200,,Consulta de pedido 1-93,text,true,,635,246,136,136,http://localhost:8080/api/auth/login,2517,0,0
+1754325366179,4180,300 acessos,200,,Consulta de pedido 1-18,text,true,,861,393,136,136,http://localhost:8080/api/pedidos/1,4174,0,0
+1754325369848,543,login,200,,Consulta de pedido 1-154,text,true,,635,246,136,136,http://localhost:8080/api/auth/login,543,0,0
+1754325367930,2466,login,200,,Consulta de pedido 1-96,text,true,,635,246,136,136,http://localhost:8080/api/auth/login,2466,0,1
+1754325366980,3423,300 acessos,200,,Consulta de pedido 1-30,text,true,,861,393,136,136,http://localhost:8080/api/pedidos/1,3422,0,0
+1754325368161,2278,300 acessos,200,,Consulta de pedido 1-56,text,true,,861,393,137,137,http://localhost:8080/api/pedidos/1,2278,0,0
+1754325367998,2524,login,200,,Consulta de pedido 1-98,text,true,,635,246,138,138,http://localhost:8080/api/auth/login,2524,0,0
+1754325368031,2496,login,200,,Consulta de pedido 1-99,text,true,,635,246,138,138,http://localhost:8080/api/auth/login,2496,0,1
+1754325367081,3448,300 acessos,200,,Consulta de pedido 1-32,text,true,,861,393,138,138,http://localhost:8080/api/pedidos/1,3446,0,0
+1754325366843,3702,login,200,,Consulta de pedido 1-63,text,true,,635,246,138,138,http://localhost:8080/api/auth/login,3702,0,0
+1754325368062,2499,login,200,,Consulta de pedido 1-100,text,true,,635,246,138,138,http://localhost:8080/api/auth/login,2499,0,1
+1754325368098,2585,login,200,,Consulta de pedido 1-101,text,true,,635,246,142,142,http://localhost:8080/api/auth/login,2585,0,0
+1754325368132,2617,login,200,,Consulta de pedido 1-102,text,true,,635,246,144,144,http://localhost:8080/api/auth/login,2617,0,1
+1754325368166,2665,login,200,,Consulta de pedido 1-103,text,true,,635,246,146,146,http://localhost:8080/api/auth/login,2665,0,0
+1754325368194,2728,login,200,,Consulta de pedido 1-104,text,true,,635,246,149,149,http://localhost:8080/api/auth/login,2728,0,1
+1754325368228,2698,login,200,,Consulta de pedido 1-105,text,true,,635,246,149,149,http://localhost:8080/api/auth/login,2698,0,0
+1754325367008,3938,login,200,,Consulta de pedido 1-68,text,true,,635,246,150,150,http://localhost:8080/api/auth/login,3938,0,0
+1754325367183,3767,300 acessos,200,,Consulta de pedido 1-37,text,true,,861,393,150,150,http://localhost:8080/api/pedidos/1,3767,0,0
+1754325367146,3819,300 acessos,200,,Consulta de pedido 1-36,text,true,,861,393,149,149,http://localhost:8080/api/pedidos/1,3819,0,0
+1754325368262,2722,login,200,,Consulta de pedido 1-106,text,true,,635,246,149,149,http://localhost:8080/api/auth/login,2722,0,0
+1754325368326,2773,login,200,,Consulta de pedido 1-108,text,true,,635,246,152,152,http://localhost:8080/api/auth/login,2773,0,1
+1754325368293,2821,login,200,,Consulta de pedido 1-107,text,true,,635,246,153,153,http://localhost:8080/api/auth/login,2821,0,1
+1754325368430,2711,login,200,,Consulta de pedido 1-111,text,true,,635,246,154,154,http://localhost:8080/api/auth/login,2710,0,0
+1754325368394,2757,login,200,,Consulta de pedido 1-110,text,true,,635,246,154,154,http://localhost:8080/api/auth/login,2757,0,0
+1754325368459,2757,login,200,,Consulta de pedido 1-112,text,true,,635,246,156,156,http://localhost:8080/api/auth/login,2757,0,1
+1754325370803,546,login,200,,Consulta de pedido 1-183,text,true,,635,246,160,160,http://localhost:8080/api/auth/login,546,0,0
+1754325368593,2823,login,200,,Consulta de pedido 1-116,text,true,,635,246,162,162,http://localhost:8080/api/auth/login,2823,0,1
+1754325367286,4144,300 acessos,200,,Consulta de pedido 1-41,text,true,,861,393,163,163,http://localhost:8080/api/pedidos/1,4140,0,0
+1754325368796,2662,300 acessos,200,,Consulta de pedido 1-67,text,true,,861,393,162,162,http://localhost:8080/api/pedidos/1,2650,0,0
+1754325368529,2954,login,200,,Consulta de pedido 1-114,text,true,,635,246,162,162,http://localhost:8080/api/auth/login,2954,0,0
+1754325368566,2917,login,200,,Consulta de pedido 1-115,text,true,,635,246,162,162,http://localhost:8080/api/auth/login,2917,0,0
+1754325368495,3009,login,200,,Consulta de pedido 1-113,text,true,,635,246,163,163,http://localhost:8080/api/auth/login,3009,0,0
+1754325368690,2869,login,200,,Consulta de pedido 1-119,text,true,,635,246,164,164,http://localhost:8080/api/auth/login,2869,0,1
+1754325368625,2958,login,200,,Consulta de pedido 1-117,text,true,,635,246,165,165,http://localhost:8080/api/auth/login,2958,0,1
+1754325368725,2859,login,200,,Consulta de pedido 1-120,text,true,,635,246,165,165,http://localhost:8080/api/auth/login,2859,0,1
+1754325368661,2926,login,200,,Consulta de pedido 1-118,text,true,,635,246,165,165,http://localhost:8080/api/auth/login,2926,0,1
+1754325367440,4147,300 acessos,200,,Consulta de pedido 1-39,text,true,,861,393,165,165,http://localhost:8080/api/pedidos/1,4147,0,0
+1754325368975,2649,300 acessos,200,,Consulta de pedido 1-71,text,true,,861,393,165,165,http://localhost:8080/api/pedidos/1,2649,0,0
+1754325368757,3043,login,200,,Consulta de pedido 1-121,text,true,,635,246,170,170,http://localhost:8080/api/auth/login,3043,0,1
+1754325368922,2924,login,200,,Consulta de pedido 1-126,text,true,,635,246,171,171,http://localhost:8080/api/auth/login,2924,0,1
+1754325368789,3063,login,200,,Consulta de pedido 1-122,text,true,,635,246,171,171,http://localhost:8080/api/auth/login,3063,0,0
+1754325367516,4360,300 acessos,200,,Consulta de pedido 1-43,text,true,,861,393,172,172,http://localhost:8080/api/pedidos/1,4360,0,0
+1754325368858,3067,login,200,,Consulta de pedido 1-124,text,true,,635,246,173,173,http://localhost:8080/api/auth/login,3067,0,0
+1754325368889,3108,login,200,,Consulta de pedido 1-125,text,true,,635,246,175,175,http://localhost:8080/api/auth/login,3108,0,0
+1754325368823,3202,login,200,,Consulta de pedido 1-123,text,true,,635,246,176,176,http://localhost:8080/api/auth/login,3202,0,0
+1754325369022,3109,login,200,,Consulta de pedido 1-129,text,true,,635,246,179,179,http://localhost:8080/api/auth/login,3109,0,0
+1754325368955,3206,login,200,,Consulta de pedido 1-127,text,true,,635,246,180,180,http://localhost:8080/api/auth/login,3206,0,1
+1754325368987,3190,login,200,,Consulta de pedido 1-128,text,true,,635,246,180,180,http://localhost:8080/api/auth/login,3190,0,0
+1754325367471,4712,login,200,,Consulta de pedido 1-82,text,true,,635,246,180,180,http://localhost:8080/api/auth/login,4712,0,1
+1754325367590,4620,300 acessos,200,,Consulta de pedido 1-42,text,true,,861,393,181,181,http://localhost:8080/api/pedidos/1,4615,0,0
+1754325369054,3293,login,200,,Consulta de pedido 1-130,text,true,,635,246,184,184,http://localhost:8080/api/auth/login,3293,0,5
+1754325371829,543,login,200,,Consulta de pedido 1-214,text,true,,635,246,185,185,http://localhost:8080/api/auth/login,543,0,1
+1754325369087,3373,login,200,,Consulta de pedido 1-131,text,true,,635,246,188,188,http://localhost:8080/api/auth/login,3373,0,0
+1754325371895,611,login,200,,Consulta de pedido 1-216,text,true,,635,246,189,189,http://localhost:8080/api/auth/login,611,0,0
+1754325369186,3332,login,200,,Consulta de pedido 1-134,text,true,,635,246,189,189,http://localhost:8080/api/auth/login,3332,0,0
+1754325369152,3377,login,200,,Consulta de pedido 1-133,text,true,,635,246,190,190,http://localhost:8080/api/auth/login,3377,0,1
+1754325367705,4841,300 acessos,200,,Consulta de pedido 1-44,text,true,,861,393,190,190,http://localhost:8080/api/pedidos/1,4838,0,0
+1754325372156,500,login,200,,Consulta de pedido 1-224,text,true,,635,246,193,193,http://localhost:8080/api/auth/login,500,0,0
+1754325369219,3491,login,200,,Consulta de pedido 1-135,text,true,,635,246,194,194,http://localhost:8080/api/auth/login,3490,0,0
+1754325369252,3474,login,200,,Consulta de pedido 1-136,text,true,,635,246,195,195,http://localhost:8080/api/auth/login,3474,0,0
+1754325367754,4991,300 acessos,200,,Consulta de pedido 1-48,text,true,,861,393,195,195,http://localhost:8080/api/pedidos/1,4977,0,0
+1754325369318,3497,login,200,,Consulta de pedido 1-138,text,true,,635,246,196,196,http://localhost:8080/api/auth/login,3497,0,0
+1754325369288,3546,login,200,,Consulta de pedido 1-137,text,true,,635,246,197,197,http://localhost:8080/api/auth/login,3546,0,0
+1754325369351,3630,login,200,,Consulta de pedido 1-139,text,true,,635,246,201,201,http://localhost:8080/api/auth/login,3630,0,2
+1754325369417,3626,login,200,,Consulta de pedido 1-141,text,true,,635,246,203,203,http://localhost:8080/api/auth/login,3626,0,0
+1754325367851,5196,300 acessos,200,,Consulta de pedido 1-50,text,true,,861,393,203,203,http://localhost:8080/api/pedidos/1,5194,0,0
+1754325367715,5358,login,200,,Consulta de pedido 1-89,text,true,,635,246,203,203,http://localhost:8080/api/auth/login,5358,0,0
+1754325369667,3423,300 acessos,200,,Consulta de pedido 1-84,text,true,,861,393,204,204,http://localhost:8080/api/pedidos/1,3412,0,0
+1754325372454,646,login,200,,Consulta de pedido 1-233,text,true,,635,246,203,203,http://localhost:8080/api/auth/login,646,0,0
+1754325369385,3726,login,200,,Consulta de pedido 1-140,text,true,,635,246,203,203,http://localhost:8080/api/auth/login,3726,0,1
+1754325369449,3743,login,200,,Consulta de pedido 1-142,text,true,,635,246,206,206,http://localhost:8080/api/auth/login,3743,0,1
+1754325369515,3845,login,200,,Consulta de pedido 1-144,text,true,,635,246,211,211,http://localhost:8080/api/auth/login,3845,0,1
+1754325369552,3828,login,200,,Consulta de pedido 1-145,text,true,,635,246,212,212,http://localhost:8080/api/auth/login,3828,0,0
+1754325372684,703,login,200,,Consulta de pedido 1-240,text,true,,635,246,212,212,http://localhost:8080/api/auth/login,703,0,0
+1754325366804,6604,300 acessos,200,,Consulta de pedido 1-28,text,true,,861,393,212,212,http://localhost:8080/api/pedidos/1,6594,0,0
+1754325369583,3826,login,200,,Consulta de pedido 1-146,text,true,,635,246,211,211,http://localhost:8080/api/auth/login,3826,0,0
+1754325369946,3478,300 acessos,200,,Consulta de pedido 1-90,text,true,,861,393,212,212,http://localhost:8080/api/pedidos/1,3478,0,0
+1754325369616,3855,login,200,,Consulta de pedido 1-147,text,true,,635,246,212,212,http://localhost:8080/api/auth/login,3855,0,1
+1754325369786,3738,login,200,,Consulta de pedido 1-152,text,true,,635,246,214,214,http://localhost:8080/api/auth/login,3738,0,1
+1754325368079,5464,300 acessos,200,,Consulta de pedido 1-85,text,true,,861,393,215,215,http://localhost:8080/api/pedidos/1,5463,0,0
+1754325369726,3850,login,200,,Consulta de pedido 1-150,text,true,,635,246,215,215,http://localhost:8080/api/auth/login,3850,0,0
+1754325369657,3921,login,200,,Consulta de pedido 1-148,text,true,,635,246,215,215,http://localhost:8080/api/auth/login,3921,0,0
+1754325369754,3864,login,200,,Consulta de pedido 1-151,text,true,,635,246,216,216,http://localhost:8080/api/auth/login,3864,0,1
+1754325369815,3869,login,200,,Consulta de pedido 1-153,text,true,,635,246,218,218,http://localhost:8080/api/auth/login,3869,0,0
+1754325366876,6987,login,200,,Consulta de pedido 1-64,text,true,,635,246,223,223,http://localhost:8080/api/auth/login,6987,0,0
+1754325369979,3932,login,200,,Consulta de pedido 1-158,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,3932,0,0
+1754325373212,743,login,200,,Consulta de pedido 1-256,text,true,,635,246,226,226,http://localhost:8080/api/auth/login,743,0,1
+1754325369944,4043,login,200,,Consulta de pedido 1-157,text,true,,635,246,227,227,http://localhost:8080/api/auth/login,4043,0,1
+1754325369882,4146,login,200,,Consulta de pedido 1-155,text,true,,635,246,228,228,http://localhost:8080/api/auth/login,4146,0,0
+1754325370353,3697,300 acessos,200,,Consulta de pedido 1-93,text,true,,861,393,229,229,http://localhost:8080/api/pedidos/1,3689,0,0
+1754325368171,5892,300 acessos,200,,Consulta de pedido 1-55,text,true,,861,393,228,228,http://localhost:8080/api/pedidos/1,5885,0,0
+1754325370397,3691,300 acessos,200,,Consulta de pedido 1-96,text,true,,861,393,228,228,http://localhost:8080/api/pedidos/1,3691,0,0
+1754325370044,4058,login,200,,Consulta de pedido 1-160,text,true,,635,246,227,227,http://localhost:8080/api/auth/login,4058,0,1
+1754325370145,3974,login,200,,Consulta de pedido 1-163,text,true,,635,246,228,228,http://localhost:8080/api/auth/login,3974,0,1
+1754325370077,4170,login,200,,Consulta de pedido 1-161,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,4170,0,0
+1754325368285,5998,300 acessos,200,,Consulta de pedido 1-60,text,true,,861,393,233,233,http://localhost:8080/api/pedidos/1,5998,0,0
+1754325370176,4158,login,200,,Consulta de pedido 1-164,text,true,,635,246,234,234,http://localhost:8080/api/auth/login,4158,0,1
+1754325370277,4112,login,200,,Consulta de pedido 1-167,text,true,,635,246,235,235,http://localhost:8080/api/auth/login,4112,0,0
+1754325370208,4190,login,200,,Consulta de pedido 1-165,text,true,,635,246,235,235,http://localhost:8080/api/auth/login,4190,0,1
+1754325370545,3865,300 acessos,200,,Consulta de pedido 1-63,text,true,,861,393,236,236,http://localhost:8080/api/pedidos/1,3865,0,0
+1754325368375,6036,300 acessos,200,,Consulta de pedido 1-59,text,true,,861,393,235,235,http://localhost:8080/api/pedidos/1,6036,0,0
+1754325370562,3853,300 acessos,200,,Consulta de pedido 1-100,text,true,,861,393,234,234,http://localhost:8080/api/pedidos/1,3853,0,0
+1754325370344,4186,login,200,,Consulta de pedido 1-169,text,true,,635,246,236,236,http://localhost:8080/api/auth/login,4186,0,1
+1754325370310,4229,login,200,,Consulta de pedido 1-168,text,true,,635,246,237,237,http://localhost:8080/api/auth/login,4229,0,1
+1754325370505,4054,login,200,,Consulta de pedido 1-174,text,true,,635,246,237,237,http://localhost:8080/api/auth/login,4054,0,1
+1754325370247,4327,login,200,,Consulta de pedido 1-166,text,true,,635,246,238,238,http://localhost:8080/api/auth/login,4327,0,0
+1754325370473,4146,login,200,,Consulta de pedido 1-173,text,true,,635,246,239,239,http://localhost:8080/api/auth/login,4146,0,1
+1754325370439,4210,login,200,,Consulta de pedido 1-172,text,true,,635,246,240,240,http://localhost:8080/api/auth/login,4210,0,0
+1754325367139,7536,300 acessos,200,,Consulta de pedido 1-38,text,true,,861,393,241,241,http://localhost:8080/api/pedidos/1,7530,0,0
+1754325368476,6218,300 acessos,200,,Consulta de pedido 1-61,text,true,,861,393,240,240,http://localhost:8080/api/pedidos/1,6218,0,0
+1754325370541,4328,login,200,,Consulta de pedido 1-175,text,true,,635,246,239,239,http://localhost:8080/api/auth/login,4328,0,0
+1754325370571,4328,login,200,,Consulta de pedido 1-176,text,true,,635,246,239,239,http://localhost:8080/api/auth/login,4328,0,1
+1754325368360,6555,login,200,,Consulta de pedido 1-109,text,true,,635,246,239,239,http://localhost:8080/api/auth/login,6555,0,0
+1754325370605,4310,login,200,,Consulta de pedido 1-177,text,true,,635,246,239,239,http://localhost:8080/api/auth/login,4310,0,1
+1754325368565,6362,300 acessos,200,,Consulta de pedido 1-97,text,true,,861,393,239,239,http://localhost:8080/api/pedidos/1,6362,0,0
+1754325373676,1332,login,200,,Consulta de pedido 1-270,text,true,,635,246,238,238,http://localhost:8080/api/auth/login,1332,0,1
+1754325370636,4458,login,200,,Consulta de pedido 1-178,text,true,,635,246,238,238,http://localhost:8080/api/auth/login,4458,0,1
+1754325368582,6549,300 acessos,200,,Consulta de pedido 1-62,text,true,,861,393,238,238,http://localhost:8080/api/pedidos/1,6549,0,0
+1754325370736,4407,login,200,,Consulta de pedido 1-181,text,true,,635,246,237,237,http://localhost:8080/api/auth/login,4407,0,1
+1754325370704,4444,login,200,,Consulta de pedido 1-180,text,true,,635,246,237,237,http://localhost:8080/api/auth/login,4444,0,1
+1754325370836,4384,login,200,,Consulta de pedido 1-184,text,true,,635,246,237,237,http://localhost:8080/api/auth/login,4384,0,0
+1754325370770,4464,login,200,,Consulta de pedido 1-182,text,true,,635,246,237,237,http://localhost:8080/api/auth/login,4464,0,1
+1754325368677,6574,300 acessos,200,,Consulta de pedido 1-65,text,true,,861,393,237,237,http://localhost:8080/api/pedidos/1,6574,0,0
+1754325370868,4402,login,200,,Consulta de pedido 1-185,text,true,,635,246,236,236,http://localhost:8080/api/auth/login,4402,0,1
+1754325373906,1457,login,200,,Consulta de pedido 1-277,text,true,,635,246,236,236,http://localhost:8080/api/auth/login,1457,0,1
+1754325370902,4522,login,200,,Consulta de pedido 1-186,text,true,,635,246,236,236,http://localhost:8080/api/auth/login,4522,0,1
+1754325370934,4518,login,200,,Consulta de pedido 1-187,text,true,,635,246,236,236,http://localhost:8080/api/auth/login,4518,0,1
+1754325370967,4527,login,200,,Consulta de pedido 1-188,text,true,,635,246,236,236,http://localhost:8080/api/auth/login,4527,0,0
+1754325371033,4564,login,200,,Consulta de pedido 1-190,text,true,,635,246,236,236,http://localhost:8080/api/auth/login,4564,0,1
+1754325371066,4544,login,200,,Consulta de pedido 1-191,text,true,,635,246,236,236,http://localhost:8080/api/auth/login,4544,0,0
+1754325371002,4633,login,200,,Consulta de pedido 1-189,text,true,,635,246,236,236,http://localhost:8080/api/auth/login,4633,0,1
+1754325371167,4485,login,200,,Consulta de pedido 1-194,text,true,,635,246,236,236,http://localhost:8080/api/auth/login,4485,0,0
+1754325371131,4551,login,200,,Consulta de pedido 1-193,text,true,,635,246,236,236,http://localhost:8080/api/auth/login,4551,0,1
+1754325371100,4597,login,200,,Consulta de pedido 1-192,text,true,,635,246,236,236,http://localhost:8080/api/auth/login,4597,0,2
+1754325368833,6896,300 acessos,200,,Consulta de pedido 1-66,text,true,,861,393,236,236,http://localhost:8080/api/pedidos/1,6881,0,0
+1754325371199,4643,login,200,,Consulta de pedido 1-195,text,true,,635,246,235,235,http://localhost:8080/api/auth/login,4643,0,1
+1754325371264,4596,login,200,,Consulta de pedido 1-197,text,true,,635,246,235,235,http://localhost:8080/api/auth/login,4596,0,1
+1754325371232,4638,login,200,,Consulta de pedido 1-196,text,true,,635,246,235,235,http://localhost:8080/api/auth/login,4638,0,1
+1754325371298,4664,login,200,,Consulta de pedido 1-198,text,true,,635,246,235,235,http://localhost:8080/api/auth/login,4664,0,0
+1754325371364,4660,login,200,,Consulta de pedido 1-200,text,true,,635,246,235,235,http://localhost:8080/api/auth/login,4660,0,0
+1754325371332,4731,login,200,,Consulta de pedido 1-199,text,true,,635,246,235,235,http://localhost:8080/api/auth/login,4731,0,1
+1754325374301,1772,login,200,,Consulta de pedido 1-289,text,true,,635,246,235,235,http://localhost:8080/api/auth/login,1772,0,2
+1754325371583,4519,300 acessos,200,,Consulta de pedido 1-117,text,true,,861,393,235,235,http://localhost:8080/api/pedidos/1,4517,0,0
+1754325369004,7119,300 acessos,200,,Consulta de pedido 1-72,text,true,,861,393,234,234,http://localhost:8080/api/pedidos/1,7110,0,0
+1754325369041,7094,300 acessos,200,,Consulta de pedido 1-73,text,true,,861,393,233,233,http://localhost:8080/api/pedidos/1,7090,0,0
+1754325371397,4788,login,200,,Consulta de pedido 1-201,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,4788,0,1
+1754325374371,1827,login,200,,Consulta de pedido 1-291,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,1827,0,0
+1754325371428,4775,login,200,,Consulta de pedido 1-202,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,4775,0,1
+1754325371463,4768,login,200,,Consulta de pedido 1-203,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,4768,0,0
+1754325371528,4796,login,200,,Consulta de pedido 1-205,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,4796,0,0
+1754325371496,4871,login,200,,Consulta de pedido 1-204,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,4871,0,1
+1754325374402,1975,login,200,,Consulta de pedido 1-292,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,1975,0,1
+1754325371563,4912,login,200,,Consulta de pedido 1-206,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,4912,0,1
+1754325371629,4911,login,200,,Consulta de pedido 1-208,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,4911,0,0
+1754325371598,4960,login,200,,Consulta de pedido 1-207,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,4960,0,2
+1754325371696,4956,login,200,,Consulta de pedido 1-210,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,4956,0,1
+1754325371727,4939,login,200,,Consulta de pedido 1-211,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,4939,0,1
+1754325371662,5017,login,200,,Consulta de pedido 1-209,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,5017,0,0
+1754325371763,4925,login,200,,Consulta de pedido 1-212,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,4925,0,1
+1754325369120,7639,login,200,,Consulta de pedido 1-132,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,7639,0,1
+1754325367633,9167,300 acessos,200,,Consulta de pedido 1-45,text,true,,861,393,232,232,http://localhost:8080/api/pedidos/1,9163,0,0
+1754325372131,4671,300 acessos,200,,Consulta de pedido 1-129,text,true,,861,393,231,231,http://localhost:8080/api/pedidos/1,4670,0,0
+1754325369310,7508,300 acessos,200,,Consulta de pedido 1-77,text,true,,861,393,230,230,http://localhost:8080/api/pedidos/1,7508,0,0
+1754325371864,4959,login,200,,Consulta de pedido 1-215,text,true,,635,246,229,229,http://localhost:8080/api/auth/login,4959,0,0
+1754325369310,7514,300 acessos,200,,Consulta de pedido 1-76,text,true,,861,393,229,229,http://localhost:8080/api/pedidos/1,7514,0,0
+1754325372178,4669,300 acessos,200,,Consulta de pedido 1-128,text,true,,861,393,228,228,http://localhost:8080/api/pedidos/1,4663,0,0
+1754325371794,5112,login,200,,Consulta de pedido 1-213,text,true,,635,246,227,227,http://localhost:8080/api/auth/login,5112,0,0
+1754325371958,5052,login,200,,Consulta de pedido 1-218,text,true,,635,246,227,227,http://localhost:8080/api/auth/login,5052,0,1
+1754325371990,5039,login,200,,Consulta de pedido 1-219,text,true,,635,246,227,227,http://localhost:8080/api/auth/login,5039,0,0
+1754325371925,5121,login,200,,Consulta de pedido 1-217,text,true,,635,246,227,227,http://localhost:8080/api/auth/login,5121,0,0
+1754325372090,5048,login,200,,Consulta de pedido 1-222,text,true,,635,246,227,227,http://localhost:8080/api/auth/login,5048,0,0
+1754325372121,5025,login,200,,Consulta de pedido 1-223,text,true,,635,246,227,227,http://localhost:8080/api/auth/login,5025,0,1
+1754325369404,7759,300 acessos,200,,Consulta de pedido 1-51,text,true,,861,393,227,227,http://localhost:8080/api/pedidos/1,7749,0,0
+1754325372023,5152,login,200,,Consulta de pedido 1-220,text,true,,635,246,226,226,http://localhost:8080/api/auth/login,5152,0,0
+1754325369457,7738,300 acessos,200,,Consulta de pedido 1-78,text,true,,861,393,226,226,http://localhost:8080/api/pedidos/1,7738,0,0
+1754325372056,5178,login,200,,Consulta de pedido 1-221,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,5178,0,0
+1754325372288,4951,login,200,,Consulta de pedido 1-228,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,4951,0,1
+1754325372256,5080,login,200,,Consulta de pedido 1-227,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,5079,0,0
+1754325372321,5023,login,200,,Consulta de pedido 1-229,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,5023,0,1
+1754325372354,5024,login,200,,Consulta de pedido 1-230,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,5024,0,1
+1754325372386,5041,login,200,,Consulta de pedido 1-231,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,5041,0,1
+1754325372426,5118,login,200,,Consulta de pedido 1-232,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,5118,0,1
+1754325372493,5083,login,200,,Consulta de pedido 1-234,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,5083,0,0
+1754325372520,5081,login,200,,Consulta de pedido 1-235,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,5081,0,1
+1754325372629,5022,login,200,,Consulta de pedido 1-238,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,5022,0,0
+1754325372556,5126,login,200,,Consulta de pedido 1-236,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,5126,0,0
+1754325369484,8223,login,200,,Consulta de pedido 1-143,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,8223,0,0
+1754325372652,5132,login,200,,Consulta de pedido 1-239,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,5132,0,0
+1754325372586,5228,login,200,,Consulta de pedido 1-237,text,true,,635,246,225,225,http://localhost:8080/api/auth/login,5228,0,0
+1754325367870,9954,300 acessos,200,,Consulta de pedido 1-49,text,true,,861,393,225,225,http://localhost:8080/api/pedidos/1,9954,0,0
+1754325372717,5151,login,200,,Consulta de pedido 1-241,text,true,,635,246,224,224,http://localhost:8080/api/auth/login,5151,0,1
+1754325372753,5195,login,200,,Consulta de pedido 1-242,text,true,,635,246,224,224,http://localhost:8080/api/auth/login,5195,0,1
+1754325369679,8279,300 acessos,200,,Consulta de pedido 1-83,text,true,,861,393,224,224,http://localhost:8080/api/pedidos/1,8278,0,0
+1754325372848,5140,login,200,,Consulta de pedido 1-245,text,true,,635,246,223,223,http://localhost:8080/api/auth/login,5140,0,1
+1754325369713,8286,300 acessos,200,,Consulta de pedido 1-81,text,true,,861,393,223,223,http://localhost:8080/api/pedidos/1,8278,0,0
+1754325372817,5212,login,200,,Consulta de pedido 1-244,text,true,,635,246,222,222,http://localhost:8080/api/auth/login,5211,0,1
+1754325369844,8206,300 acessos,200,,Consulta de pedido 1-53,text,true,,861,393,222,222,http://localhost:8080/api/pedidos/1,8206,0,0
+1754325369872,8197,300 acessos,200,,Consulta de pedido 1-57,text,true,,861,393,221,221,http://localhost:8080/api/pedidos/1,8197,0,0
+1754325373112,4958,300 acessos,200,,Consulta de pedido 1-140,text,true,,861,393,220,220,http://localhost:8080/api/pedidos/1,4958,0,0
+1754325372785,5289,login,200,,Consulta de pedido 1-243,text,true,,635,246,219,219,http://localhost:8080/api/auth/login,5288,0,1
+1754325373100,4984,300 acessos,200,,Consulta de pedido 1-233,text,true,,861,393,219,219,http://localhost:8080/api/pedidos/1,4984,0,0
+1754325369887,8197,300 acessos,200,,Consulta de pedido 1-87,text,true,,861,393,219,219,http://localhost:8080/api/pedidos/1,8196,0,0
+1754325372885,5203,login,200,,Consulta de pedido 1-246,text,true,,635,246,217,217,http://localhost:8080/api/auth/login,5203,0,1
+1754325367967,10131,300 acessos,200,,Consulta de pedido 1-35,text,true,,861,393,217,217,http://localhost:8080/api/pedidos/1,10121,0,0
+1754325369983,8116,300 acessos,200,,Consulta de pedido 1-86,text,true,,861,393,216,216,http://localhost:8080/api/pedidos/1,8116,0,0
+1754325372984,5170,login,200,,Consulta de pedido 1-249,text,true,,635,246,215,215,http://localhost:8080/api/auth/login,5170,0,1
+1754325372948,5219,login,200,,Consulta de pedido 1-248,text,true,,635,246,215,215,http://localhost:8080/api/auth/login,5219,0,0
+1754325370006,8162,300 acessos,200,,Consulta de pedido 1-88,text,true,,861,393,215,215,http://localhost:8080/api/pedidos/1,8162,0,0
+1754325370033,8154,300 acessos,200,,Consulta de pedido 1-91,text,true,,861,393,214,214,http://localhost:8080/api/pedidos/1,8153,0,0
+1754325372916,5356,login,200,,Consulta de pedido 1-247,text,true,,635,246,213,213,http://localhost:8080/api/auth/login,5356,0,1
+1754325373361,4948,300 acessos,200,,Consulta de pedido 1-144,text,true,,861,393,213,213,http://localhost:8080/api/pedidos/1,4948,0,0
+1754325369689,8711,login,200,,Consulta de pedido 1-149,text,true,,635,246,212,212,http://localhost:8080/api/auth/login,8710,0,0
+1754325373022,5393,login,200,,Consulta de pedido 1-250,text,true,,635,246,212,212,http://localhost:8080/api/auth/login,5393,0,1
+1754325370182,8234,300 acessos,200,,Consulta de pedido 1-92,text,true,,861,393,212,212,http://localhost:8080/api/pedidos/1,8225,0,0
+1754325373051,5417,login,200,,Consulta de pedido 1-251,text,true,,635,246,211,211,http://localhost:8080/api/auth/login,5417,0,0
+1754325373085,5458,login,200,,Consulta de pedido 1-252,text,true,,635,246,211,211,http://localhost:8080/api/auth/login,5458,0,1
+1754325373114,5476,login,200,,Consulta de pedido 1-253,text,true,,635,246,211,211,http://localhost:8080/api/auth/login,5476,0,0
+1754325370334,8267,300 acessos,200,,Consulta de pedido 1-94,text,true,,861,393,211,211,http://localhost:8080/api/pedidos/1,8267,0,0
+1754325368156,10481,300 acessos,200,,Consulta de pedido 1-54,text,true,,861,393,210,210,http://localhost:8080/api/pedidos/1,10481,0,0
+1754325373278,5363,login,200,,Consulta de pedido 1-258,text,true,,635,246,209,209,http://localhost:8080/api/auth/login,5363,0,0
+1754325370110,8561,login,200,,Consulta de pedido 1-162,text,true,,635,246,209,209,http://localhost:8080/api/auth/login,8561,0,0
+1754325370011,8673,login,200,,Consulta de pedido 1-159,text,true,,635,246,209,209,http://localhost:8080/api/auth/login,8673,0,1
+1754325370392,8311,300 acessos,200,,Consulta de pedido 1-154,text,true,,861,393,209,209,http://localhost:8080/api/pedidos/1,8270,0,0
+1754325373471,5233,300 acessos,200,,Consulta de pedido 1-147,text,true,,861,393,208,208,http://localhost:8080/api/pedidos/1,5233,0,0
+1754325373181,5563,login,200,,Consulta de pedido 1-255,text,true,,635,246,207,207,http://localhost:8080/api/auth/login,5563,0,0
+1754325370522,8236,300 acessos,200,,Consulta de pedido 1-98,text,true,,861,393,207,207,http://localhost:8080/api/pedidos/1,8235,0,0
+1754325374247,4549,300 acessos,200,,Consulta de pedido 1-161,text,true,,861,393,206,206,http://localhost:8080/api/pedidos/1,4549,0,0
+1754325373345,5526,login,200,,Consulta de pedido 1-260,text,true,,635,246,205,205,http://localhost:8080/api/auth/login,5526,0,0
+1754325368379,10517,300 acessos,200,,Consulta de pedido 1-58,text,true,,861,393,205,205,http://localhost:8080/api/pedidos/1,10517,0,0
+1754325373378,5595,login,200,,Consulta de pedido 1-261,text,true,,635,246,204,204,http://localhost:8080/api/auth/login,5595,0,1
+1754325373410,5563,login,200,,Consulta de pedido 1-262,text,true,,635,246,204,204,http://localhost:8080/api/auth/login,5563,0,1
+1754325370376,8665,login,200,,Consulta de pedido 1-170,text,true,,635,246,204,204,http://localhost:8080/api/auth/login,8665,0,1
+1754325373443,5668,login,200,,Consulta de pedido 1-263,text,true,,635,246,204,204,http://localhost:8080/api/auth/login,5668,0,0
+1754325370683,8448,300 acessos,200,,Consulta de pedido 1-101,text,true,,861,393,204,204,http://localhost:8080/api/pedidos/1,8442,0,0
+1754325373509,5693,login,200,,Consulta de pedido 1-265,text,true,,635,246,203,203,http://localhost:8080/api/auth/login,5693,0,0
+1754325370406,8863,login,200,,Consulta de pedido 1-171,text,true,,635,246,203,203,http://localhost:8080/api/auth/login,8863,0,1
+1754325373475,5794,login,200,,Consulta de pedido 1-264,text,true,,635,246,203,203,http://localhost:8080/api/auth/login,5794,0,1
+1754325370749,8550,300 acessos,200,,Consulta de pedido 1-102,text,true,,861,393,203,203,http://localhost:8080/api/pedidos/1,8538,0,0
+1754325373543,5775,login,200,,Consulta de pedido 1-266,text,true,,635,246,202,202,http://localhost:8080/api/auth/login,5775,0,1
+1754325373575,5751,login,200,,Consulta de pedido 1-267,text,true,,635,246,202,202,http://localhost:8080/api/auth/login,5751,0,0
+1754325370831,8511,300 acessos,200,,Consulta de pedido 1-103,text,true,,861,393,202,202,http://localhost:8080/api/pedidos/1,8511,0,0
+1754325373864,5505,300 acessos,200,,Consulta de pedido 1-64,text,true,,861,393,201,201,http://localhost:8080/api/pedidos/1,5505,0,0
+1754325374900,4475,300 acessos,200,,Consulta de pedido 1-176,text,true,,861,393,200,200,http://localhost:8080/api/pedidos/1,4475,0,0
+1754325370670,8732,login,200,,Consulta de pedido 1-179,text,true,,635,246,199,199,http://localhost:8080/api/auth/login,8731,0,1
+1754325373609,5864,login,200,,Consulta de pedido 1-268,text,true,,635,246,199,199,http://localhost:8080/api/auth/login,5864,0,0
+1754325370984,8517,300 acessos,200,,Consulta de pedido 1-106,text,true,,861,393,199,199,http://localhost:8080/api/pedidos/1,8515,0,0
+1754325373642,5864,login,200,,Consulta de pedido 1-269,text,true,,635,246,198,198,http://localhost:8080/api/auth/login,5864,0,1
+1754325371100,8427,300 acessos,200,,Consulta de pedido 1-108,text,true,,861,393,198,198,http://localhost:8080/api/pedidos/1,8420,0,0
+1754325373709,5928,login,200,,Consulta de pedido 1-271,text,true,,635,246,197,197,http://localhost:8080/api/auth/login,5928,0,1
+1754325371114,8539,300 acessos,200,,Consulta de pedido 1-107,text,true,,861,393,197,197,http://localhost:8080/api/pedidos/1,8534,0,0
+1754325371141,8533,300 acessos,200,,Consulta de pedido 1-111,text,true,,861,393,196,196,http://localhost:8080/api/pedidos/1,8518,0,0
+1754325371151,8529,300 acessos,200,,Consulta de pedido 1-110,text,true,,861,393,195,195,http://localhost:8080/api/pedidos/1,8529,0,0
+1754325375271,4430,300 acessos,200,,Consulta de pedido 1-185,text,true,,861,393,194,194,http://localhost:8080/api/pedidos/1,4426,0,0
+1754325371216,8492,300 acessos,200,,Consulta de pedido 1-112,text,true,,861,393,193,193,http://localhost:8080/api/pedidos/1,8492,0,0
+1754325373739,6005,login,200,,Consulta de pedido 1-272,text,true,,635,246,192,192,http://localhost:8080/api/auth/login,6005,0,0
+1754325373841,5919,login,200,,Consulta de pedido 1-275,text,true,,635,246,192,192,http://localhost:8080/api/auth/login,5919,0,0
+1754325373808,5990,login,200,,Consulta de pedido 1-274,text,true,,635,246,192,192,http://localhost:8080/api/auth/login,5990,0,1
+1754325373773,6072,login,200,,Consulta de pedido 1-273,text,true,,635,246,192,192,http://localhost:8080/api/auth/login,6072,0,1
+1754325371349,8514,300 acessos,200,,Consulta de pedido 1-183,text,true,,861,393,192,192,http://localhost:8080/api/pedidos/1,8514,0,0
+1754325373872,6005,login,200,,Consulta de pedido 1-276,text,true,,635,246,191,191,http://localhost:8080/api/auth/login,6005,0,0
+1754325368802,11095,300 acessos,200,,Consulta de pedido 1-70,text,true,,861,393,191,191,http://localhost:8080/api/pedidos/1,11095,0,0
+1754325371417,8481,300 acessos,200,,Consulta de pedido 1-116,text,true,,861,393,190,190,http://localhost:8080/api/pedidos/1,8481,0,0
+1754325373939,5992,login,200,,Consulta de pedido 1-278,text,true,,635,246,189,189,http://localhost:8080/api/auth/login,5992,0,1
+1754325368860,11081,300 acessos,200,,Consulta de pedido 1-69,text,true,,861,393,189,189,http://localhost:8080/api/pedidos/1,11081,0,0
+1754325371483,8471,300 acessos,200,,Consulta de pedido 1-114,text,true,,861,393,188,188,http://localhost:8080/api/pedidos/1,8471,0,0
+1754325371505,8460,300 acessos,200,,Consulta de pedido 1-113,text,true,,861,393,187,187,http://localhost:8080/api/pedidos/1,8451,0,0
+1754325373970,5995,login,200,,Consulta de pedido 1-279,text,true,,635,246,187,187,http://localhost:8080/api/auth/login,5995,0,0
+1754325368942,11029,300 acessos,200,,Consulta de pedido 1-46,text,true,,861,393,186,186,http://localhost:8080/api/pedidos/1,11025,0,0
+1754325371559,8426,300 acessos,200,,Consulta de pedido 1-119,text,true,,861,393,185,185,http://localhost:8080/api/pedidos/1,8426,0,0
+1754325374039,5956,login,200,,Consulta de pedido 1-281,text,true,,635,246,184,184,http://localhost:8080/api/auth/login,5956,0,0
+1754325371587,8411,300 acessos,200,,Consulta de pedido 1-118,text,true,,861,393,184,184,http://localhost:8080/api/pedidos/1,8411,0,0
+1754325374069,5983,login,200,,Consulta de pedido 1-282,text,true,,635,246,183,183,http://localhost:8080/api/auth/login,5983,0,2
+1754325374136,6066,login,200,,Consulta de pedido 1-284,text,true,,635,246,183,183,http://localhost:8080/api/auth/login,6066,0,1
+1754325374236,6022,login,200,,Consulta de pedido 1-287,text,true,,635,246,183,183,http://localhost:8080/api/auth/login,6022,0,1
+1754325374168,6102,login,200,,Consulta de pedido 1-285,text,true,,635,246,183,183,http://localhost:8080/api/auth/login,6102,0,1
+1754325374202,6078,login,200,,Consulta de pedido 1-286,text,true,,635,246,183,183,http://localhost:8080/api/auth/login,6078,0,2
+1754325371801,8482,300 acessos,200,,Consulta de pedido 1-121,text,true,,861,393,183,183,http://localhost:8080/api/pedidos/1,8481,0,0
+1754325371847,8453,300 acessos,200,,Consulta de pedido 1-126,text,true,,861,393,182,182,http://localhost:8080/api/pedidos/1,8453,0,0
+1754325369109,11200,300 acessos,200,,Consulta de pedido 1-74,text,true,,861,393,181,181,http://localhost:8080/api/pedidos/1,11200,0,0
+1754325374269,6042,login,200,,Consulta de pedido 1-288,text,true,,635,246,180,180,http://localhost:8080/api/auth/login,6042,0,2
+1754325371852,8473,300 acessos,200,,Consulta de pedido 1-122,text,true,,861,393,180,180,http://localhost:8080/api/pedidos/1,8473,0,0
+1754325371925,8413,300 acessos,200,,Consulta de pedido 1-124,text,true,,861,393,179,179,http://localhost:8080/api/pedidos/1,8404,0,0
+1754325371997,8350,300 acessos,200,,Consulta de pedido 1-125,text,true,,861,393,178,178,http://localhost:8080/api/pedidos/1,8346,0,0
+1754325372026,8353,300 acessos,200,,Consulta de pedido 1-123,text,true,,861,393,177,177,http://localhost:8080/api/pedidos/1,8332,0,0
+1754325372184,8196,300 acessos,200,,Consulta de pedido 1-82,text,true,,861,393,176,176,http://localhost:8080/api/pedidos/1,8196,0,0
+1754325369282,11129,300 acessos,200,,Consulta de pedido 1-75,text,true,,861,393,175,175,http://localhost:8080/api/pedidos/1,11117,0,0
+1754325374442,6006,login,200,,Consulta de pedido 1-293,text,true,,635,246,174,174,http://localhost:8080/api/auth/login,6006,0,2
+1754325374503,5945,login,200,,Consulta de pedido 1-295,text,true,,635,246,174,174,http://localhost:8080/api/auth/login,5945,0,0
+1754325374334,6116,login,200,,Consulta de pedido 1-290,text,true,,635,246,174,174,http://localhost:8080/api/auth/login,6116,0,0
+1754325372162,8300,300 acessos,200,,Consulta de pedido 1-127,text,true,,861,393,174,174,http://localhost:8080/api/pedidos/1,8300,0,0
+1754325375148,5344,300 acessos,200,,Consulta de pedido 1-180,text,true,,861,393,173,173,http://localhost:8080/api/pedidos/1,5343,0,0
+1754325374465,6027,login,200,,Consulta de pedido 1-294,text,true,,635,246,173,173,http://localhost:8080/api/auth/login,6027,0,0
+1754325375235,5265,300 acessos,200,,Consulta de pedido 1-182,text,true,,861,393,172,172,http://localhost:8080/api/pedidos/1,5258,0,0
+1754325372372,8143,300 acessos,200,,Consulta de pedido 1-214,text,true,,861,393,171,171,http://localhost:8080/api/pedidos/1,8143,0,0
+1754325372460,8076,300 acessos,200,,Consulta de pedido 1-131,text,true,,861,393,170,170,http://localhost:8080/api/pedidos/1,8075,0,0
+1754325375611,4929,300 acessos,200,,Consulta de pedido 1-191,text,true,,861,393,169,169,http://localhost:8080/api/pedidos/1,4929,0,0
+1754325375364,5178,300 acessos,200,,Consulta de pedido 1-277,text,true,,861,393,168,168,http://localhost:8080/api/pedidos/1,5164,0,0
+1754325372519,8027,300 acessos,200,,Consulta de pedido 1-134,text,true,,861,393,167,167,http://localhost:8080/api/pedidos/1,8027,0,0
+1754325369458,11096,300 acessos,200,,Consulta de pedido 1-79,text,true,,861,393,166,166,http://localhost:8080/api/pedidos/1,11096,0,0
+1754325375597,4960,300 acessos,200,,Consulta de pedido 1-190,text,true,,861,393,165,165,http://localhost:8080/api/pedidos/1,4954,0,0
+1754325372530,8046,300 acessos,200,,Consulta de pedido 1-133,text,true,,861,393,164,164,http://localhost:8080/api/pedidos/1,8038,0,0
+1754325372659,7919,300 acessos,200,,Consulta de pedido 1-224,text,true,,861,393,163,163,http://localhost:8080/api/pedidos/1,7919,0,0
+1754325375963,4626,300 acessos,200,,Consulta de pedido 1-198,text,true,,861,393,162,162,http://localhost:8080/api/pedidos/1,4626,0,0
+1754325377239,3350,300 acessos,200,,Consulta de pedido 1-228,text,true,,861,393,162,162,http://localhost:8080/api/pedidos/1,3350,0,0
+1754325369495,11094,300 acessos,200,,Consulta de pedido 1-80,text,true,,861,393,162,162,http://localhost:8080/api/pedidos/1,11084,0,0
+1754325372835,7754,300 acessos,200,,Consulta de pedido 1-137,text,true,,861,393,162,162,http://localhost:8080/api/pedidos/1,7754,0,0
+1754325372816,7782,300 acessos,200,,Consulta de pedido 1-138,text,true,,861,393,158,158,http://localhost:8080/api/pedidos/1,7775,0,0
+1754325376558,4054,300 acessos,200,,Consulta de pedido 1-207,text,true,,861,393,157,157,http://localhost:8080/api/pedidos/1,4054,0,0
+1754325372982,7631,300 acessos,200,,Consulta de pedido 1-139,text,true,,861,393,156,156,http://localhost:8080/api/pedidos/1,7616,0,0
+1754325373044,7591,300 acessos,200,,Consulta de pedido 1-141,text,true,,861,393,155,155,http://localhost:8080/api/pedidos/1,7591,0,0
+1754325376185,4450,300 acessos,200,,Consulta de pedido 1-201,text,true,,861,393,155,155,http://localhost:8080/api/pedidos/1,4435,0,0
+1754325376760,3877,300 acessos,200,,Consulta de pedido 1-132,text,true,,861,393,153,153,http://localhost:8080/api/pedidos/1,3876,0,0
+1754325373073,7564,300 acessos,200,,Consulta de pedido 1-89,text,true,,861,393,153,153,http://localhost:8080/api/pedidos/1,7564,0,0
+1754325374534,6142,login,200,,Consulta de pedido 1-296,text,true,,635,246,151,151,http://localhost:8080/api/auth/login,6142,0,0
+1754325376476,4200,300 acessos,200,,Consulta de pedido 1-206,text,true,,861,393,151,151,http://localhost:8080/api/pedidos/1,4200,0,0
+1754325377138,3595,300 acessos,200,,Consulta de pedido 1-222,text,true,,861,393,150,150,http://localhost:8080/api/pedidos/1,3556,0,0
+1754325376199,4589,300 acessos,200,,Consulta de pedido 1-291,text,true,,861,393,149,149,http://localhost:8080/api/pedidos/1,4589,0,0
+1754325374572,6239,login,200,,Consulta de pedido 1-297,text,true,,635,246,148,148,http://localhost:8080/api/auth/login,6239,0,0
+1754325377545,3293,300 acessos,200,,Consulta de pedido 1-232,text,true,,861,393,148,148,http://localhost:8080/api/pedidos/1,3293,0,0
+1754325373381,7474,300 acessos,200,,Consulta de pedido 1-145,text,true,,861,393,147,147,http://localhost:8080/api/pedidos/1,7473,0,0
+1754325370334,10550,300 acessos,200,,Consulta de pedido 1-95,text,true,,861,393,146,146,http://localhost:8080/api/pedidos/1,10537,0,0
+1754325373410,7495,300 acessos,200,,Consulta de pedido 1-146,text,true,,861,393,145,145,http://localhost:8080/api/pedidos/1,7493,0,0
+1754325377576,3362,300 acessos,200,,Consulta de pedido 1-234,text,true,,861,393,144,144,http://localhost:8080/api/pedidos/1,3356,0,0
+1754325377707,3236,300 acessos,200,,Consulta de pedido 1-143,text,true,,861,393,143,143,http://localhost:8080/api/pedidos/1,3236,0,0
+1754325374631,6410,login,200,,Consulta de pedido 1-299,text,true,,635,246,142,142,http://localhost:8080/api/auth/login,6410,0,0
+1754325378088,2957,300 acessos,200,,Consulta de pedido 1-246,text,true,,861,393,142,142,http://localhost:8080/api/pedidos/1,2945,0,0
+1754325370528,10520,300 acessos,200,,Consulta de pedido 1-99,text,true,,861,393,141,141,http://localhost:8080/api/pedidos/1,10518,0,0
+1754325373576,7485,300 acessos,200,,Consulta de pedido 1-150,text,true,,861,393,140,140,http://localhost:8080/api/pedidos/1,7483,0,0
+1754325374598,6475,login,200,,Consulta de pedido 1-298,text,true,,635,246,139,139,http://localhost:8080/api/auth/login,6475,0,0
+1754325373579,7498,300 acessos,200,,Consulta de pedido 1-148,text,true,,861,393,139,139,http://localhost:8080/api/pedidos/1,7495,0,0
+1754325378400,2733,300 acessos,200,,Consulta de pedido 1-149,text,true,,861,393,138,138,http://localhost:8080/api/pedidos/1,2731,0,0
+1754325373684,7452,300 acessos,200,,Consulta de pedido 1-153,text,true,,861,393,137,137,http://localhost:8080/api/pedidos/1,7451,0,0
+1754325378591,2565,300 acessos,200,,Consulta de pedido 1-253,text,true,,861,393,136,136,http://localhost:8080/api/pedidos/1,2565,0,0
+1754325373619,7538,300 acessos,200,,Consulta de pedido 1-151,text,true,,861,393,136,136,http://localhost:8080/api/pedidos/1,7507,0,0
+1754325374560,6602,300 acessos,200,,Consulta de pedido 1-174,text,true,,861,393,134,134,http://localhost:8080/api/pedidos/1,6597,0,0
+1754325374664,6508,login,200,,Consulta de pedido 1-300,text,true,,635,246,133,133,http://localhost:8080/api/auth/login,6508,0,1
+1754325378468,2720,300 acessos,200,,Consulta de pedido 1-251,text,true,,861,393,133,133,http://localhost:8080/api/pedidos/1,2715,0,0
+1754325370923,10267,300 acessos,200,,Consulta de pedido 1-104,text,true,,861,393,132,132,http://localhost:8080/api/pedidos/1,10266,0,0
+1754325370926,10266,300 acessos,200,,Consulta de pedido 1-105,text,true,,861,393,131,131,http://localhost:8080/api/pedidos/1,10266,0,0
+1754325378543,2651,300 acessos,200,,Consulta de pedido 1-252,text,true,,861,393,130,130,http://localhost:8080/api/pedidos/1,2648,0,0
+1754325378168,3038,300 acessos,200,,Consulta de pedido 1-248,text,true,,861,393,129,129,http://localhost:8080/api/pedidos/1,3032,0,0
+1754325373955,7260,300 acessos,200,,Consulta de pedido 1-256,text,true,,861,393,128,128,http://localhost:8080/api/pedidos/1,7255,0,0
+1754325372221,9017,login,200,,Consulta de pedido 1-226,text,true,,635,246,127,127,http://localhost:8080/api/auth/login,9017,0,1
+1754325379269,1971,300 acessos,200,,Consulta de pedido 1-264,text,true,,861,393,127,127,http://localhost:8080/api/pedidos/1,1954,0,0
+1754325373911,7338,300 acessos,200,,Consulta de pedido 1-158,text,true,,861,393,126,126,http://localhost:8080/api/pedidos/1,7337,0,0
+1754325374029,7221,300 acessos,200,,Consulta de pedido 1-155,text,true,,861,393,125,125,http://localhost:8080/api/pedidos/1,7221,0,0
+1754325379473,1784,300 acessos,200,,Consulta de pedido 1-268,text,true,,861,393,124,124,http://localhost:8080/api/pedidos/1,1775,0,0
+1754325373988,7281,300 acessos,200,,Consulta de pedido 1-157,text,true,,861,393,123,123,http://localhost:8080/api/pedidos/1,7270,0,0
+1754325372191,9078,login,200,,Consulta de pedido 1-225,text,true,,635,246,122,122,http://localhost:8080/api/auth/login,9078,0,1
+1754325371484,9797,300 acessos,200,,Consulta de pedido 1-115,text,true,,861,393,122,122,http://localhost:8080/api/pedidos/1,9797,0,0
+1754325379638,1657,300 acessos,200,,Consulta de pedido 1-271,text,true,,861,393,121,121,http://localhost:8080/api/pedidos/1,1631,0,0
+1754325379506,1810,300 acessos,200,,Consulta de pedido 1-269,text,true,,861,393,120,120,http://localhost:8080/api/pedidos/1,1810,0,0
+1754325379932,1385,300 acessos,200,,Consulta de pedido 1-278,text,true,,861,393,119,119,http://localhost:8080/api/pedidos/1,1385,0,0
+1754325379318,2000,300 acessos,200,,Consulta de pedido 1-266,text,true,,861,393,118,118,http://localhost:8080/api/pedidos/1,1995,0,0
+1754325374389,6942,300 acessos,200,,Consulta de pedido 1-167,text,true,,861,393,117,117,http://localhost:8080/api/pedidos/1,6942,0,0
+1754325375861,5486,300 acessos,200,,Consulta de pedido 1-197,text,true,,861,393,116,116,http://localhost:8080/api/pedidos/1,5483,0,0
+1754325371584,9768,300 acessos,200,,Consulta de pedido 1-120,text,true,,861,393,115,115,http://localhost:8080/api/pedidos/1,9768,0,0
+1754325374335,7026,300 acessos,200,,Consulta de pedido 1-164,text,true,,861,393,114,114,http://localhost:8080/api/pedidos/1,7013,0,0
+1754325374399,6965,300 acessos,200,,Consulta de pedido 1-165,text,true,,861,393,113,113,http://localhost:8080/api/pedidos/1,6932,0,0
+1754325374574,6792,300 acessos,200,,Consulta de pedido 1-166,text,true,,861,393,112,112,http://localhost:8080/api/pedidos/1,6786,0,0
+1754325374539,6835,300 acessos,200,,Consulta de pedido 1-168,text,true,,861,393,111,111,http://localhost:8080/api/pedidos/1,6835,0,0
+1754325380202,1177,300 acessos,200,,Consulta de pedido 1-284,text,true,,861,393,110,110,http://localhost:8080/api/pedidos/1,1176,0,0
+1754325374531,6852,300 acessos,200,,Consulta de pedido 1-169,text,true,,861,393,109,109,http://localhost:8080/api/pedidos/1,6845,0,0
+1754325376367,5038,300 acessos,200,,Consulta de pedido 1-204,text,true,,861,393,108,108,http://localhost:8080/api/pedidos/1,5010,0,0
+1754325380053,1353,300 acessos,200,,Consulta de pedido 1-282,text,true,,861,393,107,107,http://localhost:8080/api/pedidos/1,1350,0,0
+1754325374870,6540,300 acessos,200,,Consulta de pedido 1-175,text,true,,861,393,106,106,http://localhost:8080/api/pedidos/1,6540,0,0
+1754325380281,1131,300 acessos,200,,Consulta de pedido 1-286,text,true,,861,393,105,105,http://localhost:8080/api/pedidos/1,1126,0,0
+1754325374916,6499,300 acessos,200,,Consulta de pedido 1-177,text,true,,861,393,104,104,http://localhost:8080/api/pedidos/1,6494,0,0
+1754325375143,6282,300 acessos,200,,Consulta de pedido 1-181,text,true,,861,393,103,103,http://localhost:8080/api/pedidos/1,6282,0,0
+1754325375094,6333,300 acessos,200,,Consulta de pedido 1-178,text,true,,861,393,102,102,http://localhost:8080/api/pedidos/1,6333,0,0
+1754325375008,6422,300 acessos,200,,Consulta de pedido 1-270,text,true,,861,393,101,101,http://localhost:8080/api/pedidos/1,6417,0,0
+1754325375222,6211,300 acessos,200,,Consulta de pedido 1-184,text,true,,861,393,100,100,http://localhost:8080/api/pedidos/1,6211,0,0
+1754325380259,1174,300 acessos,200,,Consulta de pedido 1-287,text,true,,861,393,100,100,http://localhost:8080/api/pedidos/1,1166,0,0
+1754325380449,997,300 acessos,200,,Consulta de pedido 1-295,text,true,,861,393,98,98,http://localhost:8080/api/pedidos/1,997,0,0
+1754325375452,6000,300 acessos,200,,Consulta de pedido 1-187,text,true,,861,393,97,97,http://localhost:8080/api/pedidos/1,6000,0,0
+1754325372348,9104,300 acessos,200,,Consulta de pedido 1-130,text,true,,861,393,97,97,http://localhost:8080/api/pedidos/1,9104,0,0
+1754325375424,6033,300 acessos,200,,Consulta de pedido 1-186,text,true,,861,393,95,95,http://localhost:8080/api/pedidos/1,6009,0,0
+1754325373310,8146,login,200,,Consulta de pedido 1-259,text,true,,635,246,95,95,http://localhost:8080/api/auth/login,8146,0,0
+1754325375635,5833,300 acessos,200,,Consulta de pedido 1-189,text,true,,861,393,94,94,http://localhost:8080/api/pedidos/1,5833,0,0
+1754325375495,5974,300 acessos,200,,Consulta de pedido 1-188,text,true,,861,393,93,93,http://localhost:8080/api/pedidos/1,5973,0,0
+1754325375652,5826,300 acessos,200,,Consulta de pedido 1-194,text,true,,861,393,92,92,http://localhost:8080/api/pedidos/1,5816,0,0
+1754325375870,5608,300 acessos,200,,Consulta de pedido 1-196,text,true,,861,393,92,92,http://localhost:8080/api/pedidos/1,5608,0,0
+1754325372506,8972,300 acessos,200,,Consulta de pedido 1-216,text,true,,861,393,92,92,http://localhost:8080/api/pedidos/1,8962,0,0
+1754325375698,5780,300 acessos,200,,Consulta de pedido 1-192,text,true,,861,393,92,92,http://localhost:8080/api/pedidos/1,5771,0,0
+1754325376231,5249,300 acessos,200,,Consulta de pedido 1-203,text,true,,861,393,88,88,http://localhost:8080/api/pedidos/1,5249,0,0
+1754325372727,8765,300 acessos,200,,Consulta de pedido 1-136,text,true,,861,393,87,87,http://localhost:8080/api/pedidos/1,8751,0,0
+1754325376063,5429,300 acessos,200,,Consulta de pedido 1-199,text,true,,861,393,86,86,http://localhost:8080/api/pedidos/1,5429,0,0
+1754325369918,11574,login,200,,Consulta de pedido 1-156,text,true,,635,246,87,87,http://localhost:8080/api/auth/login,11574,0,1
+1754325375842,5651,300 acessos,200,,Consulta de pedido 1-195,text,true,,861,393,85,85,http://localhost:8080/api/pedidos/1,5651,0,0
+1754325372710,8784,300 acessos,200,,Consulta de pedido 1-135,text,true,,861,393,85,85,http://localhost:8080/api/pedidos/1,8784,0,0
+1754325376203,5291,300 acessos,200,,Consulta de pedido 1-202,text,true,,861,393,83,83,http://localhost:8080/api/pedidos/1,5291,0,0
+1754325376377,5120,300 acessos,200,,Consulta de pedido 1-292,text,true,,861,393,82,82,http://localhost:8080/api/pedidos/1,5120,0,0
+1754325376540,4992,300 acessos,200,,Consulta de pedido 1-208,text,true,,861,393,81,81,http://localhost:8080/api/pedidos/1,4992,0,0
+1754325376666,4866,300 acessos,200,,Consulta de pedido 1-211,text,true,,861,393,81,81,http://localhost:8080/api/pedidos/1,4866,0,0
+1754325377682,3851,300 acessos,200,,Consulta de pedido 1-236,text,true,,861,393,81,81,http://localhost:8080/api/pedidos/1,3851,0,0
+1754325377336,4198,300 acessos,200,,Consulta de pedido 1-227,text,true,,861,393,78,78,http://localhost:8080/api/pedidos/1,4196,0,0
+1754325377010,4525,300 acessos,200,,Consulta de pedido 1-218,text,true,,861,393,77,77,http://localhost:8080/api/pedidos/1,4525,0,0
+1754325373152,8383,login,200,,Consulta de pedido 1-254,text,true,,635,246,77,77,http://localhost:8080/api/auth/login,8383,0,0
+1754325377427,4109,300 acessos,200,,Consulta de pedido 1-231,text,true,,861,393,76,76,http://localhost:8080/api/pedidos/1,4109,0,0
+1754325376325,5211,300 acessos,200,,Consulta de pedido 1-205,text,true,,861,393,76,76,http://localhost:8080/api/pedidos/1,5167,0,0
+1754325377345,4192,300 acessos,200,,Consulta de pedido 1-229,text,true,,861,393,74,74,http://localhost:8080/api/pedidos/1,4151,0,0
+1754325377146,4393,300 acessos,200,,Consulta de pedido 1-223,text,true,,861,393,73,73,http://localhost:8080/api/pedidos/1,4386,0,0
+1754325377176,4363,300 acessos,200,,Consulta de pedido 1-220,text,true,,861,393,72,72,http://localhost:8080/api/pedidos/1,4363,0,0
+1754325376688,4860,300 acessos,200,,Consulta de pedido 1-212,text,true,,861,393,71,71,http://localhost:8080/api/pedidos/1,4846,0,0
+1754325381457,93,300 acessos,200,,Consulta de pedido 1-259,text,true,,861,393,70,70,http://localhost:8080/api/pedidos/1,93,0,0
+1754325376906,4655,300 acessos,200,,Consulta de pedido 1-213,text,true,,861,393,69,69,http://localhost:8080/api/pedidos/1,4655,0,0
+1754325373388,8173,300 acessos,200,,Consulta de pedido 1-240,text,true,,861,393,69,69,http://localhost:8080/api/pedidos/1,8173,0,0
+1754325377234,4330,300 acessos,200,,Consulta de pedido 1-221,text,true,,861,393,67,67,http://localhost:8080/api/pedidos/1,4304,0,0
+1754325377379,4187,300 acessos,200,,Consulta de pedido 1-230,text,true,,861,393,66,66,http://localhost:8080/api/pedidos/1,4187,0,0
+1754325376679,4887,300 acessos,200,,Consulta de pedido 1-209,text,true,,861,393,66,66,http://localhost:8080/api/pedidos/1,4886,0,0
+1754325378272,3295,300 acessos,200,,Consulta de pedido 1-247,text,true,,861,393,64,64,http://localhost:8080/api/pedidos/1,3295,0,0
+1754325377601,3989,300 acessos,200,,Consulta de pedido 1-235,text,true,,861,393,63,63,http://localhost:8080/api/pedidos/1,3963,0,0
+1754325377046,4545,300 acessos,200,,Consulta de pedido 1-217,text,true,,861,393,62,62,http://localhost:8080/api/pedidos/1,4513,0,0
+1754325377784,3813,300 acessos,200,,Consulta de pedido 1-239,text,true,,861,393,61,61,http://localhost:8080/api/pedidos/1,3808,0,0
+1754325373245,8352,login,200,,Consulta de pedido 1-257,text,true,,635,246,61,61,http://localhost:8080/api/auth/login,8352,0,0
+1754325381493,104,300 acessos,200,,Consulta de pedido 1-156,text,true,,861,393,61,61,http://localhost:8080/api/pedidos/1,104,0,0
+1754325377949,3649,300 acessos,200,,Consulta de pedido 1-242,text,true,,861,393,60,60,http://localhost:8080/api/pedidos/1,3640,0,0
+1754325377868,3755,300 acessos,200,,Consulta de pedido 1-241,text,true,,861,393,58,58,http://localhost:8080/api/pedidos/1,3755,0,0
+1754325378155,3468,300 acessos,200,,Consulta de pedido 1-249,text,true,,861,393,58,58,http://localhost:8080/api/pedidos/1,3462,0,0
+1754325373525,8100,300 acessos,200,,Consulta de pedido 1-152,text,true,,861,393,56,56,http://localhost:8080/api/pedidos/1,8100,0,0
+1754325377815,3810,300 acessos,200,,Consulta de pedido 1-237,text,true,,861,393,56,56,http://localhost:8080/api/pedidos/1,3810,0,0
+1754325378872,2764,300 acessos,200,,Consulta de pedido 1-260,text,true,,861,393,54,54,http://localhost:8080/api/pedidos/1,2753,0,0
+1754325378415,3221,300 acessos,200,,Consulta de pedido 1-250,text,true,,861,393,53,53,http://localhost:8080/api/pedidos/1,3221,0,0
+1754325379203,2451,300 acessos,200,,Consulta de pedido 1-265,text,true,,861,393,52,52,http://localhost:8080/api/pedidos/1,2441,0,0
+1754325378074,3580,300 acessos,200,,Consulta de pedido 1-243,text,true,,861,393,52,52,http://localhost:8080/api/pedidos/1,3550,0,0
+1754325379269,2394,300 acessos,200,,Consulta de pedido 1-171,text,true,,861,393,50,50,http://localhost:8080/api/pedidos/1,2393,0,0
+1754325378671,2994,300 acessos,200,,Consulta de pedido 1-162,text,true,,861,393,49,49,http://localhost:8080/api/pedidos/1,2955,0,0
+1754325377651,4025,300 acessos,200,,Consulta de pedido 1-238,text,true,,861,393,48,48,http://localhost:8080/api/pedidos/1,3984,0,0
+1754325378029,3647,300 acessos,200,,Consulta de pedido 1-244,text,true,,861,393,47,47,http://localhost:8080/api/pedidos/1,3615,0,0
+1754325370946,10734,300 acessos,200,,Consulta de pedido 1-68,text,true,,861,393,46,46,http://localhost:8080/api/pedidos/1,10734,0,0
+1754325381042,638,300 acessos,200,,Consulta de pedido 1-299,text,true,,861,393,45,45,http://localhost:8080/api/pedidos/1,638,0,0
+1754325378642,3039,300 acessos,200,,Consulta de pedido 1-258,text,true,,861,393,44,44,http://localhost:8080/api/pedidos/1,3025,0,0
+1754325379112,2570,300 acessos,200,,Consulta de pedido 1-263,text,true,,861,393,44,44,http://localhost:8080/api/pedidos/1,2566,0,0
+1754325378745,2937,300 acessos,200,,Consulta de pedido 1-255,text,true,,861,393,42,42,http://localhost:8080/api/pedidos/1,2937,0,0
+1754325378685,2998,300 acessos,200,,Consulta de pedido 1-159,text,true,,861,393,41,41,http://localhost:8080/api/pedidos/1,2998,0,0
+1754325379745,1946,300 acessos,200,,Consulta de pedido 1-272,text,true,,861,393,40,40,http://localhost:8080/api/pedidos/1,1946,0,0
+1754325374620,7074,300 acessos,200,,Consulta de pedido 1-173,text,true,,861,393,39,39,http://localhost:8080/api/pedidos/1,7074,0,0
+1754325381239,456,300 acessos,200,,Consulta de pedido 1-226,text,true,,861,393,38,38,http://localhost:8080/api/pedidos/1,444,0,0
+1754325379402,2294,300 acessos,200,,Consulta de pedido 1-179,text,true,,861,393,37,37,http://localhost:8080/api/pedidos/1,2289,0,0
+1754325381173,526,300 acessos,200,,Consulta de pedido 1-300,text,true,,861,393,36,36,http://localhost:8080/api/pedidos/1,520,0,0
+1754325379760,1947,300 acessos,200,,Consulta de pedido 1-275,text,true,,861,393,35,35,http://localhost:8080/api/pedidos/1,1947,0,0
+1754325376652,5079,300 acessos,200,,Consulta de pedido 1-210,text,true,,861,393,34,34,http://localhost:8080/api/pedidos/1,5055,0,0
+1754325380270,1480,300 acessos,200,,Consulta de pedido 1-285,text,true,,861,393,33,33,http://localhost:8080/api/pedidos/1,1480,0,0
+1754325374650,7101,300 acessos,200,,Consulta de pedido 1-172,text,true,,861,393,32,32,http://localhost:8080/api/pedidos/1,7081,0,0
+1754325379996,1757,300 acessos,200,,Consulta de pedido 1-281,text,true,,861,393,31,31,http://localhost:8080/api/pedidos/1,1757,0,0
+1754325374915,6839,300 acessos,200,,Consulta de pedido 1-109,text,true,,861,393,31,31,http://localhost:8080/api/pedidos/1,6838,0,0
+1754325380311,1443,300 acessos,200,,Consulta de pedido 1-288,text,true,,861,393,30,30,http://localhost:8080/api/pedidos/1,1420,0,0
+1754325376025,5732,300 acessos,200,,Consulta de pedido 1-200,text,true,,861,393,28,28,http://localhost:8080/api/pedidos/1,5726,0,0
+1754325376824,4935,300 acessos,200,,Consulta de pedido 1-215,text,true,,861,393,27,27,http://localhost:8080/api/pedidos/1,4929,0,0
+1754325381270,494,300 acessos,200,,Consulta de pedido 1-225,text,true,,861,393,26,26,http://localhost:8080/api/pedidos/1,467,0,0
+1754325375682,6083,300 acessos,200,,Consulta de pedido 1-193,text,true,,861,393,25,25,http://localhost:8080/api/pedidos/1,6072,0,0
+1754325380450,1332,300 acessos,200,,Consulta de pedido 1-290,text,true,,861,393,24,24,http://localhost:8080/api/pedidos/1,1313,0,0
+1754325380811,971,300 acessos,200,,Consulta de pedido 1-297,text,true,,861,393,24,24,http://localhost:8080/api/pedidos/1,971,0,0
+1754325376074,5710,300 acessos,200,,Consulta de pedido 1-289,text,true,,861,393,22,22,http://localhost:8080/api/pedidos/1,5710,0,0
+1754325379878,1906,300 acessos,200,,Consulta de pedido 1-276,text,true,,861,393,22,22,http://localhost:8080/api/pedidos/1,1886,0,0
+1754325377988,3796,300 acessos,200,,Consulta de pedido 1-245,text,true,,861,393,21,21,http://localhost:8080/api/pedidos/1,3796,0,0
+1754325374119,7667,300 acessos,200,,Consulta de pedido 1-163,text,true,,861,393,19,19,http://localhost:8080/api/pedidos/1,7667,0,0
+1754325377030,4756,300 acessos,200,,Consulta de pedido 1-219,text,true,,861,393,19,19,http://localhost:8080/api/pedidos/1,4756,0,0
+1754325374103,7684,300 acessos,200,,Consulta de pedido 1-160,text,true,,861,393,17,17,http://localhost:8080/api/pedidos/1,7684,0,0
+1754325378974,2825,300 acessos,200,,Consulta de pedido 1-261,text,true,,861,393,16,16,http://localhost:8080/api/pedidos/1,2825,0,0
+1754325379327,2473,300 acessos,200,,Consulta de pedido 1-267,text,true,,861,393,15,15,http://localhost:8080/api/pedidos/1,2473,0,0
+1754325373193,8608,300 acessos,200,,Consulta de pedido 1-142,text,true,,861,393,14,14,http://localhost:8080/api/pedidos/1,8607,0,0
+1754325381073,728,300 acessos,200,,Consulta de pedido 1-298,text,true,,861,393,14,14,http://localhost:8080/api/pedidos/1,713,0,0
+1754325379966,1837,300 acessos,200,,Consulta de pedido 1-279,text,true,,861,393,12,12,http://localhost:8080/api/pedidos/1,1837,0,0
+1754325381535,288,300 acessos,200,,Consulta de pedido 1-254,text,true,,861,393,11,11,http://localhost:8080/api/pedidos/1,267,0,0
+1754325380676,1148,300 acessos,200,,Consulta de pedido 1-296,text,true,,861,393,10,10,http://localhost:8080/api/pedidos/1,1148,0,0
+1754325380449,1375,300 acessos,200,,Consulta de pedido 1-293,text,true,,861,393,10,10,http://localhost:8080/api/pedidos/1,1375,0,0
+1754325379846,1979,300 acessos,200,,Consulta de pedido 1-273,text,true,,861,393,9,9,http://localhost:8080/api/pedidos/1,1965,0,0
+1754325380492,1337,300 acessos,200,,Consulta de pedido 1-294,text,true,,861,393,7,7,http://localhost:8080/api/pedidos/1,1336,0,0
+1754325378974,2858,300 acessos,200,,Consulta de pedido 1-262,text,true,,861,393,6,6,http://localhost:8080/api/pedidos/1,2850,0,0
+1754325379799,2034,300 acessos,200,,Consulta de pedido 1-274,text,true,,861,393,5,5,http://localhost:8080/api/pedidos/1,2029,0,0
+1754325379042,2791,300 acessos,200,,Consulta de pedido 1-170,text,true,,861,393,5,5,http://localhost:8080/api/pedidos/1,2771,0,0
+1754325381598,239,300 acessos,200,,Consulta de pedido 1-257,text,true,,861,393,3,3,http://localhost:8080/api/pedidos/1,237,0,0
+1754325374104,7768,login,200,,Consulta de pedido 1-283,text,true,,635,246,2,2,http://localhost:8080/api/auth/login,7768,0,0
+1754325374004,7877,login,200,,Consulta de pedido 1-280,text,true,,635,246,2,2,http://localhost:8080/api/auth/login,7877,0,2
+1754325381872,28,300 acessos,200,,Consulta de pedido 1-283,text,true,,861,393,2,2,http://localhost:8080/api/pedidos/1,26,0,0
+1754325381882,35,300 acessos,200,,Consulta de pedido 1-280,text,true,,861,393,1,1,http://localhost:8080/api/pedidos/1,34,0,0

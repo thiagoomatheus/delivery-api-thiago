@@ -1,0 +1,1001 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1754324926817,386,login,200,,Listagem de restaurantes 1-1,text,true,,635,246,20,20,http://localhost:8080/api/auth/login,386,0,1
+1754324926838,466,login,200,,Listagem de restaurantes 1-2,text,true,,635,246,25,25,http://localhost:8080/api/auth/login,465,0,1
+1754324926877,481,login,200,,Listagem de restaurantes 1-4,text,true,,635,246,28,28,http://localhost:8080/api/auth/login,481,0,0
+1754324926897,496,login,200,,Listagem de restaurantes 1-5,text,true,,635,246,29,29,http://localhost:8080/api/auth/login,496,0,1
+1754324926857,537,login,200,,Listagem de restaurantes 1-3,text,true,,635,246,29,29,http://localhost:8080/api/auth/login,537,0,0
+1754324926917,545,login,200,,Listagem de restaurantes 1-6,text,true,,635,246,33,33,http://localhost:8080/api/auth/login,545,0,2
+1754324926957,540,login,200,,Listagem de restaurantes 1-8,text,true,,635,246,35,35,http://localhost:8080/api/auth/login,540,0,2
+1754324926979,538,login,200,,Listagem de restaurantes 1-9,text,true,,635,246,36,36,http://localhost:8080/api/auth/login,538,0,0
+1754324926939,610,login,200,,Listagem de restaurantes 1-7,text,true,,635,246,37,37,http://localhost:8080/api/auth/login,610,0,1
+1754324926998,593,login,200,,Listagem de restaurantes 1-10,text,true,,635,246,39,39,http://localhost:8080/api/auth/login,593,0,1
+1754324927019,832,login,200,,Listagem de restaurantes 1-11,text,true,,635,246,52,52,http://localhost:8080/api/auth/login,832,0,0
+1754324927040,818,login,200,,Listagem de restaurantes 1-12,text,true,,635,246,53,53,http://localhost:8080/api/auth/login,818,0,2
+1754324927097,790,login,200,,Listagem de restaurantes 1-15,text,true,,635,246,54,54,http://localhost:8080/api/auth/login,790,0,0
+1754324927117,796,login,200,,Listagem de restaurantes 1-16,text,true,,635,246,55,55,http://localhost:8080/api/auth/login,796,0,0
+1754324927147,777,login,200,,Listagem de restaurantes 1-17,text,true,,635,246,56,56,http://localhost:8080/api/auth/login,777,0,5
+1754324927189,785,login,200,,Listagem de restaurantes 1-19,text,true,,635,246,58,58,http://localhost:8080/api/auth/login,785,0,1
+1754324927057,920,login,200,,Listagem de restaurantes 1-13,text,true,,635,246,59,59,http://localhost:8080/api/auth/login,920,0,1
+1754324927163,829,login,200,,Listagem de restaurantes 1-18,text,true,,635,246,59,59,http://localhost:8080/api/auth/login,829,0,1
+1754324927087,941,login,200,,Listagem de restaurantes 1-14,text,true,,635,246,61,61,http://localhost:8080/api/auth/login,941,0,5
+1754324927464,655,login,200,,Listagem de restaurantes 1-33,text,true,,635,246,65,65,http://localhost:8080/api/auth/login,655,0,1
+1754324927537,824,login,200,,Listagem de restaurantes 1-37,text,true,,635,246,78,78,http://localhost:8080/api/auth/login,824,0,0
+1754324927280,1135,login,200,,Listagem de restaurantes 1-24,text,true,,635,246,80,80,http://localhost:8080/api/auth/login,1135,0,0
+1754324927298,1127,login,200,,Listagem de restaurantes 1-25,text,true,,635,246,81,81,http://localhost:8080/api/auth/login,1127,0,6
+1754324927797,660,login,200,,Listagem de restaurantes 1-50,text,true,,635,246,82,82,http://localhost:8080/api/auth/login,660,0,1
+1754324927262,1205,login,200,,Listagem de restaurantes 1-23,text,true,,635,246,83,83,http://localhost:8080/api/auth/login,1205,0,1
+1754324927557,924,login,200,,Listagem de restaurantes 1-38,text,true,,635,246,84,84,http://localhost:8080/api/auth/login,924,0,2
+1754324927500,996,login,200,,Listagem de restaurantes 1-35,text,true,,635,246,84,84,http://localhost:8080/api/auth/login,996,0,0
+1754324927201,1299,login,200,,Listagem de restaurantes 1-20,text,true,,635,246,85,85,http://localhost:8080/api/auth/login,1299,0,1
+1754324927517,1040,login,200,,Listagem de restaurantes 1-36,text,true,,635,246,88,88,http://localhost:8080/api/auth/login,1040,0,1
+1754324927226,1394,login,200,,Listagem de restaurantes 1-21,text,true,,635,246,91,91,http://localhost:8080/api/auth/login,1394,0,0
+1754324927399,1486,login,200,,Listagem de restaurantes 1-30,text,true,,635,246,104,104,http://localhost:8080/api/auth/login,1486,0,2
+1754324927477,1414,login,200,,Listagem de restaurantes 1-34,text,true,,635,246,104,104,http://localhost:8080/api/auth/login,1414,0,0
+1754324927357,1538,login,200,,Listagem de restaurantes 1-28,text,true,,635,246,104,104,http://localhost:8080/api/auth/login,1538,0,0
+1754324927417,1506,login,200,,Listagem de restaurantes 1-31,text,true,,635,246,106,106,http://localhost:8080/api/auth/login,1506,0,1
+1754324927549,1379,500 acessos,200,,Listagem de restaurantes 1-7,text,true,,2872,396,106,106,http://localhost:8080/api/restaurantes,1351,0,0
+1754324927578,1352,login,200,,Listagem de restaurantes 1-39,text,true,,635,246,105,105,http://localhost:8080/api/auth/login,1352,0,0
+1754324927379,1599,login,200,,Listagem de restaurantes 1-29,text,true,,635,246,107,107,http://localhost:8080/api/auth/login,1599,0,1
+1754324927437,1629,login,200,,Listagem de restaurantes 1-32,text,true,,635,246,112,112,http://localhost:8080/api/auth/login,1629,0,1
+1754324927618,1449,login,200,,Listagem de restaurantes 1-41,text,true,,635,246,112,112,http://localhost:8080/api/auth/login,1449,0,4
+1754324927639,1518,login,200,,Listagem de restaurantes 1-42,text,true,,635,246,117,117,http://localhost:8080/api/auth/login,1518,0,1
+1754324927700,1643,login,200,,Listagem de restaurantes 1-45,text,true,,635,246,126,126,http://localhost:8080/api/auth/login,1643,0,1
+1754324928858,490,login,200,,Listagem de restaurantes 1-103,text,true,,635,246,126,126,http://localhost:8080/api/auth/login,490,0,1
+1754324927339,2032,login,200,,Listagem de restaurantes 1-27,text,true,,635,246,127,127,http://localhost:8080/api/auth/login,2032,0,0
+1754324927323,2078,login,200,,Listagem de restaurantes 1-26,text,true,,635,246,129,129,http://localhost:8080/api/auth/login,2078,0,4
+1754324927677,1758,login,200,,Listagem de restaurantes 1-44,text,true,,635,246,130,130,http://localhost:8080/api/auth/login,1758,0,1
+1754324927597,1843,login,200,,Listagem de restaurantes 1-40,text,true,,635,246,131,131,http://localhost:8080/api/auth/login,1843,0,0
+1754324927719,1761,login,200,,Listagem de restaurantes 1-46,text,true,,635,246,133,133,http://localhost:8080/api/auth/login,1761,0,1
+1754324927659,1834,login,200,,Listagem de restaurantes 1-43,text,true,,635,246,133,133,http://localhost:8080/api/auth/login,1834,0,0
+1754324927737,1912,login,200,,Listagem de restaurantes 1-47,text,true,,635,246,141,141,http://localhost:8080/api/auth/login,1912,0,0
+1754324927757,1942,login,200,,Listagem de restaurantes 1-48,text,true,,635,246,144,144,http://localhost:8080/api/auth/login,1942,0,1
+1754324927837,1968,login,200,,Listagem de restaurantes 1-52,text,true,,635,246,149,149,http://localhost:8080/api/auth/login,1968,0,0
+1754324927821,1984,login,200,,Listagem de restaurantes 1-51,text,true,,635,246,149,149,http://localhost:8080/api/auth/login,1984,0,0
+1754324927777,2079,login,200,,Listagem de restaurantes 1-49,text,true,,635,246,151,151,http://localhost:8080/api/auth/login,2079,0,0
+1754324927204,2652,500 acessos,200,,Listagem de restaurantes 1-1,text,true,,2872,396,151,151,http://localhost:8080/api/restaurantes,2637,0,0
+1754324927238,2648,login,200,,Listagem de restaurantes 1-22,text,true,,635,246,152,152,http://localhost:8080/api/auth/login,2648,0,0
+1754324927878,2047,login,200,,Listagem de restaurantes 1-54,text,true,,635,246,154,154,http://localhost:8080/api/auth/login,2047,0,1
+1754324927856,2093,login,200,,Listagem de restaurantes 1-53,text,true,,635,246,155,155,http://localhost:8080/api/auth/login,2093,0,1
+1754324927897,2052,login,200,,Listagem de restaurantes 1-55,text,true,,635,246,155,155,http://localhost:8080/api/auth/login,2052,0,2
+1754324927918,2165,login,200,,Listagem de restaurantes 1-56,text,true,,635,246,162,162,http://localhost:8080/api/auth/login,2165,0,0
+1754324927937,2331,login,200,,Listagem de restaurantes 1-57,text,true,,635,246,171,171,http://localhost:8080/api/auth/login,2330,0,1
+1754324927957,2321,login,200,,Listagem de restaurantes 1-58,text,true,,635,246,171,171,http://localhost:8080/api/auth/login,2321,0,1
+1754324927977,2454,login,200,,Listagem de restaurantes 1-59,text,true,,635,246,179,179,http://localhost:8080/api/auth/login,2454,0,1
+1754324927996,2476,login,200,,Listagem de restaurantes 1-60,text,true,,635,246,181,181,http://localhost:8080/api/auth/login,2476,0,1
+1754324928097,2378,login,200,,Listagem de restaurantes 1-65,text,true,,635,246,181,181,http://localhost:8080/api/auth/login,2378,0,1
+1754324928020,2497,login,200,,Listagem de restaurantes 1-61,text,true,,635,246,183,183,http://localhost:8080/api/auth/login,2497,0,2
+1754324928038,2497,login,200,,Listagem de restaurantes 1-62,text,true,,635,246,184,184,http://localhost:8080/api/auth/login,2497,0,0
+1754324928058,2488,login,200,,Listagem de restaurantes 1-63,text,true,,635,246,185,185,http://localhost:8080/api/auth/login,2488,0,0
+1754324928079,2517,login,200,,Listagem de restaurantes 1-64,text,true,,635,246,187,187,http://localhost:8080/api/auth/login,2517,0,0
+1754324928119,2555,login,200,,Listagem de restaurantes 1-66,text,true,,635,246,191,191,http://localhost:8080/api/auth/login,2554,0,1
+1754324928158,2573,login,200,,Listagem de restaurantes 1-68,text,true,,635,246,194,194,http://localhost:8080/api/auth/login,2573,0,0
+1754324928140,2610,login,200,,Listagem de restaurantes 1-67,text,true,,635,246,195,195,http://localhost:8080/api/auth/login,2610,0,0
+1754324927498,3338,500 acessos,200,,Listagem de restaurantes 1-8,text,true,,2872,396,199,199,http://localhost:8080/api/restaurantes,3322,0,0
+1754324928177,2706,login,200,,Listagem de restaurantes 1-69,text,true,,635,246,201,201,http://localhost:8080/api/auth/login,2706,0,1
+1754324927466,3430,500 acessos,200,,Listagem de restaurantes 1-6,text,true,,2872,396,201,201,http://localhost:8080/api/restaurantes,3430,0,0
+1754324928198,2725,login,200,,Listagem de restaurantes 1-70,text,true,,635,246,202,202,http://localhost:8080/api/auth/login,2725,0,0
+1754324928244,2732,login,200,,Listagem de restaurantes 1-72,text,true,,635,246,204,204,http://localhost:8080/api/auth/login,2732,0,1
+1754324928278,2711,login,200,,Listagem de restaurantes 1-74,text,true,,635,246,205,205,http://localhost:8080/api/auth/login,2710,0,0
+1754324928265,2727,login,200,,Listagem de restaurantes 1-73,text,true,,635,246,205,205,http://localhost:8080/api/auth/login,2727,0,1
+1754324927592,3433,500 acessos,200,,Listagem de restaurantes 1-10,text,true,,2872,396,207,207,http://localhost:8080/api/restaurantes,3428,0,0
+1754324928216,2824,login,200,,Listagem de restaurantes 1-71,text,true,,635,246,207,207,http://localhost:8080/api/auth/login,2824,0,1
+1754324928298,2793,login,200,,Listagem de restaurantes 1-75,text,true,,635,246,209,209,http://localhost:8080/api/auth/login,2793,0,2
+1754324928361,2862,login,200,,Listagem de restaurantes 1-78,text,true,,635,246,216,216,http://localhost:8080/api/auth/login,2862,0,1
+1754324928320,2982,login,200,,Listagem de restaurantes 1-76,text,true,,635,246,220,220,http://localhost:8080/api/auth/login,2982,0,0
+1754324928382,3049,login,200,,Listagem de restaurantes 1-79,text,true,,635,246,226,226,http://localhost:8080/api/auth/login,3049,0,1
+1754324928402,3083,login,200,,Listagem de restaurantes 1-80,text,true,,635,246,229,229,http://localhost:8080/api/auth/login,3083,0,1
+1754324928336,3158,login,200,,Listagem de restaurantes 1-77,text,true,,635,246,229,229,http://localhost:8080/api/auth/login,3158,0,2
+1754324928419,3135,login,200,,Listagem de restaurantes 1-81,text,true,,635,246,232,232,http://localhost:8080/api/auth/login,3135,0,0
+1754324928460,3146,login,200,,Listagem de restaurantes 1-83,text,true,,635,246,235,235,http://localhost:8080/api/auth/login,3145,0,1
+1754324927394,4223,500 acessos,200,,Listagem de restaurantes 1-3,text,true,,2872,396,236,236,http://localhost:8080/api/restaurantes,4215,0,0
+1754324930939,690,login,200,,Listagem de restaurantes 1-207,text,true,,635,246,235,235,http://localhost:8080/api/auth/login,690,0,1
+1754324928479,3165,login,200,,Listagem de restaurantes 1-84,text,true,,635,246,236,236,http://localhost:8080/api/auth/login,3165,0,1
+1754324928441,3225,login,200,,Listagem de restaurantes 1-82,text,true,,635,246,237,237,http://localhost:8080/api/auth/login,3225,0,1
+1754324928498,3324,login,200,,Listagem de restaurantes 1-85,text,true,,635,246,245,245,http://localhost:8080/api/auth/login,3324,0,1
+1754324928518,3343,login,200,,Listagem de restaurantes 1-86,text,true,,635,246,247,247,http://localhost:8080/api/auth/login,3343,0,0
+1754324928558,3358,login,200,,Listagem de restaurantes 1-88,text,true,,635,246,249,249,http://localhost:8080/api/auth/login,3358,0,0
+1754324928597,3435,login,200,,Listagem de restaurantes 1-90,text,true,,635,246,255,255,http://localhost:8080/api/auth/login,3435,0,1
+1754324928537,3511,login,200,,Listagem de restaurantes 1-87,text,true,,635,246,256,256,http://localhost:8080/api/auth/login,3511,0,1
+1754324928618,3493,login,200,,Listagem de restaurantes 1-91,text,true,,635,246,259,259,http://localhost:8080/api/auth/login,3493,0,1
+1754324928638,3477,login,200,,Listagem de restaurantes 1-92,text,true,,635,246,259,259,http://localhost:8080/api/auth/login,3477,0,0
+1754324928658,3479,login,200,,Listagem de restaurantes 1-93,text,true,,635,246,260,260,http://localhost:8080/api/auth/login,3479,0,1
+1754324928578,3562,login,200,,Listagem de restaurantes 1-89,text,true,,635,246,261,261,http://localhost:8080/api/auth/login,3562,0,1
+1754324928678,3508,login,200,,Listagem de restaurantes 1-94,text,true,,635,246,263,263,http://localhost:8080/api/auth/login,3508,0,1
+1754324927393,4809,500 acessos,200,,Listagem de restaurantes 1-5,text,true,,2872,396,263,263,http://localhost:8080/api/restaurantes,4806,0,0
+1754324927361,4887,500 acessos,200,,Listagem de restaurantes 1-4,text,true,,2872,396,265,265,http://localhost:8080/api/restaurantes,4872,0,0
+1754324928740,3594,login,200,,Listagem de restaurantes 1-97,text,true,,635,246,268,268,http://localhost:8080/api/auth/login,3594,0,1
+1754324928718,3631,login,200,,Listagem de restaurantes 1-96,text,true,,635,246,269,269,http://localhost:8080/api/auth/login,3631,0,0
+1754324928698,3652,login,200,,Listagem de restaurantes 1-95,text,true,,635,246,269,269,http://localhost:8080/api/auth/login,3652,0,0
+1754324928778,3631,login,200,,Listagem de restaurantes 1-99,text,true,,635,246,272,272,http://localhost:8080/api/auth/login,3631,0,1
+1754324928759,3753,login,200,,Listagem de restaurantes 1-98,text,true,,635,246,277,277,http://localhost:8080/api/auth/login,3753,0,0
+1754324928820,3703,login,200,,Listagem de restaurantes 1-101,text,true,,635,246,278,278,http://localhost:8080/api/auth/login,3703,0,1
+1754324931241,1317,login,200,,Listagem de restaurantes 1-222,text,true,,635,246,279,279,http://localhost:8080/api/auth/login,1317,0,0
+1754324928838,3746,login,200,,Listagem de restaurantes 1-102,text,true,,635,246,281,281,http://localhost:8080/api/auth/login,3746,0,0
+1754324928799,3819,login,200,,Listagem de restaurantes 1-100,text,true,,635,246,283,283,http://localhost:8080/api/auth/login,3819,0,0
+1754324928898,3777,login,200,,Listagem de restaurantes 1-105,text,true,,635,246,285,285,http://localhost:8080/api/auth/login,3777,0,0
+1754324928917,3823,login,200,,Listagem de restaurantes 1-106,text,true,,635,246,289,289,http://localhost:8080/api/auth/login,3822,0,1
+1754324928981,3834,login,200,,Listagem de restaurantes 1-109,text,true,,635,246,292,292,http://localhost:8080/api/auth/login,3834,0,0
+1754324931345,1481,login,200,,Listagem de restaurantes 1-227,text,true,,635,246,293,293,http://localhost:8080/api/auth/login,1481,0,1
+1754324928957,3888,login,200,,Listagem de restaurantes 1-108,text,true,,635,246,294,294,http://localhost:8080/api/auth/login,3888,0,1
+1754324929038,3906,login,200,,Listagem de restaurantes 1-112,text,true,,635,246,299,299,http://localhost:8080/api/auth/login,3906,0,1
+1754324928997,3950,login,200,,Listagem de restaurantes 1-110,text,true,,635,246,299,299,http://localhost:8080/api/auth/login,3950,0,1
+1754324929018,3931,login,200,,Listagem de restaurantes 1-111,text,true,,635,246,299,299,http://localhost:8080/api/auth/login,3931,0,1
+1754324929097,3936,login,200,,Listagem de restaurantes 1-115,text,true,,635,246,303,303,http://localhost:8080/api/auth/login,3936,0,1
+1754324929059,4055,login,200,,Listagem de restaurantes 1-113,text,true,,635,246,307,307,http://localhost:8080/api/auth/login,4055,0,1
+1754324931440,1702,login,200,,Listagem de restaurantes 1-232,text,true,,635,246,309,309,http://localhost:8080/api/auth/login,1702,0,1
+1754324929118,4066,login,200,,Listagem de restaurantes 1-116,text,true,,635,246,311,311,http://localhost:8080/api/auth/login,4066,0,1
+1754324929137,4092,login,200,,Listagem de restaurantes 1-117,text,true,,635,246,313,313,http://localhost:8080/api/auth/login,4092,0,1
+1754324931480,1759,login,200,,Listagem de restaurantes 1-234,text,true,,635,246,314,314,http://localhost:8080/api/auth/login,1758,0,1
+1754324929196,4050,login,200,,Listagem de restaurantes 1-120,text,true,,635,246,314,314,http://localhost:8080/api/auth/login,4050,0,1
+1754324929178,4171,login,200,,Listagem de restaurantes 1-119,text,true,,635,246,319,319,http://localhost:8080/api/auth/login,4171,0,0
+1754324929238,4118,login,200,,Listagem de restaurantes 1-122,text,true,,635,246,319,319,http://localhost:8080/api/auth/login,4118,0,1
+1754324929218,4163,login,200,,Listagem de restaurantes 1-121,text,true,,635,246,321,321,http://localhost:8080/api/auth/login,4163,0,0
+1754324929441,3956,500 acessos,200,,Listagem de restaurantes 1-40,text,true,,2872,396,322,322,http://localhost:8080/api/restaurantes,3949,0,0
+1754324927858,5539,500 acessos,200,,Listagem de restaurantes 1-12,text,true,,2872,396,322,322,http://localhost:8080/api/restaurantes,5530,0,0
+1754324929401,4016,500 acessos,200,,Listagem de restaurantes 1-26,text,true,,2872,396,321,321,http://localhost:8080/api/restaurantes,4016,0,0
+1754324929258,4189,login,200,,Listagem de restaurantes 1-123,text,true,,635,246,321,321,http://localhost:8080/api/auth/login,4189,0,0
+1754324927913,5566,500 acessos,200,,Listagem de restaurantes 1-16,text,true,,2872,396,323,323,http://localhost:8080/api/restaurantes,5555,0,0
+1754324927887,5608,500 acessos,200,,Listagem de restaurantes 1-15,text,true,,2872,396,322,322,http://localhost:8080/api/restaurantes,5608,0,0
+1754324929298,4218,login,200,,Listagem de restaurantes 1-125,text,true,,635,246,322,322,http://localhost:8080/api/auth/login,4218,0,0
+1754324929279,4326,login,200,,Listagem de restaurantes 1-124,text,true,,635,246,327,327,http://localhost:8080/api/auth/login,4326,0,0
+1754324927924,5702,500 acessos,200,,Listagem de restaurantes 1-17,text,true,,2872,396,328,328,http://localhost:8080/api/restaurantes,5702,0,0
+1754324929318,4326,login,200,,Listagem de restaurantes 1-126,text,true,,635,246,328,328,http://localhost:8080/api/auth/login,4326,0,0
+1754324929338,4309,login,200,,Listagem de restaurantes 1-127,text,true,,635,246,328,328,http://localhost:8080/api/auth/login,4309,0,0
+1754324929358,4301,login,200,,Listagem de restaurantes 1-128,text,true,,635,246,329,329,http://localhost:8080/api/auth/login,4301,0,1
+1754324929377,4326,login,200,,Listagem de restaurantes 1-129,text,true,,635,246,331,331,http://localhost:8080/api/auth/login,4326,0,1
+1754324929398,4330,login,200,,Listagem de restaurantes 1-130,text,true,,635,246,332,332,http://localhost:8080/api/auth/login,4330,0,0
+1754324931681,2191,login,200,,Listagem de restaurantes 1-244,text,true,,635,246,339,339,http://localhost:8080/api/auth/login,2191,0,1
+1754324929439,4444,login,200,,Listagem de restaurantes 1-132,text,true,,635,246,340,340,http://localhost:8080/api/auth/login,4444,0,0
+1754324929476,4462,login,200,,Listagem de restaurantes 1-134,text,true,,635,246,342,342,http://localhost:8080/api/auth/login,4462,0,1
+1754324929458,4530,login,200,,Listagem de restaurantes 1-133,text,true,,635,246,345,345,http://localhost:8080/api/auth/login,4530,0,1
+1754324929558,4478,login,200,,Listagem de restaurantes 1-138,text,true,,635,246,347,347,http://localhost:8080/api/auth/login,4478,0,2
+1754324929578,4464,login,200,,Listagem de restaurantes 1-139,text,true,,635,246,347,347,http://localhost:8080/api/auth/login,4464,0,0
+1754324927974,6071,500 acessos,200,,Listagem de restaurantes 1-19,text,true,,2872,396,348,348,http://localhost:8080/api/restaurantes,6068,0,0
+1754324929537,4511,login,200,,Listagem de restaurantes 1-137,text,true,,635,246,347,347,http://localhost:8080/api/auth/login,4511,0,1
+1754324929518,4566,login,200,,Listagem de restaurantes 1-136,text,true,,635,246,349,349,http://localhost:8080/api/auth/login,4566,0,0
+1754324932033,2054,500 acessos,200,,Listagem de restaurantes 1-90,text,true,,2872,396,349,349,http://localhost:8080/api/restaurantes,2049,0,0
+1754324929498,4642,login,200,,Listagem de restaurantes 1-135,text,true,,635,246,351,351,http://localhost:8080/api/auth/login,4642,0,0
+1754324927517,6653,500 acessos,200,,Listagem de restaurantes 1-9,text,true,,2872,396,352,352,http://localhost:8080/api/restaurantes,6653,0,0
+1754324929599,4572,login,200,,Listagem de restaurantes 1-140,text,true,,635,246,351,351,http://localhost:8080/api/auth/login,4572,0,0
+1754324927977,6216,500 acessos,200,,Listagem de restaurantes 1-13,text,true,,2872,396,352,352,http://localhost:8080/api/restaurantes,6216,0,0
+1754324929805,4398,500 acessos,200,,Listagem de restaurantes 1-52,text,true,,2872,396,352,352,http://localhost:8080/api/restaurantes,4397,0,0
+1754324929638,4703,login,200,,Listagem de restaurantes 1-142,text,true,,635,246,358,358,http://localhost:8080/api/auth/login,4703,0,3
+1754324928029,6331,500 acessos,200,,Listagem de restaurantes 1-14,text,true,,2872,396,359,359,http://localhost:8080/api/restaurantes,6322,0,0
+1754324929616,4750,login,200,,Listagem de restaurantes 1-141,text,true,,635,246,358,358,http://localhost:8080/api/auth/login,4750,0,1
+1754324929805,4562,500 acessos,200,,Listagem de restaurantes 1-51,text,true,,2872,396,358,358,http://localhost:8080/api/restaurantes,4560,0,0
+1754324929656,4729,login,200,,Listagem de restaurantes 1-143,text,true,,635,246,358,358,http://localhost:8080/api/auth/login,4729,0,1
+1754324929856,4541,500 acessos,200,,Listagem de restaurantes 1-49,text,true,,2872,396,359,359,http://localhost:8080/api/restaurantes,4540,0,0
+1754324929699,4747,login,200,,Listagem de restaurantes 1-145,text,true,,635,246,360,360,http://localhost:8080/api/auth/login,4747,0,0
+1754324929682,4831,login,200,,Listagem de restaurantes 1-144,text,true,,635,246,363,363,http://localhost:8080/api/auth/login,4831,0,1
+1754324929740,4776,login,200,,Listagem de restaurantes 1-147,text,true,,635,246,363,363,http://localhost:8080/api/auth/login,4776,0,0
+1754324929782,4765,login,200,,Listagem de restaurantes 1-149,text,true,,635,246,365,365,http://localhost:8080/api/auth/login,4765,0,0
+1754324929819,4802,login,200,,Listagem de restaurantes 1-151,text,true,,635,246,369,369,http://localhost:8080/api/auth/login,4802,0,1
+1754324929799,4831,login,200,,Listagem de restaurantes 1-150,text,true,,635,246,369,369,http://localhost:8080/api/auth/login,4831,0,1
+1754324929846,4840,login,200,,Listagem de restaurantes 1-152,text,true,,635,246,372,372,http://localhost:8080/api/auth/login,4840,0,0
+1754324929866,4954,login,200,,Listagem de restaurantes 1-153,text,true,,635,246,379,379,http://localhost:8080/api/auth/login,4954,0,0
+1754324928119,6705,500 acessos,200,,Listagem de restaurantes 1-33,text,true,,2872,396,379,379,http://localhost:8080/api/restaurantes,6705,0,0
+1754324929882,4944,login,200,,Listagem de restaurantes 1-154,text,true,,635,246,378,378,http://localhost:8080/api/auth/login,4944,0,1
+1754324929939,4919,login,200,,Listagem de restaurantes 1-157,text,true,,635,246,379,379,http://localhost:8080/api/auth/login,4919,0,0
+1754324929921,4947,login,200,,Listagem de restaurantes 1-156,text,true,,635,246,380,380,http://localhost:8080/api/auth/login,4947,0,1
+1754324929979,4915,login,200,,Listagem de restaurantes 1-159,text,true,,635,246,381,381,http://localhost:8080/api/auth/login,4915,0,1
+1754324929959,4974,login,200,,Listagem de restaurantes 1-158,text,true,,635,246,383,383,http://localhost:8080/api/auth/login,4974,0,3
+1754324932301,2735,login,200,,Listagem de restaurantes 1-275,text,true,,635,246,388,388,http://localhost:8080/api/auth/login,2735,0,1
+1754324929999,5037,login,200,,Listagem de restaurantes 1-160,text,true,,635,246,388,388,http://localhost:8080/api/auth/login,5037,0,1
+1754324930058,4993,login,200,,Listagem de restaurantes 1-163,text,true,,635,246,389,389,http://localhost:8080/api/auth/login,4993,0,1
+1754324930022,5029,login,200,,Listagem de restaurantes 1-161,text,true,,635,246,389,389,http://localhost:8080/api/auth/login,5029,0,0
+1754324930101,5132,login,200,,Listagem de restaurantes 1-165,text,true,,635,246,398,398,http://localhost:8080/api/auth/login,5132,0,1
+1754324930158,5109,login,200,,Listagem de restaurantes 1-168,text,true,,635,246,400,400,http://localhost:8080/api/auth/login,5109,0,1
+1754324930078,5192,login,200,,Listagem de restaurantes 1-164,text,true,,635,246,400,400,http://localhost:8080/api/auth/login,5192,0,0
+1754324930118,5234,login,200,,Listagem de restaurantes 1-166,text,true,,635,246,404,404,http://localhost:8080/api/auth/login,5234,0,1
+1754324930143,5239,login,200,,Listagem de restaurantes 1-167,text,true,,635,246,406,406,http://localhost:8080/api/auth/login,5239,0,1
+1754324930179,5204,login,200,,Listagem de restaurantes 1-169,text,true,,635,246,406,406,http://localhost:8080/api/auth/login,5204,0,0
+1754324930202,5251,login,200,,Listagem de restaurantes 1-170,text,true,,635,246,409,409,http://localhost:8080/api/auth/login,5251,0,1
+1754324932418,3049,login,200,,Listagem de restaurantes 1-281,text,true,,635,246,410,410,http://localhost:8080/api/auth/login,3049,0,1
+1754324930243,5264,login,200,,Listagem de restaurantes 1-172,text,true,,635,246,412,412,http://localhost:8080/api/auth/login,5264,0,1
+1754324930220,5298,login,200,,Listagem de restaurantes 1-171,text,true,,635,246,412,412,http://localhost:8080/api/auth/login,5298,0,1
+1754324930261,5329,login,200,,Listagem de restaurantes 1-173,text,true,,635,246,416,416,http://localhost:8080/api/auth/login,5329,0,1
+1754324932499,3174,login,200,,Listagem de restaurantes 1-285,text,true,,635,246,420,420,http://localhost:8080/api/auth/login,3174,0,0
+1754324930360,5381,login,200,,Listagem de restaurantes 1-178,text,true,,635,246,424,424,http://localhost:8080/api/auth/login,5381,0,0
+1754324930302,5451,login,200,,Listagem de restaurantes 1-175,text,true,,635,246,424,424,http://localhost:8080/api/auth/login,5451,0,0
+1754324930338,5481,login,200,,Listagem de restaurantes 1-177,text,true,,635,246,427,427,http://localhost:8080/api/auth/login,5481,0,1
+1754324930421,5428,login,200,,Listagem de restaurantes 1-181,text,true,,635,246,429,429,http://localhost:8080/api/auth/login,5428,0,1
+1754324930382,5481,login,200,,Listagem de restaurantes 1-179,text,true,,635,246,430,430,http://localhost:8080/api/auth/login,5481,0,1
+1754324930463,5411,login,200,,Listagem de restaurantes 1-183,text,true,,635,246,430,430,http://localhost:8080/api/auth/login,5411,0,0
+1754324930400,5529,login,200,,Listagem de restaurantes 1-180,text,true,,635,246,433,433,http://localhost:8080/api/auth/login,5529,0,0
+1754324930485,5543,login,200,,Listagem de restaurantes 1-184,text,true,,635,246,438,438,http://localhost:8080/api/auth/login,5543,0,0
+1754324930442,5612,login,200,,Listagem de restaurantes 1-182,text,true,,635,246,439,439,http://localhost:8080/api/auth/login,5612,0,0
+1754324930501,5611,login,200,,Listagem de restaurantes 1-185,text,true,,635,246,442,442,http://localhost:8080/api/auth/login,5611,0,1
+1754324930543,5622,login,200,,Listagem de restaurantes 1-187,text,true,,635,246,445,445,http://localhost:8080/api/auth/login,5622,0,1
+1754324930559,5644,login,200,,Listagem de restaurantes 1-188,text,true,,635,246,447,447,http://localhost:8080/api/auth/login,5644,0,0
+1754324930520,5725,login,200,,Listagem de restaurantes 1-186,text,true,,635,246,449,449,http://localhost:8080/api/auth/login,5725,0,1
+1754324930580,5677,login,200,,Listagem de restaurantes 1-189,text,true,,635,246,449,449,http://localhost:8080/api/auth/login,5677,0,1
+1754324930639,5676,login,200,,Listagem de restaurantes 1-192,text,true,,635,246,452,452,http://localhost:8080/api/auth/login,5676,0,1
+1754324930599,5718,login,200,,Listagem de restaurantes 1-190,text,true,,635,246,452,452,http://localhost:8080/api/auth/login,5717,0,0
+1754324930620,5733,login,200,,Listagem de restaurantes 1-191,text,true,,635,246,454,454,http://localhost:8080/api/auth/login,5733,0,1
+1754324930679,5789,login,200,,Listagem de restaurantes 1-194,text,true,,635,246,460,460,http://localhost:8080/api/auth/login,5788,0,0
+1754324930661,5882,login,200,,Listagem de restaurantes 1-193,text,true,,635,246,464,464,http://localhost:8080/api/auth/login,5882,0,1
+1754324930701,5881,login,200,,Listagem de restaurantes 1-195,text,true,,635,246,466,466,http://localhost:8080/api/auth/login,5881,0,1
+1754324928362,8292,500 acessos,200,,Listagem de restaurantes 1-37,text,true,,2872,396,469,469,http://localhost:8080/api/restaurantes,8287,0,0
+1754324930785,5877,login,200,,Listagem de restaurantes 1-199,text,true,,635,246,468,468,http://localhost:8080/api/auth/login,5877,0,0
+1754324930740,5954,login,200,,Listagem de restaurantes 1-197,text,true,,635,246,470,470,http://localhost:8080/api/auth/login,5954,0,1
+1754324928425,8307,500 acessos,200,,Listagem de restaurantes 1-25,text,true,,2872,396,472,472,http://localhost:8080/api/restaurantes,8307,0,0
+1754324928457,8401,500 acessos,200,,Listagem de restaurantes 1-50,text,true,,2872,396,475,475,http://localhost:8080/api/restaurantes,8385,0,0
+1754324928415,8445,500 acessos,200,,Listagem de restaurantes 1-24,text,true,,2872,396,474,474,http://localhost:8080/api/restaurantes,8439,0,0
+1754324928467,8402,500 acessos,200,,Listagem de restaurantes 1-23,text,true,,2872,396,473,473,http://localhost:8080/api/restaurantes,8402,0,0
+1754324928497,8375,500 acessos,200,,Listagem de restaurantes 1-35,text,true,,2872,396,472,472,http://localhost:8080/api/restaurantes,8371,0,0
+1754324930799,6127,login,200,,Listagem de restaurantes 1-200,text,true,,635,246,471,471,http://localhost:8080/api/auth/login,6127,0,1
+1754324930759,6208,login,200,,Listagem de restaurantes 1-198,text,true,,635,246,471,471,http://localhost:8080/api/auth/login,6208,0,1
+1754324930819,6164,login,200,,Listagem de restaurantes 1-201,text,true,,635,246,471,471,http://localhost:8080/api/auth/login,6164,0,1
+1754324930844,6142,login,200,,Listagem de restaurantes 1-202,text,true,,635,246,471,471,http://localhost:8080/api/auth/login,6142,0,0
+1754324930864,6153,login,200,,Listagem de restaurantes 1-203,text,true,,635,246,471,471,http://localhost:8080/api/auth/login,6153,0,0
+1754324928557,8484,500 acessos,200,,Listagem de restaurantes 1-36,text,true,,2872,396,471,471,http://localhost:8080/api/restaurantes,8484,0,0
+1754324928620,8468,500 acessos,200,,Listagem de restaurantes 1-21,text,true,,2872,396,470,470,http://localhost:8080/api/restaurantes,8467,0,0
+1754324930883,6295,login,200,,Listagem de restaurantes 1-204,text,true,,635,246,469,469,http://localhost:8080/api/auth/login,6295,0,0
+1754324930901,6321,login,200,,Listagem de restaurantes 1-205,text,true,,635,246,469,469,http://localhost:8080/api/auth/login,6321,0,0
+1754324930923,6346,login,200,,Listagem de restaurantes 1-206,text,true,,635,246,469,469,http://localhost:8080/api/auth/login,6346,0,1
+1754324930981,6390,login,200,,Listagem de restaurantes 1-209,text,true,,635,246,469,469,http://localhost:8080/api/auth/login,6390,0,1
+1754324932960,4412,login,200,,Listagem de restaurantes 1-308,text,true,,635,246,469,469,http://localhost:8080/api/auth/login,4412,0,1
+1754324930960,6426,login,200,,Listagem de restaurantes 1-208,text,true,,635,246,469,469,http://localhost:8080/api/auth/login,6426,0,0
+1754324930999,6470,login,200,,Listagem de restaurantes 1-210,text,true,,635,246,469,469,http://localhost:8080/api/auth/login,6470,0,2
+1754324931037,6442,login,200,,Listagem de restaurantes 1-212,text,true,,635,246,469,469,http://localhost:8080/api/auth/login,6442,0,1
+1754324931019,6483,login,200,,Listagem de restaurantes 1-211,text,true,,635,246,469,469,http://localhost:8080/api/auth/login,6483,0,0
+1754324931070,6465,login,200,,Listagem de restaurantes 1-213,text,true,,635,246,469,469,http://localhost:8080/api/auth/login,6465,0,0
+1754324927332,10214,500 acessos,200,,Listagem de restaurantes 1-2,text,true,,2872,396,469,469,http://localhost:8080/api/restaurantes,10210,0,0
+1754324931080,6513,login,200,,Listagem de restaurantes 1-214,text,true,,635,246,468,468,http://localhost:8080/api/auth/login,6512,0,0
+1754324928896,8713,500 acessos,200,,Listagem de restaurantes 1-28,text,true,,2872,396,468,468,http://localhost:8080/api/restaurantes,8713,0,0
+1754324931119,6550,login,200,,Listagem de restaurantes 1-216,text,true,,635,246,467,467,http://localhost:8080/api/auth/login,6550,0,1
+1754324928891,8792,500 acessos,200,,Listagem de restaurantes 1-34,text,true,,2872,396,467,467,http://localhost:8080/api/restaurantes,8785,0,0
+1754324931108,6603,login,200,,Listagem de restaurantes 1-215,text,true,,635,246,466,466,http://localhost:8080/api/auth/login,6603,0,1
+1754324928923,8791,500 acessos,200,,Listagem de restaurantes 1-31,text,true,,2872,396,466,466,http://localhost:8080/api/restaurantes,8791,0,0
+1754324928930,8806,500 acessos,200,,Listagem de restaurantes 1-39,text,true,,2872,396,465,465,http://localhost:8080/api/restaurantes,8805,0,0
+1754324931206,6566,login,200,,Listagem de restaurantes 1-220,text,true,,635,246,464,464,http://localhost:8080/api/auth/login,6566,0,1
+1754324931141,6709,login,200,,Listagem de restaurantes 1-217,text,true,,635,246,464,464,http://localhost:8080/api/auth/login,6709,0,1
+1754324931161,6709,login,200,,Listagem de restaurantes 1-218,text,true,,635,246,464,464,http://localhost:8080/api/auth/login,6709,0,1
+1754324928885,8985,500 acessos,200,,Listagem de restaurantes 1-30,text,true,,2872,396,464,464,http://localhost:8080/api/restaurantes,8985,0,0
+1754324928978,8907,500 acessos,200,,Listagem de restaurantes 1-29,text,true,,2872,396,463,463,http://localhost:8080/api/restaurantes,8898,0,0
+1754324928878,9008,login,200,,Listagem de restaurantes 1-104,text,true,,635,246,462,462,http://localhost:8080/api/auth/login,9008,0,0
+1754324931218,6699,login,200,,Listagem de restaurantes 1-221,text,true,,635,246,462,462,http://localhost:8080/api/auth/login,6699,0,1
+1754324931280,6695,login,200,,Listagem de restaurantes 1-224,text,true,,635,246,462,462,http://localhost:8080/api/auth/login,6695,0,0
+1754324929067,8939,500 acessos,200,,Listagem de restaurantes 1-41,text,true,,2872,396,462,462,http://localhost:8080/api/restaurantes,8934,0,0
+1754324931261,6762,login,200,,Listagem de restaurantes 1-223,text,true,,635,246,461,461,http://localhost:8080/api/auth/login,6762,0,1
+1754324929067,8967,500 acessos,200,,Listagem de restaurantes 1-32,text,true,,2872,396,461,461,http://localhost:8080/api/restaurantes,8966,0,0
+1754324931360,6734,login,200,,Listagem de restaurantes 1-228,text,true,,635,246,460,460,http://localhost:8080/api/auth/login,6734,0,1
+1754324929158,8957,500 acessos,200,,Listagem de restaurantes 1-42,text,true,,2872,396,460,460,http://localhost:8080/api/restaurantes,8957,0,0
+1754324931299,6836,login,200,,Listagem de restaurantes 1-225,text,true,,635,246,459,459,http://localhost:8080/api/auth/login,6836,0,0
+1754324928938,9278,login,200,,Listagem de restaurantes 1-107,text,true,,635,246,459,459,http://localhost:8080/api/auth/login,9278,0,0
+1754324931324,6900,login,200,,Listagem de restaurantes 1-226,text,true,,635,246,459,459,http://localhost:8080/api/auth/login,6900,0,0
+1754324931406,6854,login,200,,Listagem de restaurantes 1-230,text,true,,635,246,459,459,http://localhost:8080/api/auth/login,6854,0,0
+1754324931419,6913,login,200,,Listagem de restaurantes 1-231,text,true,,635,246,459,459,http://localhost:8080/api/auth/login,6913,0,0
+1754324931458,6908,login,200,,Listagem de restaurantes 1-233,text,true,,635,246,459,459,http://localhost:8080/api/auth/login,6908,0,0
+1754324931378,6997,login,200,,Listagem de restaurantes 1-229,text,true,,635,246,459,459,http://localhost:8080/api/auth/login,6997,0,1
+1754324929348,9043,500 acessos,200,,Listagem de restaurantes 1-103,text,true,,2872,396,459,459,http://localhost:8080/api/restaurantes,9040,0,0
+1754324929078,9313,login,200,,Listagem de restaurantes 1-114,text,true,,635,246,459,459,http://localhost:8080/api/auth/login,9313,0,1
+1754324929343,9063,500 acessos,200,,Listagem de restaurantes 1-45,text,true,,2872,396,458,458,http://localhost:8080/api/restaurantes,9052,0,0
+1754324929372,9064,500 acessos,200,,Listagem de restaurantes 1-27,text,true,,2872,396,457,457,http://localhost:8080/api/restaurantes,9055,0,0
+1754324929158,9328,login,200,,Listagem de restaurantes 1-118,text,true,,635,246,456,456,http://localhost:8080/api/auth/login,9328,0,0
+1754324927851,10644,500 acessos,200,,Listagem de restaurantes 1-11,text,true,,2872,396,456,456,http://localhost:8080/api/restaurantes,10644,0,0
+1754324931521,7052,login,200,,Listagem de restaurantes 1-236,text,true,,635,246,455,455,http://localhost:8080/api/auth/login,7052,0,1
+1754324931503,7087,login,200,,Listagem de restaurantes 1-235,text,true,,635,246,455,455,http://localhost:8080/api/auth/login,7087,0,0
+1754324931539,7117,login,200,,Listagem de restaurantes 1-237,text,true,,635,246,455,455,http://localhost:8080/api/auth/login,7117,0,1
+1754324931579,7132,login,200,,Listagem de restaurantes 1-239,text,true,,635,246,455,455,http://localhost:8080/api/auth/login,7132,0,1
+1754324929480,9233,500 acessos,200,,Listagem de restaurantes 1-46,text,true,,2872,396,455,455,http://localhost:8080/api/restaurantes,9233,0,0
+1754324931559,7169,login,200,,Listagem de restaurantes 1-238,text,true,,635,246,454,454,http://localhost:8080/api/auth/login,7169,0,0
+1754324931603,7185,login,200,,Listagem de restaurantes 1-240,text,true,,635,246,454,454,http://localhost:8080/api/auth/login,7185,0,1
+1754324931619,7189,login,200,,Listagem de restaurantes 1-241,text,true,,635,246,454,454,http://localhost:8080/api/auth/login,7189,0,0
+1754324931641,7178,login,200,,Listagem de restaurantes 1-242,text,true,,635,246,454,454,http://localhost:8080/api/auth/login,7178,0,0
+1754324929422,9501,login,200,,Listagem de restaurantes 1-131,text,true,,635,246,454,454,http://localhost:8080/api/auth/login,9501,0,1
+1754324931660,7287,login,200,,Listagem de restaurantes 1-243,text,true,,635,246,454,454,http://localhost:8080/api/auth/login,7287,0,1
+1754324931698,7260,login,200,,Listagem de restaurantes 1-245,text,true,,635,246,454,454,http://localhost:8080/api/auth/login,7260,0,1
+1754324931741,7299,login,200,,Listagem de restaurantes 1-247,text,true,,635,246,454,454,http://localhost:8080/api/auth/login,7299,0,0
+1754324931759,7312,login,200,,Listagem de restaurantes 1-248,text,true,,635,246,454,454,http://localhost:8080/api/auth/login,7312,0,1
+1754324931800,7350,login,200,,Listagem de restaurantes 1-250,text,true,,635,246,454,454,http://localhost:8080/api/auth/login,7350,0,1
+1754324929649,9523,500 acessos,200,,Listagem de restaurantes 1-47,text,true,,2872,396,454,454,http://localhost:8080/api/restaurantes,9523,0,0
+1754324931778,7434,login,200,,Listagem de restaurantes 1-249,text,true,,635,246,453,453,http://localhost:8080/api/auth/login,7434,0,1
+1754324931878,7334,login,200,,Listagem de restaurantes 1-254,text,true,,635,246,453,453,http://localhost:8080/api/auth/login,7334,0,1
+1754324931819,7394,login,200,,Listagem de restaurantes 1-251,text,true,,635,246,453,453,http://localhost:8080/api/auth/login,7394,0,1
+1754324931838,7419,login,200,,Listagem de restaurantes 1-252,text,true,,635,246,453,453,http://localhost:8080/api/auth/login,7419,0,0
+1754324931857,7476,login,200,,Listagem de restaurantes 1-253,text,true,,635,246,453,453,http://localhost:8080/api/auth/login,7476,0,1
+1754324931901,7515,login,200,,Listagem de restaurantes 1-255,text,true,,635,246,453,453,http://localhost:8080/api/auth/login,7515,0,1
+1754324929699,9731,500 acessos,200,,Listagem de restaurantes 1-48,text,true,,2872,396,453,453,http://localhost:8080/api/restaurantes,9728,0,0
+1754324931944,7493,login,200,,Listagem de restaurantes 1-257,text,true,,635,246,452,452,http://localhost:8080/api/auth/login,7493,0,1
+1754324931919,7582,login,200,,Listagem de restaurantes 1-256,text,true,,635,246,452,452,http://localhost:8080/api/auth/login,7582,0,1
+1754324931959,7624,login,200,,Listagem de restaurantes 1-258,text,true,,635,246,452,452,http://localhost:8080/api/auth/login,7624,0,0
+1754324931999,7591,login,200,,Listagem de restaurantes 1-260,text,true,,635,246,452,452,http://localhost:8080/api/auth/login,7591,0,1
+1754324927992,11609,500 acessos,200,,Listagem de restaurantes 1-18,text,true,,2872,396,452,452,http://localhost:8080/api/restaurantes,11600,0,0
+1754324932020,7586,login,200,,Listagem de restaurantes 1-261,text,true,,635,246,451,451,http://localhost:8080/api/auth/login,7586,0,1
+1754324932041,7580,login,200,,Listagem de restaurantes 1-262,text,true,,635,246,451,451,http://localhost:8080/api/auth/login,7580,0,1
+1754324931979,7658,login,200,,Listagem de restaurantes 1-259,text,true,,635,246,451,451,http://localhost:8080/api/auth/login,7658,0,1
+1754324929887,9767,500 acessos,200,,Listagem de restaurantes 1-22,text,true,,2872,396,451,451,http://localhost:8080/api/restaurantes,9766,0,0
+1754324929758,9922,login,200,,Listagem de restaurantes 1-148,text,true,,635,246,450,450,http://localhost:8080/api/auth/login,9922,0,0
+1754324929721,10049,login,200,,Listagem de restaurantes 1-146,text,true,,635,246,450,450,http://localhost:8080/api/auth/login,10049,0,1
+1754324929927,9868,500 acessos,200,,Listagem de restaurantes 1-54,text,true,,2872,396,450,450,http://localhost:8080/api/restaurantes,9859,0,0
+1754324932100,7766,login,200,,Listagem de restaurantes 1-265,text,true,,635,246,449,449,http://localhost:8080/api/auth/login,7766,0,0
+1754324932058,7826,login,200,,Listagem de restaurantes 1-263,text,true,,635,246,449,449,http://localhost:8080/api/auth/login,7826,0,1
+1754324932078,7829,login,200,,Listagem de restaurantes 1-264,text,true,,635,246,449,449,http://localhost:8080/api/auth/login,7829,0,1
+1754324929950,9972,500 acessos,200,,Listagem de restaurantes 1-55,text,true,,2872,396,449,449,http://localhost:8080/api/restaurantes,9972,0,0
+1754324929950,9996,500 acessos,200,,Listagem de restaurantes 1-53,text,true,,2872,396,448,448,http://localhost:8080/api/restaurantes,9996,0,0
+1754324932179,7800,login,200,,Listagem de restaurantes 1-269,text,true,,635,246,447,447,http://localhost:8080/api/auth/login,7800,0,1
+1754324932141,7847,login,200,,Listagem de restaurantes 1-267,text,true,,635,246,447,447,http://localhost:8080/api/auth/login,7847,0,1
+1754324932119,7887,login,200,,Listagem de restaurantes 1-266,text,true,,635,246,447,447,http://localhost:8080/api/auth/login,7887,0,0
+1754324932158,7850,login,200,,Listagem de restaurantes 1-268,text,true,,635,246,447,447,http://localhost:8080/api/auth/login,7850,0,0
+1754324930084,9936,500 acessos,200,,Listagem de restaurantes 1-56,text,true,,2872,396,447,447,http://localhost:8080/api/restaurantes,9936,0,0
+1754324932214,7833,login,200,,Listagem de restaurantes 1-270,text,true,,635,246,446,446,http://localhost:8080/api/auth/login,7833,0,0
+1754324929901,10202,login,200,,Listagem de restaurantes 1-155,text,true,,635,246,446,446,http://localhost:8080/api/auth/login,10202,0,1
+1754324932238,7934,login,200,,Listagem de restaurantes 1-271,text,true,,635,246,446,446,http://localhost:8080/api/auth/login,7934,0,0
+1754324932264,8007,login,200,,Listagem de restaurantes 1-273,text,true,,635,246,446,446,http://localhost:8080/api/auth/login,8006,0,0
+1754324932243,8056,login,200,,Listagem de restaurantes 1-272,text,true,,635,246,446,446,http://localhost:8080/api/auth/login,8056,0,1
+1754324932319,8046,login,200,,Listagem de restaurantes 1-276,text,true,,635,246,446,446,http://localhost:8080/api/auth/login,8046,0,0
+1754324930270,10114,500 acessos,200,,Listagem de restaurantes 1-57,text,true,,2872,396,446,446,http://localhost:8080/api/restaurantes,10112,0,0
+1754324932338,8055,login,200,,Listagem de restaurantes 1-277,text,true,,635,246,445,445,http://localhost:8080/api/auth/login,8055,0,0
+1754324930038,10376,login,200,,Listagem de restaurantes 1-162,text,true,,635,246,445,445,http://localhost:8080/api/auth/login,10376,0,1
+1754324934200,6264,login,200,,Listagem de restaurantes 1-370,text,true,,635,246,445,445,http://localhost:8080/api/auth/login,6264,0,1
+1754324932285,8191,login,200,,Listagem de restaurantes 1-274,text,true,,635,246,445,445,http://localhost:8080/api/auth/login,8191,0,0
+1754324932513,7973,500 acessos,200,,Listagem de restaurantes 1-98,text,true,,2872,396,445,445,http://localhost:8080/api/restaurantes,7973,0,0
+1754324932359,8205,login,200,,Listagem de restaurantes 1-278,text,true,,635,246,444,444,http://localhost:8080/api/auth/login,8205,0,0
+1754324932380,8229,login,200,,Listagem de restaurantes 1-279,text,true,,635,246,444,444,http://localhost:8080/api/auth/login,8229,0,3
+1754324932398,8219,login,200,,Listagem de restaurantes 1-280,text,true,,635,246,444,444,http://localhost:8080/api/auth/login,8219,0,1
+1754324932438,8290,login,200,,Listagem de restaurantes 1-282,text,true,,635,246,444,444,http://localhost:8080/api/auth/login,8290,0,1
+1754324930433,10315,500 acessos,200,,Listagem de restaurantes 1-59,text,true,,2872,396,444,444,http://localhost:8080/api/restaurantes,10314,0,0
+1754324932458,8310,login,200,,Listagem de restaurantes 1-283,text,true,,635,246,443,443,http://localhost:8080/api/auth/login,8310,0,0
+1754324930474,10299,500 acessos,200,,Listagem de restaurantes 1-60,text,true,,2872,396,443,443,http://localhost:8080/api/restaurantes,10299,0,0
+1754324930476,10304,500 acessos,200,,Listagem de restaurantes 1-65,text,true,,2872,396,442,442,http://localhost:8080/api/restaurantes,10303,0,0
+1754324930547,10251,500 acessos,200,,Listagem de restaurantes 1-63,text,true,,2872,396,441,441,http://localhost:8080/api/restaurantes,10249,0,0
+1754324930283,10532,login,200,,Listagem de restaurantes 1-174,text,true,,635,246,440,440,http://localhost:8080/api/auth/login,10532,0,0
+1754324930536,10292,500 acessos,200,,Listagem de restaurantes 1-62,text,true,,2872,396,440,440,http://localhost:8080/api/restaurantes,10292,0,0
+1754324932518,8313,login,200,,Listagem de restaurantes 1-286,text,true,,635,246,439,439,http://localhost:8080/api/auth/login,8313,0,1
+1754324932481,8356,login,200,,Listagem de restaurantes 1-284,text,true,,635,246,439,439,http://localhost:8080/api/auth/login,8356,0,1
+1754324930318,10546,login,200,,Listagem de restaurantes 1-176,text,true,,635,246,439,439,http://localhost:8080/api/auth/login,10546,0,1
+1754324932538,8372,login,200,,Listagem de restaurantes 1-287,text,true,,635,246,439,439,http://localhost:8080/api/auth/login,8372,0,2
+1754324934400,6542,login,200,,Listagem de restaurantes 1-380,text,true,,635,246,439,439,http://localhost:8080/api/auth/login,6542,0,1
+1754324932569,8445,login,200,,Listagem de restaurantes 1-288,text,true,,635,246,439,439,http://localhost:8080/api/auth/login,8445,0,0
+1754324932579,8535,login,200,,Listagem de restaurantes 1-289,text,true,,635,246,439,439,http://localhost:8080/api/auth/login,8535,0,0
+1754324930675,10447,500 acessos,200,,Listagem de restaurantes 1-66,text,true,,2872,396,439,439,http://localhost:8080/api/restaurantes,10442,0,0
+1754324932741,8401,500 acessos,200,,Listagem de restaurantes 1-106,text,true,,2872,396,438,438,http://localhost:8080/api/restaurantes,8399,0,0
+1754324932641,8551,login,200,,Listagem de restaurantes 1-292,text,true,,635,246,437,437,http://localhost:8080/api/auth/login,8551,0,1
+1754324932604,8620,login,200,,Listagem de restaurantes 1-290,text,true,,635,246,437,437,http://localhost:8080/api/auth/login,8620,0,0
+1754324930752,10484,500 acessos,200,,Listagem de restaurantes 1-67,text,true,,2872,396,437,437,http://localhost:8080/api/restaurantes,10484,0,0
+1754324932681,8564,login,200,,Listagem de restaurantes 1-294,text,true,,635,246,436,436,http://localhost:8080/api/auth/login,8564,0,2
+1754324932659,8649,login,200,,Listagem de restaurantes 1-293,text,true,,635,246,436,436,http://localhost:8080/api/auth/login,8649,0,1
+1754324934538,6813,login,200,,Listagem de restaurantes 1-387,text,true,,635,246,436,436,http://localhost:8080/api/auth/login,6813,0,1
+1754324932619,8757,login,200,,Listagem de restaurantes 1-291,text,true,,635,246,436,436,http://localhost:8080/api/auth/login,8757,0,0
+1754324932816,8574,500 acessos,200,,Listagem de restaurantes 1-109,text,true,,2872,396,436,436,http://localhost:8080/api/restaurantes,8571,0,0
+1754324932700,8692,login,200,,Listagem de restaurantes 1-295,text,true,,635,246,435,435,http://localhost:8080/api/auth/login,8691,0,0
+1754324932721,8750,login,200,,Listagem de restaurantes 1-296,text,true,,635,246,435,435,http://localhost:8080/api/auth/login,8750,0,0
+1754324932739,8810,login,200,,Listagem de restaurantes 1-297,text,true,,635,246,435,435,http://localhost:8080/api/auth/login,8810,0,0
+1754324930977,10585,500 acessos,200,,Listagem de restaurantes 1-72,text,true,,2872,396,435,435,http://localhost:8080/api/restaurantes,10581,0,0
+1754324932758,8832,login,200,,Listagem de restaurantes 1-298,text,true,,635,246,434,434,http://localhost:8080/api/auth/login,8832,0,0
+1754324930924,10670,500 acessos,200,,Listagem de restaurantes 1-70,text,true,,2872,396,434,434,http://localhost:8080/api/restaurantes,10668,0,0
+1754324930719,10888,login,200,,Listagem de restaurantes 1-196,text,true,,635,246,433,433,http://localhost:8080/api/auth/login,10888,0,1
+1754324932779,8899,login,200,,Listagem de restaurantes 1-299,text,true,,635,246,433,433,http://localhost:8080/api/auth/login,8899,0,1
+1754324932798,8903,login,200,,Listagem de restaurantes 1-300,text,true,,635,246,433,433,http://localhost:8080/api/auth/login,8903,0,0
+1754324928481,13220,500 acessos,200,,Listagem de restaurantes 1-38,text,true,,2872,396,433,433,http://localhost:8080/api/restaurantes,13220,0,0
+1754324928500,13232,500 acessos,200,,Listagem de restaurantes 1-20,text,true,,2872,396,432,432,http://localhost:8080/api/restaurantes,13231,0,0
+1754324932948,8802,500 acessos,200,,Listagem de restaurantes 1-110,text,true,,2872,396,431,431,http://localhost:8080/api/restaurantes,8801,0,0
+1754324930994,10779,500 acessos,200,,Listagem de restaurantes 1-73,text,true,,2872,396,430,430,http://localhost:8080/api/restaurantes,10769,0,0
+1754324930990,10788,500 acessos,200,,Listagem de restaurantes 1-74,text,true,,2872,396,429,429,http://localhost:8080/api/restaurantes,10777,0,0
+1754324932819,9040,login,200,,Listagem de restaurantes 1-301,text,true,,635,246,428,428,http://localhost:8080/api/auth/login,9040,0,1
+1754324932861,9031,login,200,,Listagem de restaurantes 1-303,text,true,,635,246,428,428,http://localhost:8080/api/auth/login,9031,0,0
+1754324931041,10870,500 acessos,200,,Listagem de restaurantes 1-71,text,true,,2872,396,428,428,http://localhost:8080/api/restaurantes,10870,0,0
+1754324932879,9041,login,200,,Listagem de restaurantes 1-304,text,true,,635,246,427,427,http://localhost:8080/api/auth/login,9041,0,0
+1754324932842,9101,login,200,,Listagem de restaurantes 1-302,text,true,,635,246,427,427,http://localhost:8080/api/auth/login,9101,0,0
+1754324934757,7244,login,200,,Listagem de restaurantes 1-398,text,true,,635,246,427,427,http://localhost:8080/api/auth/login,7244,0,1
+1754324931092,10946,500 acessos,200,,Listagem de restaurantes 1-75,text,true,,2872,396,427,427,http://localhost:8080/api/restaurantes,10927,0,0
+1754324934818,7332,login,200,,Listagem de restaurantes 1-401,text,true,,635,246,426,426,http://localhost:8080/api/auth/login,7332,0,0
+1754324932897,9280,login,200,,Listagem de restaurantes 1-305,text,true,,635,246,426,426,http://localhost:8080/api/auth/login,9280,0,1
+1754324931918,10279,500 acessos,200,,Listagem de restaurantes 1-88,text,true,,2872,396,426,426,http://localhost:8080/api/restaurantes,10279,0,0
+1754324932939,9265,login,200,,Listagem de restaurantes 1-307,text,true,,635,246,425,425,http://localhost:8080/api/auth/login,9265,0,0
+1754324932919,9332,login,200,,Listagem de restaurantes 1-306,text,true,,635,246,425,425,http://localhost:8080/api/auth/login,9332,0,1
+1754324931224,11040,500 acessos,200,,Listagem de restaurantes 1-78,text,true,,2872,396,425,425,http://localhost:8080/api/restaurantes,11037,0,0
+1754324933020,9279,login,200,,Listagem de restaurantes 1-311,text,true,,635,246,424,424,http://localhost:8080/api/auth/login,9279,0,0
+1754324933079,9283,login,200,,Listagem de restaurantes 1-314,text,true,,635,246,424,424,http://localhost:8080/api/auth/login,9283,0,0
+1754324933058,9310,login,200,,Listagem de restaurantes 1-313,text,true,,635,246,424,424,http://localhost:8080/api/auth/login,9310,0,1
+1754324932999,9380,login,200,,Listagem de restaurantes 1-310,text,true,,635,246,424,424,http://localhost:8080/api/auth/login,9380,0,1
+1754324931303,11120,500 acessos,200,,Listagem de restaurantes 1-76,text,true,,2872,396,424,424,http://localhost:8080/api/restaurantes,11102,0,0
+1754324934976,7455,login,200,,Listagem de restaurantes 1-409,text,true,,635,246,423,423,http://localhost:8080/api/auth/login,7455,0,1
+1754324933098,9457,login,200,,Listagem de restaurantes 1-315,text,true,,635,246,423,423,http://localhost:8080/api/auth/login,9457,0,1
+1754324933140,9473,login,200,,Listagem de restaurantes 1-317,text,true,,635,246,423,423,http://localhost:8080/api/auth/login,9473,0,0
+1754324933120,9532,login,200,,Listagem de restaurantes 1-316,text,true,,635,246,423,423,http://localhost:8080/api/auth/login,9531,0,0
+1754324933160,9500,login,200,,Listagem de restaurantes 1-318,text,true,,635,246,423,423,http://localhost:8080/api/auth/login,9500,0,1
+1754324933199,9502,login,200,,Listagem de restaurantes 1-320,text,true,,635,246,423,423,http://localhost:8080/api/auth/login,9502,0,1
+1754324935159,7653,login,200,,Listagem de restaurantes 1-418,text,true,,635,246,423,423,http://localhost:8080/api/auth/login,7653,0,1
+1754324931432,11394,500 acessos,200,,Listagem de restaurantes 1-79,text,true,,2872,396,423,423,http://localhost:8080/api/restaurantes,11394,0,0
+1754324933178,9687,login,200,,Listagem de restaurantes 1-319,text,true,,635,246,422,422,http://localhost:8080/api/auth/login,9687,0,1
+1754324933220,9655,login,200,,Listagem de restaurantes 1-321,text,true,,635,246,422,422,http://localhost:8080/api/auth/login,9655,0,1
+1754324933262,9615,login,200,,Listagem de restaurantes 1-323,text,true,,635,246,422,422,http://localhost:8080/api/auth/login,9615,0,0
+1754324933239,9698,login,200,,Listagem de restaurantes 1-322,text,true,,635,246,422,422,http://localhost:8080/api/auth/login,9698,0,1
+1754324931486,11459,500 acessos,200,,Listagem de restaurantes 1-80,text,true,,2872,396,422,422,http://localhost:8080/api/restaurantes,11459,0,0
+1754324931495,11467,500 acessos,200,,Listagem de restaurantes 1-77,text,true,,2872,396,421,421,http://localhost:8080/api/restaurantes,11459,0,0
+1754324933278,9707,login,200,,Listagem de restaurantes 1-324,text,true,,635,246,420,420,http://localhost:8080/api/auth/login,9707,0,1
+1754324933338,9739,login,200,,Listagem de restaurantes 1-327,text,true,,635,246,420,420,http://localhost:8080/api/auth/login,9739,0,1
+1754324933298,9787,login,200,,Listagem de restaurantes 1-325,text,true,,635,246,420,420,http://localhost:8080/api/auth/login,9787,0,1
+1754324931556,11544,500 acessos,200,,Listagem de restaurantes 1-81,text,true,,2872,396,420,420,http://localhost:8080/api/restaurantes,11538,0,0
+1754324933317,9792,login,200,,Listagem de restaurantes 1-326,text,true,,635,246,419,419,http://localhost:8080/api/auth/login,9792,0,1
+1754324935257,7851,login,200,,Listagem de restaurantes 1-423,text,true,,635,246,419,419,http://localhost:8080/api/auth/login,7851,0,1
+1754324931607,11511,500 acessos,200,,Listagem de restaurantes 1-83,text,true,,2872,396,419,419,http://localhost:8080/api/restaurantes,11504,0,0
+1754324933379,9845,login,200,,Listagem de restaurantes 1-329,text,true,,635,246,418,418,http://localhost:8080/api/auth/login,9845,0,0
+1754324933438,9816,login,200,,Listagem de restaurantes 1-332,text,true,,635,246,418,418,http://localhost:8080/api/auth/login,9816,0,1
+1754324931629,11633,500 acessos,200,,Listagem de restaurantes 1-207,text,true,,2872,396,418,418,http://localhost:8080/api/restaurantes,11633,0,0
+1754324933399,9888,login,200,,Listagem de restaurantes 1-330,text,true,,635,246,417,417,http://localhost:8080/api/auth/login,9888,0,0
+1754324931645,11652,500 acessos,200,,Listagem de restaurantes 1-84,text,true,,2872,396,417,417,http://localhost:8080/api/restaurantes,11651,0,0
+1754324933417,9932,login,200,,Listagem de restaurantes 1-331,text,true,,635,246,416,416,http://localhost:8080/api/auth/login,9932,0,1
+1754324933458,9958,login,200,,Listagem de restaurantes 1-333,text,true,,635,246,416,416,http://localhost:8080/api/auth/login,9958,0,1
+1754324933479,9980,login,200,,Listagem de restaurantes 1-334,text,true,,635,246,416,416,http://localhost:8080/api/auth/login,9980,0,0
+1754324931667,11794,500 acessos,200,,Listagem de restaurantes 1-82,text,true,,2872,396,416,416,http://localhost:8080/api/restaurantes,11793,0,0
+1754324929436,14036,500 acessos,200,,Listagem de restaurantes 1-44,text,true,,2872,396,415,415,http://localhost:8080/api/restaurantes,14028,0,0
+1754324933518,9965,login,200,,Listagem de restaurantes 1-336,text,true,,635,246,414,414,http://localhost:8080/api/auth/login,9965,0,1
+1754324933499,9992,login,200,,Listagem de restaurantes 1-335,text,true,,635,246,414,414,http://localhost:8080/api/auth/login,9992,0,0
+1754324933660,9832,500 acessos,200,,Listagem de restaurantes 1-128,text,true,,2872,396,414,414,http://localhost:8080/api/restaurantes,9832,0,0
+1754324933577,9924,login,200,,Listagem de restaurantes 1-339,text,true,,635,246,413,413,http://localhost:8080/api/auth/login,9924,0,1
+1754324935418,8084,login,200,,Listagem de restaurantes 1-431,text,true,,635,246,413,413,http://localhost:8080/api/auth/login,8084,0,1
+1754324931824,11695,500 acessos,200,,Listagem de restaurantes 1-85,text,true,,2872,396,413,413,http://localhost:8080/api/restaurantes,11690,0,0
+1754324929493,14028,500 acessos,200,,Listagem de restaurantes 1-43,text,true,,2872,396,412,412,http://localhost:8080/api/restaurantes,14026,0,0
+1754324933600,10100,login,200,,Listagem de restaurantes 1-340,text,true,,635,246,411,411,http://localhost:8080/api/auth/login,10100,0,1
+1754324933730,9995,500 acessos,200,,Listagem de restaurantes 1-130,text,true,,2872,396,411,411,http://localhost:8080/api/restaurantes,9994,0,0
+1754324931862,11876,500 acessos,200,,Listagem de restaurantes 1-86,text,true,,2872,396,410,410,http://localhost:8080/api/restaurantes,11875,0,0
+1754324933619,10130,login,200,,Listagem de restaurantes 1-341,text,true,,635,246,409,409,http://localhost:8080/api/auth/login,10130,0,1
+1754324933638,10143,login,200,,Listagem de restaurantes 1-342,text,true,,635,246,409,409,http://localhost:8080/api/auth/login,10143,0,0
+1754324933558,10246,login,200,,Listagem de restaurantes 1-338,text,true,,635,246,409,409,http://localhost:8080/api/auth/login,10246,0,1
+1754324935539,8303,login,200,,Listagem de restaurantes 1-437,text,true,,635,246,409,409,http://localhost:8080/api/auth/login,8303,0,0
+1754324933678,10227,login,200,,Listagem de restaurantes 1-344,text,true,,635,246,409,409,http://localhost:8080/api/auth/login,10227,0,1
+1754324933737,10192,login,200,,Listagem de restaurantes 1-347,text,true,,635,246,409,409,http://localhost:8080/api/auth/login,10192,0,1
+1754324931718,12212,login,200,,Listagem de restaurantes 1-246,text,true,,635,246,409,409,http://localhost:8080/api/auth/login,12212,0,0
+1754324933700,10260,login,200,,Listagem de restaurantes 1-345,text,true,,635,246,409,409,http://localhost:8080/api/auth/login,10259,0,1
+1754324933719,10343,login,200,,Listagem de restaurantes 1-346,text,true,,635,246,409,409,http://localhost:8080/api/auth/login,10343,0,0
+1754324933757,10336,login,200,,Listagem de restaurantes 1-348,text,true,,635,246,409,409,http://localhost:8080/api/auth/login,10336,0,1
+1754324932049,12051,500 acessos,200,,Listagem de restaurantes 1-87,text,true,,2872,396,409,409,http://localhost:8080/api/restaurantes,12050,0,0
+1754324933822,10385,login,200,,Listagem de restaurantes 1-351,text,true,,635,246,408,408,http://localhost:8080/api/auth/login,10385,0,1
+1754324933800,10415,login,200,,Listagem de restaurantes 1-350,text,true,,635,246,408,408,http://localhost:8080/api/auth/login,10415,0,1
+1754324932113,12105,500 acessos,200,,Listagem de restaurantes 1-91,text,true,,2872,396,408,408,http://localhost:8080/api/restaurantes,12102,0,0
+1754324933779,10439,login,200,,Listagem de restaurantes 1-349,text,true,,635,246,408,408,http://localhost:8080/api/auth/login,10439,0,1
+1754324932117,12108,500 acessos,200,,Listagem de restaurantes 1-92,text,true,,2872,396,407,407,http://localhost:8080/api/restaurantes,12108,0,0
+1754324932139,12093,500 acessos,200,,Listagem de restaurantes 1-93,text,true,,2872,396,406,406,http://localhost:8080/api/restaurantes,12093,0,0
+1754324933847,10414,login,200,,Listagem de restaurantes 1-352,text,true,,635,246,405,405,http://localhost:8080/api/auth/login,10414,0,1
+1754324933861,10476,login,200,,Listagem de restaurantes 1-353,text,true,,635,246,405,405,http://localhost:8080/api/auth/login,10476,0,1
+1754324932142,12215,500 acessos,200,,Listagem de restaurantes 1-89,text,true,,2872,396,405,405,http://localhost:8080/api/restaurantes,12212,0,0
+1754324933880,10482,login,200,,Listagem de restaurantes 1-354,text,true,,635,246,404,404,http://localhost:8080/api/auth/login,10482,0,1
+1754324939637,4735,500 acessos,200,,Listagem de restaurantes 1-259,text,true,,2872,396,404,404,http://localhost:8080/api/restaurantes,4733,0,0
+1754324933940,10460,login,200,,Listagem de restaurantes 1-357,text,true,,635,246,403,403,http://localhost:8080/api/auth/login,10460,0,0
+1754324935822,8580,login,200,,Listagem de restaurantes 1-451,text,true,,635,246,403,403,http://localhost:8080/api/auth/login,8580,0,0
+1754324933918,10493,login,200,,Listagem de restaurantes 1-356,text,true,,635,246,403,403,http://localhost:8080/api/auth/login,10493,0,1
+1754324933978,10477,login,200,,Listagem de restaurantes 1-359,text,true,,635,246,403,403,http://localhost:8080/api/auth/login,10477,0,1
+1754324933960,10637,login,200,,Listagem de restaurantes 1-358,text,true,,635,246,403,403,http://localhost:8080/api/auth/login,10637,0,1
+1754324935878,8736,login,200,,Listagem de restaurantes 1-454,text,true,,635,246,403,403,http://localhost:8080/api/auth/login,8736,0,1
+1754324934018,10602,login,200,,Listagem de restaurantes 1-361,text,true,,635,246,403,403,http://localhost:8080/api/auth/login,10602,0,1
+1754324932335,12305,500 acessos,200,,Listagem de restaurantes 1-97,text,true,,2872,396,403,403,http://localhost:8080/api/restaurantes,12305,0,0
+1754324933999,10656,login,200,,Listagem de restaurantes 1-360,text,true,,635,246,402,402,http://localhost:8080/api/auth/login,10656,0,1
+1754324932350,12320,500 acessos,200,,Listagem de restaurantes 1-96,text,true,,2872,396,402,402,http://localhost:8080/api/restaurantes,12320,0,0
+1754324934099,10675,login,200,,Listagem de restaurantes 1-365,text,true,,635,246,401,401,http://localhost:8080/api/auth/login,10675,0,1
+1754324934044,10763,login,200,,Listagem de restaurantes 1-362,text,true,,635,246,401,401,http://localhost:8080/api/auth/login,10763,0,0
+1754324934121,10695,login,200,,Listagem de restaurantes 1-366,text,true,,635,246,401,401,http://localhost:8080/api/auth/login,10695,0,0
+1754324934894,9936,500 acessos,200,,Listagem de restaurantes 1-159,text,true,,2872,396,401,401,http://localhost:8080/api/restaurantes,9933,0,0
+1754324934081,10766,login,200,,Listagem de restaurantes 1-364,text,true,,635,246,400,400,http://localhost:8080/api/auth/login,10766,0,1
+1754324934061,10803,login,200,,Listagem de restaurantes 1-363,text,true,,635,246,400,400,http://localhost:8080/api/auth/login,10803,0,0
+1754324930279,14597,500 acessos,200,,Listagem de restaurantes 1-58,text,true,,2872,396,400,400,http://localhost:8080/api/restaurantes,14581,0,0
+1754324932410,12467,500 acessos,200,,Listagem de restaurantes 1-99,text,true,,2872,396,399,399,http://localhost:8080/api/restaurantes,12467,0,0
+1754324940299,4591,500 acessos,200,,Listagem de restaurantes 1-272,text,true,,2872,396,398,398,http://localhost:8080/api/restaurantes,4589,0,0
+1754324934142,10774,login,200,,Listagem de restaurantes 1-367,text,true,,635,246,397,397,http://localhost:8080/api/auth/login,10773,0,1
+1754324934226,10748,login,200,,Listagem de restaurantes 1-371,text,true,,635,246,397,397,http://localhost:8080/api/auth/login,10748,0,0
+1754324934178,10808,login,200,,Listagem de restaurantes 1-369,text,true,,635,246,397,397,http://localhost:8080/api/auth/login,10808,0,0
+1754324934161,10909,login,200,,Listagem de restaurantes 1-368,text,true,,635,246,397,397,http://localhost:8080/api/auth/login,10909,0,1
+1754324934238,10879,login,200,,Listagem de restaurantes 1-372,text,true,,635,246,397,397,http://localhost:8080/api/auth/login,10879,0,1
+1754324934259,10916,login,200,,Listagem de restaurantes 1-373,text,true,,635,246,397,397,http://localhost:8080/api/auth/login,10916,0,0
+1754324932585,12603,500 acessos,200,,Listagem de restaurantes 1-102,text,true,,2872,396,397,397,http://localhost:8080/api/restaurantes,12603,0,0
+1754324934299,10918,login,200,,Listagem de restaurantes 1-375,text,true,,635,246,396,396,http://localhost:8080/api/auth/login,10918,0,0
+1754324934280,10942,login,200,,Listagem de restaurantes 1-374,text,true,,635,246,396,396,http://localhost:8080/api/auth/login,10942,0,0
+1754324934321,10950,login,200,,Listagem de restaurantes 1-376,text,true,,635,246,396,396,http://localhost:8080/api/auth/login,10950,0,0
+1754324930519,14759,500 acessos,200,,Listagem de restaurantes 1-61,text,true,,2872,396,396,396,http://localhost:8080/api/restaurantes,14758,0,0
+1754324935740,9543,500 acessos,200,,Listagem de restaurantes 1-178,text,true,,2872,396,395,395,http://localhost:8080/api/restaurantes,9543,0,0
+1754324934514,10775,500 acessos,200,,Listagem de restaurantes 1-144,text,true,,2872,396,394,394,http://localhost:8080/api/restaurantes,10775,0,0
+1754324936279,9067,login,200,,Listagem de restaurantes 1-474,text,true,,635,246,393,393,http://localhost:8080/api/auth/login,9066,0,1
+1754324935753,9614,500 acessos,200,,Listagem de restaurantes 1-175,text,true,,2872,396,393,393,http://localhost:8080/api/restaurantes,9607,0,0
+1754324936300,9069,login,200,,Listagem de restaurantes 1-475,text,true,,635,246,392,392,http://localhost:8080/api/auth/login,9069,0,0
+1754324930597,14778,500 acessos,200,,Listagem de restaurantes 1-64,text,true,,2872,396,392,392,http://localhost:8080/api/restaurantes,14778,0,0
+1754324932620,12760,500 acessos,200,,Listagem de restaurantes 1-100,text,true,,2872,396,391,391,http://localhost:8080/api/restaurantes,12760,0,0
+1754324934361,11031,login,200,,Listagem de restaurantes 1-378,text,true,,635,246,390,390,http://localhost:8080/api/auth/login,11031,0,0
+1754324932676,12726,500 acessos,200,,Listagem de restaurantes 1-105,text,true,,2872,396,390,390,http://localhost:8080/api/restaurantes,12725,0,0
+1754324934387,11042,login,200,,Listagem de restaurantes 1-379,text,true,,635,246,389,389,http://localhost:8080/api/auth/login,11042,0,0
+1754324934426,11026,login,200,,Listagem de restaurantes 1-381,text,true,,635,246,389,389,http://localhost:8080/api/auth/login,11026,0,0
+1754324934440,11118,login,200,,Listagem de restaurantes 1-382,text,true,,635,246,389,389,http://localhost:8080/api/auth/login,11118,0,1
+1754324934481,11082,login,200,,Listagem de restaurantes 1-384,text,true,,635,246,389,389,http://localhost:8080/api/auth/login,11082,0,0
+1754324930733,14840,500 acessos,200,,Listagem de restaurantes 1-68,text,true,,2872,396,389,389,http://localhost:8080/api/restaurantes,14840,0,0
+1754324936362,9235,login,200,,Listagem de restaurantes 1-478,text,true,,635,246,388,388,http://localhost:8080/api/auth/login,9234,0,1
+1754324934459,11230,login,200,,Listagem de restaurantes 1-383,text,true,,635,246,388,388,http://localhost:8080/api/auth/login,11230,0,1
+1754324936439,9280,login,200,,Listagem de restaurantes 1-482,text,true,,635,246,388,388,http://localhost:8080/api/auth/login,9280,0,0
+1754324936500,9263,login,200,,Listagem de restaurantes 1-485,text,true,,635,246,388,388,http://localhost:8080/api/auth/login,9263,0,1
+1754324934558,11206,login,200,,Listagem de restaurantes 1-388,text,true,,635,246,388,388,http://localhost:8080/api/auth/login,11206,0,1
+1754324934579,11193,login,200,,Listagem de restaurantes 1-389,text,true,,635,246,388,388,http://localhost:8080/api/auth/login,11193,0,0
+1754324934520,11254,login,200,,Listagem de restaurantes 1-386,text,true,,635,246,388,388,http://localhost:8080/api/auth/login,11254,0,1
+1754324932827,12958,500 acessos,200,,Listagem de restaurantes 1-227,text,true,,2872,396,388,388,http://localhost:8080/api/restaurantes,12955,0,0
+1754324934600,11266,login,200,,Listagem de restaurantes 1-390,text,true,,635,246,387,387,http://localhost:8080/api/auth/login,11266,0,0
+1754324930884,15019,500 acessos,200,,Listagem de restaurantes 1-69,text,true,,2872,396,387,387,http://localhost:8080/api/restaurantes,15019,0,0
+1754324936619,9381,login,200,,Listagem de restaurantes 1-491,text,true,,635,246,386,386,http://localhost:8080/api/auth/login,9381,0,0
+1754324934660,11430,login,200,,Listagem de restaurantes 1-393,text,true,,635,246,386,386,http://localhost:8080/api/auth/login,11430,0,0
+1754324934618,11503,login,200,,Listagem de restaurantes 1-391,text,true,,635,246,386,386,http://localhost:8080/api/auth/login,11503,0,0
+1754324934719,11449,login,200,,Listagem de restaurantes 1-396,text,true,,635,246,386,386,http://localhost:8080/api/auth/login,11449,0,1
+1754324934638,11531,login,200,,Listagem de restaurantes 1-392,text,true,,635,246,386,386,http://localhost:8080/api/auth/login,11531,0,0
+1754324932945,13229,500 acessos,200,,Listagem de restaurantes 1-112,text,true,,2872,396,386,386,http://localhost:8080/api/restaurantes,13225,0,0
+1754324932950,13238,500 acessos,200,,Listagem de restaurantes 1-111,text,true,,2872,396,385,385,http://localhost:8080/api/restaurantes,13228,0,0
+1754324934698,11500,login,200,,Listagem de restaurantes 1-395,text,true,,635,246,384,384,http://localhost:8080/api/auth/login,11500,0,1
+1754324934678,11557,login,200,,Listagem de restaurantes 1-394,text,true,,635,246,384,384,http://localhost:8080/api/auth/login,11557,0,1
+1754324934778,11480,login,200,,Listagem de restaurantes 1-399,text,true,,635,246,384,384,http://localhost:8080/api/auth/login,11480,0,0
+1754324934738,11522,login,200,,Listagem de restaurantes 1-397,text,true,,635,246,384,384,http://localhost:8080/api/auth/login,11522,0,0
+1754324933035,13240,500 acessos,200,,Listagem de restaurantes 1-115,text,true,,2872,396,384,384,http://localhost:8080/api/restaurantes,13239,0,0
+1754324934840,11585,login,200,,Listagem de restaurantes 1-402,text,true,,635,246,383,383,http://localhost:8080/api/auth/login,11585,0,1
+1754324934880,11681,login,200,,Listagem de restaurantes 1-404,text,true,,635,246,383,383,http://localhost:8080/api/auth/login,11681,0,1
+1754324934798,11765,login,200,,Listagem de restaurantes 1-400,text,true,,635,246,383,383,http://localhost:8080/api/auth/login,11765,0,1
+1754324934860,11757,login,200,,Listagem de restaurantes 1-403,text,true,,635,246,383,383,http://localhost:8080/api/auth/login,11757,0,1
+1754324933120,13528,500 acessos,200,,Listagem de restaurantes 1-113,text,true,,2872,396,383,383,http://localhost:8080/api/restaurantes,13522,0,0
+1754324935051,11617,500 acessos,200,,Listagem de restaurantes 1-161,text,true,,2872,396,382,382,http://localhost:8080/api/restaurantes,11600,0,0
+1754324933142,13555,500 acessos,200,,Listagem de restaurantes 1-232,text,true,,2872,396,381,381,http://localhost:8080/api/restaurantes,13555,0,0
+1754324934937,11765,login,200,,Listagem de restaurantes 1-407,text,true,,635,246,380,380,http://localhost:8080/api/auth/login,11765,0,1
+1754324935051,11666,500 acessos,200,,Listagem de restaurantes 1-163,text,true,,2872,396,380,380,http://localhost:8080/api/restaurantes,11666,0,0
+1754324933040,13703,login,200,,Listagem de restaurantes 1-312,text,true,,635,246,379,379,http://localhost:8080/api/auth/login,13703,0,1
+1754324934957,11786,login,200,,Listagem de restaurantes 1-408,text,true,,635,246,379,379,http://localhost:8080/api/auth/login,11786,0,0
+1754324932979,13782,login,200,,Listagem de restaurantes 1-309,text,true,,635,246,379,379,http://localhost:8080/api/auth/login,13782,0,1
+1754324933185,13588,500 acessos,200,,Listagem de restaurantes 1-116,text,true,,2872,396,379,379,http://localhost:8080/api/restaurantes,13576,0,0
+1754324934898,11907,login,200,,Listagem de restaurantes 1-405,text,true,,635,246,378,378,http://localhost:8080/api/auth/login,11907,0,0
+1754324933230,13585,500 acessos,200,,Listagem de restaurantes 1-117,text,true,,2872,396,378,378,http://localhost:8080/api/restaurantes,13585,0,0
+1754324935002,11828,login,200,,Listagem de restaurantes 1-410,text,true,,635,246,377,377,http://localhost:8080/api/auth/login,11828,0,0
+1754324942299,4566,500 acessos,200,,Listagem de restaurantes 1-311,text,true,,2872,396,377,377,http://localhost:8080/api/restaurantes,4559,0,0
+1754324935018,12021,login,200,,Listagem de restaurantes 1-411,text,true,,635,246,376,376,http://localhost:8080/api/auth/login,12021,0,0
+1754324935076,12077,login,200,,Listagem de restaurantes 1-414,text,true,,635,246,376,376,http://localhost:8080/api/auth/login,12077,0,1
+1754324937850,9327,500 acessos,200,,Listagem de restaurantes 1-217,text,true,,2872,396,376,376,http://localhost:8080/api/restaurantes,9322,0,0
+1754324935037,12175,login,200,,Listagem de restaurantes 1-412,text,true,,635,246,375,375,http://localhost:8080/api/auth/login,12175,0,0
+1754324931181,16039,login,200,,Listagem de restaurantes 1-219,text,true,,635,246,375,375,http://localhost:8080/api/auth/login,16039,0,1
+1754324933352,13876,500 acessos,200,,Listagem de restaurantes 1-119,text,true,,2872,396,375,375,http://localhost:8080/api/restaurantes,13869,0,0
+1754324933358,13878,500 acessos,200,,Listagem de restaurantes 1-122,text,true,,2872,396,374,374,http://localhost:8080/api/restaurantes,13877,0,0
+1754324933382,13865,500 acessos,200,,Listagem de restaurantes 1-121,text,true,,2872,396,373,373,http://localhost:8080/api/restaurantes,13864,0,0
+1754324935137,12132,login,200,,Listagem de restaurantes 1-417,text,true,,635,246,372,372,http://localhost:8080/api/auth/login,12132,0,0
+1754324935118,12165,login,200,,Listagem de restaurantes 1-416,text,true,,635,246,372,372,http://localhost:8080/api/auth/login,12165,0,0
+1754324935060,12235,login,200,,Listagem de restaurantes 1-413,text,true,,635,246,372,372,http://localhost:8080/api/auth/login,12235,0,1
+1754324933448,13856,500 acessos,200,,Listagem de restaurantes 1-123,text,true,,2872,396,372,372,http://localhost:8080/api/restaurantes,13856,0,0
+1754324935097,12240,login,200,,Listagem de restaurantes 1-415,text,true,,635,246,371,371,http://localhost:8080/api/auth/login,12240,0,1
+1754324935201,12138,login,200,,Listagem de restaurantes 1-420,text,true,,635,246,371,371,http://localhost:8080/api/auth/login,12138,0,1
+1754324933518,13835,500 acessos,200,,Listagem de restaurantes 1-125,text,true,,2872,396,371,371,http://localhost:8080/api/restaurantes,13835,0,0
+1754324935222,12147,login,200,,Listagem de restaurantes 1-421,text,true,,635,246,370,370,http://localhost:8080/api/auth/login,12147,0,0
+1754324935240,12290,login,200,,Listagem de restaurantes 1-422,text,true,,635,246,370,370,http://localhost:8080/api/auth/login,12290,0,0
+1754324933360,14193,login,200,,Listagem de restaurantes 1-328,text,true,,635,246,370,370,http://localhost:8080/api/auth/login,14193,0,0
+1754324935278,12372,login,200,,Listagem de restaurantes 1-424,text,true,,635,246,370,370,http://localhost:8080/api/auth/login,12372,0,1
+1754324935362,12291,login,200,,Listagem de restaurantes 1-428,text,true,,635,246,370,370,http://localhost:8080/api/auth/login,12291,0,0
+1754324933607,14069,500 acessos,200,,Listagem de restaurantes 1-124,text,true,,2872,396,370,370,http://localhost:8080/api/restaurantes,14058,0,0
+1754324935299,12383,login,200,,Listagem de restaurantes 1-425,text,true,,635,246,369,369,http://localhost:8080/api/auth/login,12383,0,1
+1754324933649,14043,500 acessos,200,,Listagem de restaurantes 1-127,text,true,,2872,396,369,369,http://localhost:8080/api/restaurantes,14043,0,0
+1754324935340,12355,login,200,,Listagem de restaurantes 1-427,text,true,,635,246,368,368,http://localhost:8080/api/auth/login,12355,0,0
+1754324933646,14062,500 acessos,200,,Listagem de restaurantes 1-126,text,true,,2872,396,368,368,http://localhost:8080/api/restaurantes,14062,0,0
+1754324935378,12338,login,200,,Listagem de restaurantes 1-429,text,true,,635,246,367,367,http://localhost:8080/api/auth/login,12338,0,1
+1754324935403,12333,login,200,,Listagem de restaurantes 1-430,text,true,,635,246,367,367,http://localhost:8080/api/auth/login,12333,0,1
+1754324935320,12417,login,200,,Listagem de restaurantes 1-426,text,true,,635,246,367,367,http://localhost:8080/api/auth/login,12417,0,0
+1754324933539,14267,login,200,,Listagem de restaurantes 1-337,text,true,,635,246,367,367,http://localhost:8080/api/auth/login,14267,0,0
+1754324935437,12509,login,200,,Listagem de restaurantes 1-432,text,true,,635,246,367,367,http://localhost:8080/api/auth/login,12509,0,1
+1754324933705,14246,500 acessos,200,,Listagem de restaurantes 1-129,text,true,,2872,396,367,367,http://localhost:8080/api/restaurantes,14244,0,0
+1754324935498,12558,login,200,,Listagem de restaurantes 1-435,text,true,,635,246,366,366,http://localhost:8080/api/auth/login,12558,0,0
+1754324935518,12579,login,200,,Listagem de restaurantes 1-436,text,true,,635,246,366,366,http://localhost:8080/api/auth/login,12579,0,1
+1754324935578,12529,login,200,,Listagem de restaurantes 1-439,text,true,,635,246,366,366,http://localhost:8080/api/auth/login,12529,0,1
+1754324935478,12630,login,200,,Listagem de restaurantes 1-434,text,true,,635,246,366,366,http://localhost:8080/api/auth/login,12630,0,0
+1754324933658,14490,login,200,,Listagem de restaurantes 1-343,text,true,,635,246,366,366,http://localhost:8080/api/auth/login,14490,0,0
+1754324935638,12536,login,200,,Listagem de restaurantes 1-442,text,true,,635,246,366,366,http://localhost:8080/api/auth/login,12536,0,0
+1754324935618,12568,login,200,,Listagem de restaurantes 1-441,text,true,,635,246,366,366,http://localhost:8080/api/auth/login,12568,0,1
+1754324935599,12609,login,200,,Listagem de restaurantes 1-440,text,true,,635,246,366,366,http://localhost:8080/api/auth/login,12609,0,2
+1754324935659,12614,login,200,,Listagem de restaurantes 1-443,text,true,,635,246,366,366,http://localhost:8080/api/auth/login,12614,0,1
+1754324933872,14414,500 acessos,200,,Listagem de restaurantes 1-244,text,true,,2872,396,366,366,http://localhost:8080/api/restaurantes,14409,0,0
+1754324933884,14403,500 acessos,200,,Listagem de restaurantes 1-132,text,true,,2872,396,365,365,http://localhost:8080/api/restaurantes,14403,0,0
+1754324933939,14374,500 acessos,200,,Listagem de restaurantes 1-134,text,true,,2872,396,364,364,http://localhost:8080/api/restaurantes,14361,0,0
+1754324935678,12706,login,200,,Listagem de restaurantes 1-444,text,true,,635,246,363,363,http://localhost:8080/api/auth/login,12706,0,1
+1754324935698,12710,login,200,,Listagem de restaurantes 1-445,text,true,,635,246,363,363,http://localhost:8080/api/auth/login,12710,0,1
+1754324939500,8917,500 acessos,200,,Listagem de restaurantes 1-256,text,true,,2872,396,363,363,http://localhost:8080/api/restaurantes,8916,0,0
+1754324935798,12707,login,200,,Listagem de restaurantes 1-450,text,true,,635,246,362,362,http://localhost:8080/api/auth/login,12707,0,0
+1754324935719,12794,login,200,,Listagem de restaurantes 1-446,text,true,,635,246,362,362,http://localhost:8080/api/auth/login,12794,0,1
+1754324935737,12777,login,200,,Listagem de restaurantes 1-447,text,true,,635,246,362,362,http://localhost:8080/api/auth/login,12777,0,1
+1754324935778,12748,login,200,,Listagem de restaurantes 1-449,text,true,,635,246,362,362,http://localhost:8080/api/auth/login,12748,0,1
+1754324935758,12778,login,200,,Listagem de restaurantes 1-448,text,true,,635,246,362,362,http://localhost:8080/api/auth/login,12778,0,0
+1754324934037,14512,500 acessos,200,,Listagem de restaurantes 1-138,text,true,,2872,396,362,362,http://localhost:8080/api/restaurantes,14512,0,0
+1754324935838,12716,login,200,,Listagem de restaurantes 1-452,text,true,,635,246,361,361,http://localhost:8080/api/auth/login,12716,0,0
+1754324934050,14514,500 acessos,200,,Listagem de restaurantes 1-137,text,true,,2872,396,361,361,http://localhost:8080/api/restaurantes,14511,0,0
+1754324933898,14674,login,200,,Listagem de restaurantes 1-355,text,true,,635,246,360,360,http://localhost:8080/api/auth/login,14674,0,1
+1754324934043,14537,500 acessos,200,,Listagem de restaurantes 1-139,text,true,,2872,396,360,360,http://localhost:8080/api/restaurantes,14535,0,0
+1754324932188,16401,500 acessos,200,,Listagem de restaurantes 1-94,text,true,,2872,396,359,359,http://localhost:8080/api/restaurantes,16393,0,0
+1754324935857,12815,login,200,,Listagem de restaurantes 1-453,text,true,,635,246,358,358,http://localhost:8080/api/auth/login,12815,0,1
+1754324934086,14600,500 acessos,200,,Listagem de restaurantes 1-136,text,true,,2872,396,358,358,http://localhost:8080/api/restaurantes,14598,0,0
+1754324935901,12870,login,200,,Listagem de restaurantes 1-455,text,true,,635,246,357,357,http://localhost:8080/api/auth/login,12870,0,1
+1754324934142,14641,500 acessos,200,,Listagem de restaurantes 1-135,text,true,,2872,396,357,357,http://localhost:8080/api/restaurantes,14635,0,0
+1754324935918,12896,login,200,,Listagem de restaurantes 1-456,text,true,,635,246,356,356,http://localhost:8080/api/auth/login,12896,0,1
+1754324934173,14669,500 acessos,200,,Listagem de restaurantes 1-140,text,true,,2872,396,356,356,http://localhost:8080/api/restaurantes,14665,0,0
+1754324932352,16496,500 acessos,200,,Listagem de restaurantes 1-95,text,true,,2872,396,355,355,http://localhost:8080/api/restaurantes,16495,0,0
+1754324935937,12956,login,200,,Listagem de restaurantes 1-457,text,true,,635,246,354,354,http://localhost:8080/api/auth/login,12956,0,1
+1754324936017,12892,login,200,,Listagem de restaurantes 1-461,text,true,,635,246,354,354,http://localhost:8080/api/auth/login,12892,0,1
+1754324935978,12943,login,200,,Listagem de restaurantes 1-459,text,true,,635,246,354,354,http://localhost:8080/api/auth/login,12943,0,0
+1754324935997,12928,login,200,,Listagem de restaurantes 1-460,text,true,,635,246,354,354,http://localhost:8080/api/auth/login,12928,0,1
+1754324935957,13010,login,200,,Listagem de restaurantes 1-458,text,true,,635,246,354,354,http://localhost:8080/api/auth/login,13010,0,0
+1754324936049,12920,login,200,,Listagem de restaurantes 1-462,text,true,,635,246,354,354,http://localhost:8080/api/auth/login,12920,0,0
+1754324936084,12970,login,200,,Listagem de restaurantes 1-464,text,true,,635,246,354,354,http://localhost:8080/api/auth/login,12970,0,0
+1754324936058,12996,login,200,,Listagem de restaurantes 1-463,text,true,,635,246,354,354,http://localhost:8080/api/auth/login,12996,0,1
+1754324934342,14732,500 acessos,200,,Listagem de restaurantes 1-142,text,true,,2872,396,354,354,http://localhost:8080/api/restaurantes,14732,0,0
+1754324936098,13094,login,200,,Listagem de restaurantes 1-465,text,true,,635,246,353,353,http://localhost:8080/api/auth/login,13094,0,0
+1754324934367,14848,500 acessos,200,,Listagem de restaurantes 1-141,text,true,,2872,396,353,353,http://localhost:8080/api/restaurantes,14839,0,0
+1754324936141,13077,login,200,,Listagem de restaurantes 1-467,text,true,,635,246,352,352,http://localhost:8080/api/auth/login,13077,0,1
+1754324932525,16695,500 acessos,200,,Listagem de restaurantes 1-101,text,true,,2872,396,352,352,http://localhost:8080/api/restaurantes,16692,0,0
+1754324932559,16665,500 acessos,200,,Listagem de restaurantes 1-222,text,true,,2872,396,351,351,http://localhost:8080/api/restaurantes,16665,0,0
+1754324934448,14791,500 acessos,200,,Listagem de restaurantes 1-145,text,true,,2872,396,350,350,http://localhost:8080/api/restaurantes,14787,0,0
+1754324936118,13184,login,200,,Listagem de restaurantes 1-466,text,true,,635,246,349,349,http://localhost:8080/api/auth/login,13184,0,1
+1754324936179,13126,login,200,,Listagem de restaurantes 1-469,text,true,,635,246,349,349,http://localhost:8080/api/auth/login,13126,0,1
+1754324936200,13128,login,200,,Listagem de restaurantes 1-470,text,true,,635,246,349,349,http://localhost:8080/api/auth/login,13128,0,0
+1754324936158,13170,login,200,,Listagem de restaurantes 1-468,text,true,,635,246,349,349,http://localhost:8080/api/auth/login,13170,0,0
+1754324936237,13121,login,200,,Listagem de restaurantes 1-472,text,true,,635,246,349,349,http://localhost:8080/api/auth/login,13121,0,1
+1754324936222,13166,login,200,,Listagem de restaurantes 1-471,text,true,,635,246,349,349,http://localhost:8080/api/auth/login,13166,0,0
+1754324934340,15098,login,200,,Listagem de restaurantes 1-377,text,true,,635,246,349,349,http://localhost:8080/api/auth/login,15098,0,1
+1754324934549,14900,500 acessos,200,,Listagem de restaurantes 1-149,text,true,,2872,396,349,349,http://localhost:8080/api/restaurantes,14899,0,0
+1754324936261,13249,login,200,,Listagem de restaurantes 1-473,text,true,,635,246,348,348,http://localhost:8080/api/auth/login,13249,0,0
+1754324934622,14905,500 acessos,200,,Listagem de restaurantes 1-151,text,true,,2872,396,348,348,http://localhost:8080/api/restaurantes,14898,0,0
+1754324941014,8512,500 acessos,200,,Listagem de restaurantes 1-288,text,true,,2872,396,347,347,http://localhost:8080/api/restaurantes,8512,0,0
+1754324934499,15100,login,200,,Listagem de restaurantes 1-385,text,true,,635,246,346,346,http://localhost:8080/api/auth/login,15100,0,0
+1754324934632,14977,500 acessos,200,,Listagem de restaurantes 1-150,text,true,,2872,396,346,346,http://localhost:8080/api/restaurantes,14977,0,0
+1754324936319,13327,login,200,,Listagem de restaurantes 1-476,text,true,,635,246,345,345,http://localhost:8080/api/auth/login,13327,0,1
+1754324936423,13292,login,200,,Listagem de restaurantes 1-481,text,true,,635,246,345,345,http://localhost:8080/api/auth/login,13291,0,0
+1754324934687,15040,500 acessos,200,,Listagem de restaurantes 1-152,text,true,,2872,396,345,345,http://localhost:8080/api/restaurantes,15037,0,0
+1754324936460,13273,login,200,,Listagem de restaurantes 1-483,text,true,,635,246,344,344,http://localhost:8080/api/auth/login,13273,0,1
+1754324936480,13291,login,200,,Listagem de restaurantes 1-484,text,true,,635,246,344,344,http://localhost:8080/api/auth/login,13291,0,0
+1754324936536,13235,login,200,,Listagem de restaurantes 1-487,text,true,,635,246,344,344,http://localhost:8080/api/auth/login,13235,0,1
+1754324936520,13295,login,200,,Listagem de restaurantes 1-486,text,true,,635,246,344,344,http://localhost:8080/api/auth/login,13295,0,1
+1754324936579,13306,login,200,,Listagem de restaurantes 1-489,text,true,,635,246,344,344,http://localhost:8080/api/auth/login,13306,0,0
+1754324936560,13330,login,200,,Listagem de restaurantes 1-488,text,true,,635,246,344,344,http://localhost:8080/api/auth/login,13330,0,1
+1754324934821,15094,500 acessos,200,,Listagem de restaurantes 1-153,text,true,,2872,396,344,344,http://localhost:8080/api/restaurantes,15094,0,0
+1754324936637,13283,login,200,,Listagem de restaurantes 1-492,text,true,,635,246,343,343,http://localhost:8080/api/auth/login,13283,0,0
+1754324936693,13236,500 acessos,200,,Listagem de restaurantes 1-197,text,true,,2872,396,343,343,http://localhost:8080/api/restaurantes,13234,0,0
+1754324945866,4067,500 acessos,200,,Listagem de restaurantes 1-390,text,true,,2872,396,342,342,http://localhost:8080/api/restaurantes,4062,0,0
+1754324934858,15095,500 acessos,200,,Listagem de restaurantes 1-157,text,true,,2872,396,341,341,http://localhost:8080/api/restaurantes,15074,0,0
+1754324934868,15087,500 acessos,200,,Listagem de restaurantes 1-156,text,true,,2872,396,340,340,http://localhost:8080/api/restaurantes,15071,0,0
+1754324943223,6732,500 acessos,200,,Listagem de restaurantes 1-329,text,true,,2872,396,339,339,http://localhost:8080/api/restaurantes,6732,0,0
+1754324936985,12993,500 acessos,200,,Listagem de restaurantes 1-202,text,true,,2872,396,338,338,http://localhost:8080/api/restaurantes,12988,0,0
+1754324937221,12769,500 acessos,200,,Listagem de restaurantes 1-205,text,true,,2872,396,337,337,http://localhost:8080/api/restaurantes,12769,0,0
+1754324935036,14970,500 acessos,200,,Listagem de restaurantes 1-275,text,true,,2872,396,336,336,http://localhost:8080/api/restaurantes,14963,0,0
+1754324935036,14973,500 acessos,200,,Listagem de restaurantes 1-160,text,true,,2872,396,335,335,http://localhost:8080/api/restaurantes,14970,0,0
+1754324937469,12555,500 acessos,200,,Listagem de restaurantes 1-210,text,true,,2872,396,334,334,http://localhost:8080/api/restaurantes,12546,0,0
+1754324937478,12555,500 acessos,200,,Listagem de restaurantes 1-212,text,true,,2872,396,333,333,http://localhost:8080/api/restaurantes,12555,0,0
+1754324933239,16812,500 acessos,200,,Listagem de restaurantes 1-234,text,true,,2872,396,332,332,http://localhost:8080/api/restaurantes,16811,0,0
+1754324946744,3315,500 acessos,200,,Listagem de restaurantes 1-408,text,true,,2872,396,331,331,http://localhost:8080/api/restaurantes,3312,0,0
+1754324937771,12302,500 acessos,200,,Listagem de restaurantes 1-220,text,true,,2872,396,330,330,http://localhost:8080/api/restaurantes,12299,0,0
+1754324937974,12109,500 acessos,200,,Listagem de restaurantes 1-224,text,true,,2872,396,329,329,http://localhost:8080/api/restaurantes,12103,0,0
+1754324936662,13437,login,200,,Listagem de restaurantes 1-493,text,true,,635,246,328,328,http://localhost:8080/api/auth/login,13437,0,1
+1754324938093,12016,500 acessos,200,,Listagem de restaurantes 1-228,text,true,,2872,396,328,328,http://localhost:8080/api/restaurantes,12011,0,0
+1754324935232,14889,500 acessos,200,,Listagem de restaurantes 1-165,text,true,,2872,396,327,327,http://localhost:8080/api/restaurantes,14887,0,0
+1754324938216,11914,500 acessos,200,,Listagem de restaurantes 1-107,text,true,,2872,396,326,326,http://localhost:8080/api/restaurantes,11914,0,0
+1754324935267,14870,500 acessos,200,,Listagem de restaurantes 1-168,text,true,,2872,396,325,325,http://localhost:8080/api/restaurantes,14870,0,0
+1754324944092,6070,500 acessos,200,,Listagem de restaurantes 1-348,text,true,,2872,396,324,324,http://localhost:8080/api/restaurantes,6070,0,0
+1754324936680,13484,login,200,,Listagem de restaurantes 1-494,text,true,,635,246,323,323,http://localhost:8080/api/auth/login,13484,0,1
+1754324935269,14902,500 acessos,200,,Listagem de restaurantes 1-164,text,true,,2872,396,323,323,http://localhost:8080/api/restaurantes,14902,0,0
+1754324935352,14832,500 acessos,200,,Listagem de restaurantes 1-166,text,true,,2872,396,322,322,http://localhost:8080/api/restaurantes,14832,0,0
+1754324935382,14815,500 acessos,200,,Listagem de restaurantes 1-169,text,true,,2872,396,321,321,http://localhost:8080/api/restaurantes,14812,0,0
+1754324935466,14736,500 acessos,200,,Listagem de restaurantes 1-281,text,true,,2872,396,320,320,http://localhost:8080/api/restaurantes,14736,0,0
+1754324938957,11275,500 acessos,200,,Listagem de restaurantes 1-245,text,true,,2872,396,319,319,http://localhost:8080/api/restaurantes,11265,0,0
+1754324936699,13543,login,200,,Listagem de restaurantes 1-495,text,true,,635,246,318,318,http://localhost:8080/api/auth/login,13543,0,0
+1754324936737,13506,login,200,,Listagem de restaurantes 1-497,text,true,,635,246,318,318,http://localhost:8080/api/auth/login,13506,0,1
+1754324938808,11439,500 acessos,200,,Listagem de restaurantes 1-241,text,true,,2872,396,318,318,http://localhost:8080/api/restaurantes,11439,0,0
+1754324935507,14748,500 acessos,200,,Listagem de restaurantes 1-172,text,true,,2872,396,317,317,http://localhost:8080/api/restaurantes,14748,0,0
+1754324939212,11055,500 acessos,200,,Listagem de restaurantes 1-249,text,true,,2872,396,316,316,http://localhost:8080/api/restaurantes,11055,0,0
+1754324936721,13546,login,200,,Listagem de restaurantes 1-496,text,true,,635,246,316,316,http://localhost:8080/api/auth/login,13546,0,1
+1754324938655,11622,500 acessos,200,,Listagem de restaurantes 1-237,text,true,,2872,396,315,315,http://localhost:8080/api/restaurantes,11620,0,0
+1754324939415,10862,500 acessos,200,,Listagem de restaurantes 1-255,text,true,,2872,396,315,315,http://localhost:8080/api/restaurantes,10862,0,0
+1754324939212,11074,500 acessos,200,,Listagem de restaurantes 1-254,text,true,,2872,396,313,313,http://localhost:8080/api/restaurantes,11073,0,0
+1754324935517,14778,500 acessos,200,,Listagem de restaurantes 1-171,text,true,,2872,396,312,312,http://localhost:8080/api/restaurantes,14774,0,0
+1754324939437,10870,500 acessos,200,,Listagem de restaurantes 1-257,text,true,,2872,396,311,311,http://localhost:8080/api/restaurantes,10869,0,0
+1754324935590,14717,500 acessos,200,,Listagem de restaurantes 1-173,text,true,,2872,396,311,311,http://localhost:8080/api/restaurantes,14713,0,0
+1754324943700,6615,500 acessos,200,,Listagem de restaurantes 1-340,text,true,,2872,396,309,309,http://localhost:8080/api/restaurantes,6608,0,0
+1754324935818,14498,500 acessos,200,,Listagem de restaurantes 1-177,text,true,,2872,396,308,308,http://localhost:8080/api/restaurantes,14497,0,0
+1754324936778,13538,login,200,,Listagem de restaurantes 1-499,text,true,,635,246,308,308,http://localhost:8080/api/auth/login,13538,0,0
+1754324936757,13583,login,200,,Listagem de restaurantes 1-498,text,true,,635,246,307,307,http://localhost:8080/api/auth/login,13583,0,1
+1754324933989,16363,500 acessos,200,,Listagem de restaurantes 1-133,text,true,,2872,396,307,307,http://localhost:8080/api/restaurantes,16362,0,0
+1754324935929,14430,500 acessos,200,,Listagem de restaurantes 1-180,text,true,,2872,396,306,306,http://localhost:8080/api/restaurantes,14430,0,0
+1754324935863,14505,500 acessos,200,,Listagem de restaurantes 1-179,text,true,,2872,396,305,305,http://localhost:8080/api/restaurantes,14504,0,0
+1754324935849,14533,500 acessos,200,,Listagem de restaurantes 1-181,text,true,,2872,396,304,304,http://localhost:8080/api/restaurantes,14470,0,0
+1754324940007,10379,500 acessos,200,,Listagem de restaurantes 1-268,text,true,,2872,396,303,303,http://localhost:8080/api/restaurantes,10375,0,0
+1754324939070,11324,500 acessos,200,,Listagem de restaurantes 1-248,text,true,,2872,396,302,302,http://localhost:8080/api/restaurantes,11316,0,0
+1754324936798,13600,login,200,,Listagem de restaurantes 1-500,text,true,,635,246,301,301,http://localhost:8080/api/auth/login,13599,0,0
+1754324939906,10494,500 acessos,200,,Listagem de restaurantes 1-264,text,true,,2872,396,301,301,http://localhost:8080/api/restaurantes,10494,0,0
+1754324944620,5784,500 acessos,200,,Listagem de restaurantes 1-361,text,true,,2872,396,300,300,http://localhost:8080/api/restaurantes,5779,0,0
+1754324936111,14301,500 acessos,200,,Listagem de restaurantes 1-185,text,true,,2872,396,299,299,http://localhost:8080/api/restaurantes,14291,0,0
+1754324940413,9999,500 acessos,200,,Listagem de restaurantes 1-162,text,true,,2872,396,299,299,http://localhost:8080/api/restaurantes,9999,0,0
+1754324936165,14247,500 acessos,200,,Listagem de restaurantes 1-187,text,true,,2872,396,299,299,http://localhost:8080/api/restaurantes,14247,0,0
+1754324936202,14211,500 acessos,200,,Listagem de restaurantes 1-188,text,true,,2872,396,299,299,http://localhost:8080/api/restaurantes,14210,0,0
+1754324936257,14157,500 acessos,200,,Listagem de restaurantes 1-189,text,true,,2872,396,295,295,http://localhost:8080/api/restaurantes,14145,0,0
+1754324934387,16028,500 acessos,200,,Listagem de restaurantes 1-143,text,true,,2872,396,295,295,http://localhost:8080/api/restaurantes,16028,0,0
+1754324941678,8739,500 acessos,200,,Listagem de restaurantes 1-299,text,true,,2872,396,293,293,http://localhost:8080/api/restaurantes,8738,0,0
+1754324936244,14176,500 acessos,200,,Listagem de restaurantes 1-186,text,true,,2872,396,292,292,http://localhost:8080/api/restaurantes,14174,0,0
+1754324941701,8745,500 acessos,200,,Listagem de restaurantes 1-300,text,true,,2872,396,291,291,http://localhost:8080/api/restaurantes,8739,0,0
+1754324940270,10203,500 acessos,200,,Listagem de restaurantes 1-273,text,true,,2872,396,290,290,http://localhost:8080/api/restaurantes,10197,0,0
+1754324934918,15563,login,200,,Listagem de restaurantes 1-406,text,true,,635,246,289,289,http://localhost:8080/api/auth/login,15563,0,0
+1754324940814,9668,500 acessos,200,,Listagem de restaurantes 1-174,text,true,,2872,396,289,289,http://localhost:8080/api/restaurantes,9664,0,0
+1754324945176,5330,500 acessos,200,,Listagem de restaurantes 1-373,text,true,,2872,396,288,288,http://localhost:8080/api/restaurantes,5313,0,0
+1754324940047,10469,500 acessos,200,,Listagem de restaurantes 1-270,text,true,,2872,396,287,287,http://localhost:8080/api/restaurantes,10469,0,0
+1754324941308,9209,500 acessos,200,,Listagem de restaurantes 1-293,text,true,,2872,396,286,286,http://localhost:8080/api/restaurantes,9202,0,0
+1754324936316,14204,500 acessos,200,,Listagem de restaurantes 1-190,text,true,,2872,396,285,285,http://localhost:8080/api/restaurantes,14200,0,0
+1754324941943,8577,500 acessos,200,,Listagem de restaurantes 1-302,text,true,,2872,396,285,285,http://localhost:8080/api/restaurantes,8567,0,0
+1754324941376,9166,500 acessos,200,,Listagem de restaurantes 1-291,text,true,,2872,396,283,283,http://localhost:8080/api/restaurantes,9166,0,0
+1754324944846,5696,500 acessos,200,,Listagem de restaurantes 1-364,text,true,,2872,396,283,283,http://localhost:8080/api/restaurantes,5696,0,0
+1754324936582,13970,500 acessos,200,,Listagem de restaurantes 1-195,text,true,,2872,396,281,281,http://localhost:8080/api/restaurantes,13970,0,0
+1754324941391,9173,500 acessos,200,,Listagem de restaurantes 1-295,text,true,,2872,396,280,280,http://localhost:8080/api/restaurantes,9173,0,0
+1754324940103,10461,500 acessos,200,,Listagem de restaurantes 1-155,text,true,,2872,396,280,280,http://localhost:8080/api/restaurantes,10461,0,0
+1754324944816,5763,500 acessos,200,,Listagem de restaurantes 1-366,text,true,,2872,396,278,278,http://localhost:8080/api/restaurantes,5748,0,0
+1754324940476,10120,500 acessos,200,,Listagem de restaurantes 1-274,text,true,,2872,396,277,277,http://localhost:8080/api/restaurantes,10102,0,0
+1754324936662,13943,500 acessos,200,,Listagem de restaurantes 1-199,text,true,,2872,396,276,276,http://localhost:8080/api/restaurantes,13943,0,0
+1754324942149,8471,500 acessos,200,,Listagem de restaurantes 1-401,text,true,,2872,396,275,275,http://localhost:8080/api/restaurantes,8428,0,0
+1754324941471,9163,500 acessos,200,,Listagem de restaurantes 1-296,text,true,,2872,396,274,274,http://localhost:8080/api/restaurantes,9129,0,0
+1754324932846,17792,500 acessos,200,,Listagem de restaurantes 1-108,text,true,,2872,396,273,273,http://localhost:8080/api/restaurantes,17788,0,0
+1754324942875,7822,500 acessos,200,,Listagem de restaurantes 1-321,text,true,,2872,396,272,272,http://localhost:8080/api/restaurantes,7768,0,0
+1754324935176,15521,login,200,,Listagem de restaurantes 1-419,text,true,,635,246,272,272,http://localhost:8080/api/auth/login,15521,0,1
+1754324942865,7833,500 acessos,200,,Listagem de restaurantes 1-319,text,true,,2872,396,271,271,http://localhost:8080/api/restaurantes,7769,0,0
+1754324942362,8336,500 acessos,200,,Listagem de restaurantes 1-314,text,true,,2872,396,271,271,http://localhost:8080/api/restaurantes,8336,0,0
+1754324943458,7241,500 acessos,200,,Listagem de restaurantes 1-334,text,true,,2872,396,270,270,http://localhost:8080/api/restaurantes,7241,0,0
+1754324946261,4440,500 acessos,200,,Listagem de restaurantes 1-397,text,true,,2872,396,268,268,http://localhost:8080/api/restaurantes,4440,0,0
+1754324934827,15883,500 acessos,200,,Listagem de restaurantes 1-154,text,true,,2872,396,267,267,http://localhost:8080/api/restaurantes,15872,0,0
+1754324942368,8342,500 acessos,200,,Listagem de restaurantes 1-313,text,true,,2872,396,266,266,http://localhost:8080/api/restaurantes,8331,0,0
+1754324937268,13459,500 acessos,200,,Listagem de restaurantes 1-206,text,true,,2872,396,265,265,http://localhost:8080/api/restaurantes,13448,0,0
+1754324943502,7227,500 acessos,200,,Listagem de restaurantes 1-431,text,true,,2872,396,264,264,http://localhost:8080/api/restaurantes,7227,0,0
+1754324937535,13204,500 acessos,200,,Listagem de restaurantes 1-213,text,true,,2872,396,263,263,http://localhost:8080/api/restaurantes,13204,0,0
+1754324946704,4037,500 acessos,200,,Listagem de restaurantes 1-407,text,true,,2872,396,262,262,http://localhost:8080/api/restaurantes,4037,0,0
+1754324937177,13570,500 acessos,200,,Listagem de restaurantes 1-204,text,true,,2872,396,261,261,http://localhost:8080/api/restaurantes,13570,0,0
+1754324937370,13396,500 acessos,200,,Listagem de restaurantes 1-209,text,true,,2872,396,260,260,http://localhost:8080/api/restaurantes,13381,0,0
+1754324934932,15834,500 acessos,200,,Listagem de restaurantes 1-158,text,true,,2872,396,260,260,http://localhost:8080/api/restaurantes,15834,0,0
+1754324947284,3494,500 acessos,200,,Listagem de restaurantes 1-416,text,true,,2872,396,258,258,http://localhost:8080/api/restaurantes,3494,0,0
+1754324947339,3443,500 acessos,200,,Listagem de restaurantes 1-415,text,true,,2872,396,257,257,http://localhost:8080/api/restaurantes,3434,0,0
+1754324937669,13121,500 acessos,200,,Listagem de restaurantes 1-216,text,true,,2872,396,256,256,http://localhost:8080/api/restaurantes,13116,0,0
+1754324937869,12922,500 acessos,200,,Listagem de restaurantes 1-218,text,true,,2872,396,255,255,http://localhost:8080/api/restaurantes,12916,0,0
+1754324943108,7689,500 acessos,200,,Listagem de restaurantes 1-326,text,true,,2872,396,254,254,http://localhost:8080/api/restaurantes,7683,0,0
+1754324937917,12886,500 acessos,200,,Listagem de restaurantes 1-221,text,true,,2872,396,253,253,http://localhost:8080/api/restaurantes,12882,0,0
+1754324942812,8001,500 acessos,200,,Listagem de restaurantes 1-418,text,true,,2872,396,252,252,http://localhost:8080/api/restaurantes,7988,0,0
+1754324942379,8440,500 acessos,200,,Listagem de restaurantes 1-310,text,true,,2872,396,251,251,http://localhost:8080/api/restaurantes,8439,0,0
+1754324935558,15261,login,200,,Listagem de restaurantes 1-438,text,true,,635,246,251,251,http://localhost:8080/api/auth/login,15260,0,1
+1754324944214,6618,500 acessos,200,,Listagem de restaurantes 1-350,text,true,,2872,396,250,250,http://localhost:8080/api/restaurantes,6618,0,0
+1754324937887,12945,500 acessos,200,,Listagem de restaurantes 1-104,text,true,,2872,396,250,250,http://localhost:8080/api/restaurantes,12915,0,0
+1754324938365,12468,500 acessos,200,,Listagem de restaurantes 1-233,text,true,,2872,396,248,248,http://localhost:8080/api/restaurantes,12455,0,0
+1754324935382,15463,500 acessos,200,,Listagem de restaurantes 1-167,text,true,,2872,396,247,247,http://localhost:8080/api/restaurantes,15463,0,0
+1754324938224,12621,500 acessos,200,,Listagem de restaurantes 1-226,text,true,,2872,396,247,247,http://localhost:8080/api/restaurantes,12595,0,0
+1754324938135,12713,500 acessos,200,,Listagem de restaurantes 1-225,text,true,,2872,396,246,246,http://localhost:8080/api/restaurantes,12684,0,0
+1754324938728,12120,500 acessos,200,,Listagem de restaurantes 1-238,text,true,,2872,396,246,246,http://localhost:8080/api/restaurantes,12120,0,0
+1754324938788,12060,500 acessos,200,,Listagem de restaurantes 1-240,text,true,,2872,396,245,245,http://localhost:8080/api/restaurantes,12044,0,0
+1754324938374,12475,500 acessos,200,,Listagem de restaurantes 1-229,text,true,,2872,396,242,242,http://localhost:8080/api/restaurantes,12461,0,0
+1754324938590,12259,500 acessos,200,,Listagem de restaurantes 1-235,text,true,,2872,396,241,241,http://localhost:8080/api/restaurantes,12258,0,0
+1754324938486,12377,500 acessos,200,,Listagem de restaurantes 1-118,text,true,,2872,396,240,240,http://localhost:8080/api/restaurantes,12361,0,0
+1754324938572,12291,500 acessos,200,,Listagem de restaurantes 1-236,text,true,,2872,396,239,239,http://localhost:8080/api/restaurantes,12291,0,0
+1754324938923,11941,500 acessos,200,,Listagem de restaurantes 1-131,text,true,,2872,396,239,239,http://localhost:8080/api/restaurantes,11940,0,0
+1754324948148,2720,500 acessos,200,,Listagem de restaurantes 1-343,text,true,,2872,396,237,237,http://localhost:8080/api/restaurantes,2716,0,0
+1754324938392,12476,500 acessos,200,,Listagem de restaurantes 1-114,text,true,,2872,396,236,236,http://localhost:8080/api/restaurantes,12455,0,0
+1754324935462,15415,login,200,,Listagem de restaurantes 1-433,text,true,,635,246,235,235,http://localhost:8080/api/auth/login,15415,0,0
+1754324948386,2494,500 acessos,200,,Listagem de restaurantes 1-444,text,true,,2872,396,235,235,http://localhost:8080/api/restaurantes,2494,0,0
+1754324935452,15430,500 acessos,200,,Listagem de restaurantes 1-170,text,true,,2872,396,234,234,http://localhost:8080/api/restaurantes,15404,0,0
+1754324936406,14501,login,200,,Listagem de restaurantes 1-480,text,true,,635,246,233,233,http://localhost:8080/api/auth/login,14501,0,0
+1754324948210,2699,500 acessos,200,,Listagem de restaurantes 1-440,text,true,,2872,396,233,233,http://localhost:8080/api/restaurantes,2698,0,0
+1754324936027,14895,500 acessos,200,,Listagem de restaurantes 1-184,text,true,,2872,396,232,232,http://localhost:8080/api/restaurantes,14895,0,0
+1754324944454,6471,500 acessos,200,,Listagem de restaurantes 1-359,text,true,,2872,396,231,231,http://localhost:8080/api/restaurantes,6453,0,0
+1754324935673,15252,500 acessos,200,,Listagem de restaurantes 1-285,text,true,,2872,396,231,231,http://localhost:8080/api/restaurantes,15190,0,0
+1754324939583,11348,500 acessos,200,,Listagem de restaurantes 1-258,text,true,,2872,396,229,229,http://localhost:8080/api/restaurantes,11298,0,0
+1754324936352,14586,500 acessos,200,,Listagem de restaurantes 1-191,text,true,,2872,396,228,228,http://localhost:8080/api/restaurantes,14579,0,0
+1754324941858,9082,500 acessos,200,,Listagem de restaurantes 1-301,text,true,,2872,396,227,227,http://localhost:8080/api/restaurantes,9082,0,0
+1754324939771,11211,500 acessos,200,,Listagem de restaurantes 1-146,text,true,,2872,396,226,226,http://localhost:8080/api/restaurantes,11205,0,0
+1754324949306,1678,500 acessos,200,,Listagem de restaurantes 1-469,text,true,,2872,396,225,225,http://localhost:8080/api/restaurantes,1678,0,0
+1754324950879,113,500 acessos,200,,Listagem de restaurantes 1-433,text,true,,2872,396,224,224,http://localhost:8080/api/restaurantes,113,0,0
+1754324944806,6188,500 acessos,200,,Listagem de restaurantes 1-362,text,true,,2872,396,223,223,http://localhost:8080/api/restaurantes,6185,0,0
+1754324939865,11133,500 acessos,200,,Listagem de restaurantes 1-265,text,true,,2872,396,222,222,http://localhost:8080/api/restaurantes,11126,0,0
+1754324935874,15130,500 acessos,200,,Listagem de restaurantes 1-183,text,true,,2872,396,221,221,http://localhost:8080/api/restaurantes,15130,0,0
+1754324945598,5408,500 acessos,200,,Listagem de restaurantes 1-478,text,true,,2872,396,221,221,http://localhost:8080/api/restaurantes,5408,0,0
+1754324934517,16489,500 acessos,200,,Listagem de restaurantes 1-147,text,true,,2872,396,219,219,http://localhost:8080/api/restaurantes,16489,0,0
+1754324948516,2498,500 acessos,200,,Listagem de restaurantes 1-447,text,true,,2872,396,218,218,http://localhost:8080/api/restaurantes,2489,0,0
+1754324939040,11986,500 acessos,200,,Listagem de restaurantes 1-247,text,true,,2872,396,217,217,http://localhost:8080/api/restaurantes,11881,0,0
+1754324936386,14642,login,200,,Listagem de restaurantes 1-479,text,true,,635,246,216,216,http://localhost:8080/api/auth/login,14642,0,1
+1754324944362,6667,500 acessos,200,,Listagem de restaurantes 1-354,text,true,,2872,396,216,216,http://localhost:8080/api/restaurantes,6651,0,0
+1754324936053,14980,500 acessos,200,,Listagem de restaurantes 1-182,text,true,,2872,396,215,215,http://localhost:8080/api/restaurantes,14869,0,0
+1754324945393,5642,500 acessos,200,,Listagem de restaurantes 1-378,text,true,,2872,396,214,214,http://localhost:8080/api/restaurantes,5641,0,0
+1754324945429,5607,500 acessos,200,,Listagem de restaurantes 1-379,text,true,,2872,396,213,213,http://localhost:8080/api/restaurantes,5605,0,0
+1754324940463,10574,500 acessos,200,,Listagem de restaurantes 1-370,text,true,,2872,396,212,212,http://localhost:8080/api/restaurantes,10569,0,0
+1754324941549,9496,500 acessos,200,,Listagem de restaurantes 1-297,text,true,,2872,396,211,211,http://localhost:8080/api/restaurantes,9496,0,0
+1754324941351,9696,500 acessos,200,,Listagem de restaurantes 1-387,text,true,,2872,396,210,210,http://localhost:8080/api/restaurantes,9696,0,0
+1754324948927,2122,500 acessos,200,,Listagem de restaurantes 1-460,text,true,,2872,396,209,209,http://localhost:8080/api/restaurantes,2109,0,0
+1754324940942,10107,500 acessos,200,,Listagem de restaurantes 1-380,text,true,,2872,396,208,208,http://localhost:8080/api/restaurantes,10093,0,0
+1754324945117,5940,500 acessos,200,,Listagem de restaurantes 1-372,text,true,,2872,396,207,207,http://localhost:8080/api/restaurantes,5940,0,0
+1754324944975,6088,500 acessos,200,,Listagem de restaurantes 1-371,text,true,,2872,396,206,206,http://localhost:8080/api/restaurantes,6088,0,0
+1754324940831,10244,500 acessos,200,,Listagem de restaurantes 1-286,text,true,,2872,396,205,205,http://localhost:8080/api/restaurantes,10230,0,0
+1754324940767,10347,500 acessos,200,,Listagem de restaurantes 1-283,text,true,,2872,396,204,204,http://localhost:8080/api/restaurantes,10347,0,0
+1754324949219,1896,500 acessos,200,,Listagem de restaurantes 1-467,text,true,,2872,396,203,203,http://localhost:8080/api/restaurantes,1884,0,0
+1754324944403,6713,500 acessos,200,,Listagem de restaurantes 1-451,text,true,,2872,396,202,202,http://localhost:8080/api/restaurantes,6563,0,0
+1754324947696,3427,500 acessos,200,,Listagem de restaurantes 1-427,text,true,,2872,396,201,201,http://localhost:8080/api/restaurantes,3271,0,0
+1754324940393,10730,500 acessos,200,,Listagem de restaurantes 1-277,text,true,,2872,396,200,200,http://localhost:8080/api/restaurantes,10728,0,0
+1754324939978,11148,500 acessos,200,,Listagem de restaurantes 1-269,text,true,,2872,396,199,199,http://localhost:8080/api/restaurantes,10962,0,0
+1754324944410,6744,500 acessos,200,,Listagem de restaurantes 1-356,text,true,,2872,396,198,198,http://localhost:8080/api/restaurantes,6560,0,0
+1754324940563,10594,500 acessos,200,,Listagem de restaurantes 1-278,text,true,,2872,396,197,197,http://localhost:8080/api/restaurantes,10590,0,0
+1754324940609,10550,500 acessos,200,,Listagem de restaurantes 1-279,text,true,,2872,396,196,196,http://localhost:8080/api/restaurantes,10547,0,0
+1754324936467,14715,500 acessos,200,,Listagem de restaurantes 1-194,text,true,,2872,396,195,195,http://localhost:8080/api/restaurantes,14715,0,0
+1754324941590,9591,500 acessos,200,,Listagem de restaurantes 1-298,text,true,,2872,396,195,195,http://localhost:8080/api/restaurantes,9591,0,0
+1754324944773,6412,500 acessos,200,,Listagem de restaurantes 1-365,text,true,,2872,396,193,193,http://localhost:8080/api/restaurantes,6217,0,0
+1754324941114,10112,500 acessos,200,,Listagem de restaurantes 1-289,text,true,,2872,396,192,192,http://localhost:8080/api/restaurantes,9947,0,0
+1754324945070,6158,500 acessos,200,,Listagem de restaurantes 1-368,text,true,,2872,396,191,191,http://localhost:8080/api/restaurantes,6158,0,0
+1754324950318,911,500 acessos,200,,Listagem de restaurantes 1-499,text,true,,2872,396,190,190,http://localhost:8080/api/restaurantes,678,0,0
+1754324940728,10502,500 acessos,200,,Listagem de restaurantes 1-282,text,true,,2872,396,189,189,http://localhost:8080/api/restaurantes,10299,0,0
+1754324941224,10021,500 acessos,200,,Listagem de restaurantes 1-290,text,true,,2872,396,188,188,http://localhost:8080/api/restaurantes,9865,0,0
+1754324941191,10057,500 acessos,200,,Listagem de restaurantes 1-292,text,true,,2872,396,187,187,http://localhost:8080/api/restaurantes,10057,0,0
+1754324939256,12001,500 acessos,200,,Listagem de restaurantes 1-252,text,true,,2872,396,186,186,http://localhost:8080/api/restaurantes,11865,0,0
+1754324943109,8153,500 acessos,200,,Listagem de restaurantes 1-423,text,true,,2872,396,185,185,http://localhost:8080/api/restaurantes,8153,0,0
+1754324942555,8708,500 acessos,200,,Listagem de restaurantes 1-315,text,true,,2872,396,185,185,http://localhost:8080/api/restaurantes,8598,0,0
+1754324940909,10357,500 acessos,200,,Listagem de restaurantes 1-287,text,true,,2872,396,183,183,http://localhost:8080/api/restaurantes,10355,0,0
+1754324946169,5099,500 acessos,200,,Listagem de restaurantes 1-396,text,true,,2872,396,183,183,http://localhost:8080/api/restaurantes,5016,0,0
+1754324949773,1499,500 acessos,200,,Listagem de restaurantes 1-487,text,true,,2872,396,181,181,http://localhost:8080/api/restaurantes,1495,0,0
+1754324949886,1400,500 acessos,200,,Listagem de restaurantes 1-489,text,true,,2872,396,180,180,http://localhost:8080/api/restaurantes,1395,0,0
+1754324943076,8212,500 acessos,200,,Listagem de restaurantes 1-327,text,true,,2872,396,179,179,http://localhost:8080/api/restaurantes,8212,0,0
+1754324937502,13801,500 acessos,200,,Listagem de restaurantes 1-211,text,true,,2872,396,178,178,http://localhost:8080/api/restaurantes,13794,0,0
+1754324936926,14381,500 acessos,200,,Listagem de restaurantes 1-200,text,true,,2872,396,177,177,http://localhost:8080/api/restaurantes,14330,0,0
+1754324946122,5233,500 acessos,200,,Listagem de restaurantes 1-391,text,true,,2872,396,176,176,http://localhost:8080/api/restaurantes,5143,0,0
+1754324943416,7970,500 acessos,200,,Listagem de restaurantes 1-333,text,true,,2872,396,175,175,http://localhost:8080/api/restaurantes,7963,0,0
+1754324941891,9495,500 acessos,200,,Listagem de restaurantes 1-303,text,true,,2872,396,174,174,http://localhost:8080/api/restaurantes,9469,0,0
+1754324936543,14844,500 acessos,200,,Listagem de restaurantes 1-193,text,true,,2872,396,173,173,http://localhost:8080/api/restaurantes,14744,0,0
+1754324937016,14371,500 acessos,200,,Listagem de restaurantes 1-203,text,true,,2872,396,173,173,http://localhost:8080/api/restaurantes,14370,0,0
+1754324947271,4131,500 acessos,200,,Listagem de restaurantes 1-417,text,true,,2872,396,171,171,http://localhost:8080/api/restaurantes,4130,0,0
+1754324946832,4575,500 acessos,200,,Listagem de restaurantes 1-410,text,true,,2872,396,170,170,http://localhost:8080/api/restaurantes,4561,0,0
+1754324943482,7924,500 acessos,200,,Listagem de restaurantes 1-336,text,true,,2872,396,170,170,http://localhost:8080/api/restaurantes,7919,0,0
+1754324947370,4041,500 acessos,200,,Listagem de restaurantes 1-421,text,true,,2872,396,168,168,http://localhost:8080/api/restaurantes,4031,0,0
+1754324937592,13819,500 acessos,200,,Listagem de restaurantes 1-214,text,true,,2872,396,167,167,http://localhost:8080/api/restaurantes,13795,0,0
+1754324937385,14036,500 acessos,200,,Listagem de restaurantes 1-208,text,true,,2872,396,166,166,http://localhost:8080/api/restaurantes,14036,0,0
+1754324942204,9217,500 acessos,200,,Listagem de restaurantes 1-307,text,true,,2872,396,166,166,http://localhost:8080/api/restaurantes,9183,0,0
+1754324933247,18175,500 acessos,200,,Listagem de restaurantes 1-120,text,true,,2872,396,166,166,http://localhost:8080/api/restaurantes,18175,0,0
+1754324937371,14052,500 acessos,200,,Listagem de restaurantes 1-308,text,true,,2872,396,164,164,http://localhost:8080/api/restaurantes,14051,0,0
+1754324945774,5650,500 acessos,200,,Listagem de restaurantes 1-386,text,true,,2872,396,164,164,http://localhost:8080/api/restaurantes,5645,0,0
+1754324947155,4271,500 acessos,200,,Listagem de restaurantes 1-414,text,true,,2872,396,161,161,http://localhost:8080/api/restaurantes,4269,0,0
+1754324943286,8188,500 acessos,200,,Listagem de restaurantes 1-330,text,true,,2872,396,160,160,http://localhost:8080/api/restaurantes,8139,0,0
+1754324942937,8548,500 acessos,200,,Listagem de restaurantes 1-322,text,true,,2872,396,159,159,http://localhost:8080/api/restaurantes,8498,0,0
+1754324947040,4446,500 acessos,200,,Listagem de restaurantes 1-411,text,true,,2872,396,159,159,http://localhost:8080/api/restaurantes,4396,0,0
+1754324943930,7559,500 acessos,200,,Listagem de restaurantes 1-246,text,true,,2872,396,157,157,http://localhost:8080/api/restaurantes,7559,0,0
+1754324943253,8236,500 acessos,200,,Listagem de restaurantes 1-332,text,true,,2872,396,157,157,http://localhost:8080/api/restaurantes,8236,0,0
+1754324944062,7427,500 acessos,200,,Listagem de restaurantes 1-346,text,true,,2872,396,157,157,http://localhost:8080/api/restaurantes,7427,0,0
+1754324943904,7590,500 acessos,200,,Listagem de restaurantes 1-344,text,true,,2872,396,154,154,http://localhost:8080/api/restaurantes,7590,0,0
+1754324937711,13783,500 acessos,200,,Listagem de restaurantes 1-215,text,true,,2872,396,154,154,http://localhost:8080/api/restaurantes,13763,0,0
+1754324938259,13247,500 acessos,200,,Listagem de restaurantes 1-230,text,true,,2872,396,152,152,http://localhost:8080/api/restaurantes,13240,0,0
+1754324943749,7758,500 acessos,200,,Listagem de restaurantes 1-341,text,true,,2872,396,151,151,http://localhost:8080/api/restaurantes,7754,0,0
+1754324943491,8018,500 acessos,200,,Listagem de restaurantes 1-335,text,true,,2872,396,150,150,http://localhost:8080/api/restaurantes,8018,0,0
+1754324948057,3454,500 acessos,200,,Listagem de restaurantes 1-435,text,true,,2872,396,150,150,http://localhost:8080/api/restaurantes,3453,0,0
+1754324943803,7722,500 acessos,200,,Listagem de restaurantes 1-338,text,true,,2872,396,148,148,http://localhost:8080/api/restaurantes,7722,0,0
+1754324947655,3871,500 acessos,200,,Listagem de restaurantes 1-428,text,true,,2872,396,148,148,http://localhost:8080/api/restaurantes,3862,0,0
+1754324936966,14560,500 acessos,200,,Listagem de restaurantes 1-198,text,true,,2872,396,146,146,http://localhost:8080/api/restaurantes,14550,0,0
+1754324938711,12822,500 acessos,200,,Listagem de restaurantes 1-239,text,true,,2872,396,145,145,http://localhost:8080/api/restaurantes,12822,0,0
+1754324947221,4316,500 acessos,200,,Listagem de restaurantes 1-219,text,true,,2872,396,144,144,http://localhost:8080/api/restaurantes,4316,0,0
+1754324938947,12627,500 acessos,200,,Listagem de restaurantes 1-243,text,true,,2872,396,143,143,http://localhost:8080/api/restaurantes,12590,0,0
+1754324944217,7358,500 acessos,200,,Listagem de restaurantes 1-349,text,true,,2872,396,143,143,http://localhost:8080/api/restaurantes,7358,0,0
+1754324943928,7651,500 acessos,200,,Listagem de restaurantes 1-347,text,true,,2872,396,141,141,http://localhost:8080/api/restaurantes,7587,0,0
+1754324939150,12432,500 acessos,200,,Listagem de restaurantes 1-250,text,true,,2872,396,140,140,http://localhost:8080/api/restaurantes,12432,0,0
+1754324948410,3174,500 acessos,200,,Listagem de restaurantes 1-445,text,true,,2872,396,139,139,http://localhost:8080/api/restaurantes,3174,0,0
+1754324944206,7383,500 acessos,200,,Listagem de restaurantes 1-351,text,true,,2872,396,138,138,http://localhost:8080/api/restaurantes,7373,0,0
+1754324944614,7000,500 acessos,200,,Listagem de restaurantes 1-454,text,true,,2872,396,137,137,http://localhost:8080/api/restaurantes,7000,0,0
+1754324947737,3887,500 acessos,200,,Listagem de restaurantes 1-430,text,true,,2872,396,136,136,http://localhost:8080/api/restaurantes,3799,0,0
+1754324936314,15310,500 acessos,200,,Listagem de restaurantes 1-192,text,true,,2872,396,135,135,http://localhost:8080/api/restaurantes,15309,0,0
+1754324936342,15286,login,200,,Listagem de restaurantes 1-477,text,true,,635,246,134,134,http://localhost:8080/api/auth/login,15286,0,0
+1754324948894,2737,500 acessos,200,,Listagem de restaurantes 1-457,text,true,,2872,396,134,134,http://localhost:8080/api/restaurantes,2735,0,0
+1754324939212,12422,500 acessos,200,,Listagem de restaurantes 1-251,text,true,,2872,396,133,133,http://localhost:8080/api/restaurantes,12416,0,0
+1754324947807,3832,500 acessos,200,,Listagem de restaurantes 1-337,text,true,,2872,396,132,132,http://localhost:8080/api/restaurantes,3790,0,0
+1754324944261,7379,500 acessos,200,,Listagem de restaurantes 1-352,text,true,,2872,396,131,131,http://localhost:8080/api/restaurantes,7373,0,0
+1754324939589,12051,500 acessos,200,,Listagem de restaurantes 1-260,text,true,,2872,396,131,131,http://localhost:8080/api/restaurantes,12051,0,0
+1754324939988,11676,500 acessos,200,,Listagem de restaurantes 1-267,text,true,,2872,396,129,129,http://localhost:8080/api/restaurantes,11676,0,0
+1754324944336,7330,500 acessos,200,,Listagem de restaurantes 1-353,text,true,,2872,396,128,128,http://localhost:8080/api/restaurantes,7306,0,0
+1754324939884,11782,500 acessos,200,,Listagem de restaurantes 1-263,text,true,,2872,396,128,128,http://localhost:8080/api/restaurantes,11780,0,0
+1754324939681,11985,500 acessos,200,,Listagem de restaurantes 1-148,text,true,,2872,396,128,128,http://localhost:8080/api/restaurantes,11985,0,0
+1754324945222,6445,500 acessos,200,,Listagem de restaurantes 1-374,text,true,,2872,396,128,128,http://localhost:8080/api/restaurantes,6421,0,0
+1754324939332,12335,500 acessos,200,,Listagem de restaurantes 1-253,text,true,,2872,396,128,128,http://localhost:8080/api/restaurantes,12310,0,0
+1754324940172,11495,500 acessos,200,,Listagem de restaurantes 1-271,text,true,,2872,396,125,125,http://localhost:8080/api/restaurantes,11495,0,0
+1754324944399,7272,500 acessos,200,,Listagem de restaurantes 1-357,text,true,,2872,396,122,122,http://localhost:8080/api/restaurantes,7268,0,0
+1754324945217,6455,500 acessos,200,,Listagem de restaurantes 1-375,text,true,,2872,396,122,122,http://localhost:8080/api/restaurantes,6451,0,0
+1754324940864,10808,500 acessos,200,,Listagem de restaurantes 1-176,text,true,,2872,396,121,121,http://localhost:8080/api/restaurantes,10808,0,0
+1754324939606,12088,500 acessos,200,,Listagem de restaurantes 1-261,text,true,,2872,396,119,119,http://localhost:8080/api/restaurantes,12074,0,0
+1754324948538,3159,500 acessos,200,,Listagem de restaurantes 1-448,text,true,,2872,396,118,118,http://localhost:8080/api/restaurantes,3135,0,0
+1754324948515,3183,500 acessos,200,,Listagem de restaurantes 1-446,text,true,,2872,396,117,117,http://localhost:8080/api/restaurantes,3183,0,0
+1754324945564,6135,500 acessos,200,,Listagem de restaurantes 1-384,text,true,,2872,396,116,116,http://localhost:8080/api/restaurantes,6135,0,0
+1754324944917,6782,500 acessos,200,,Listagem de restaurantes 1-367,text,true,,2872,396,116,116,http://localhost:8080/api/restaurantes,6778,0,0
+1754324938819,12881,500 acessos,200,,Listagem de restaurantes 1-242,text,true,,2872,396,115,115,http://localhost:8080/api/restaurantes,12852,0,0
+1754324940006,11696,500 acessos,200,,Listagem de restaurantes 1-266,text,true,,2872,396,114,114,http://localhost:8080/api/restaurantes,11675,0,0
+1754324949195,2513,500 acessos,200,,Listagem de restaurantes 1-465,text,true,,2872,396,112,112,http://localhost:8080/api/restaurantes,2512,0,0
+1754324940364,11344,500 acessos,200,,Listagem de restaurantes 1-276,text,true,,2872,396,111,111,http://localhost:8080/api/restaurantes,11342,0,0
+1754324949329,2386,500 acessos,200,,Listagem de restaurantes 1-468,text,true,,2872,396,110,110,http://localhost:8080/api/restaurantes,2386,0,0
+1754324945559,6159,500 acessos,200,,Listagem de restaurantes 1-382,text,true,,2872,396,109,109,http://localhost:8080/api/restaurantes,6159,0,0
+1754324941919,9800,500 acessos,200,,Listagem de restaurantes 1-304,text,true,,2872,396,108,108,http://localhost:8080/api/restaurantes,9789,0,0
+1754324945370,6351,500 acessos,200,,Listagem de restaurantes 1-475,text,true,,2872,396,107,107,http://localhost:8080/api/restaurantes,6351,0,0
+1754324941606,10138,500 acessos,200,,Listagem de restaurantes 1-196,text,true,,2872,396,106,106,http://localhost:8080/api/restaurantes,10117,0,0
+1754324948969,2779,500 acessos,200,,Listagem de restaurantes 1-458,text,true,,2872,396,105,105,http://localhost:8080/api/restaurantes,2775,0,0
+1754324942431,9319,500 acessos,200,,Listagem de restaurantes 1-409,text,true,,2872,396,104,104,http://localhost:8080/api/restaurantes,9312,0,0
+1754324945764,5992,500 acessos,200,,Listagem de restaurantes 1-485,text,true,,2872,396,103,103,http://localhost:8080/api/restaurantes,5957,0,0
+1754324942177,9613,500 acessos,200,,Listagem de restaurantes 1-305,text,true,,2872,396,102,102,http://localhost:8080/api/restaurantes,9613,0,0
+1754324939620,12177,500 acessos,200,,Listagem de restaurantes 1-262,text,true,,2872,396,101,101,http://localhost:8080/api/restaurantes,12127,0,0
+1754324942001,9797,500 acessos,200,,Listagem de restaurantes 1-398,text,true,,2872,396,100,100,http://localhost:8080/api/restaurantes,9794,0,0
+1754324940616,11183,500 acessos,200,,Listagem de restaurantes 1-280,text,true,,2872,396,99,99,http://localhost:8080/api/restaurantes,11134,0,0
+1754324945453,6354,500 acessos,200,,Listagem de restaurantes 1-381,text,true,,2872,396,98,98,http://localhost:8080/api/restaurantes,6346,0,0
+1754324949648,2159,500 acessos,200,,Listagem de restaurantes 1-476,text,true,,2872,396,97,97,http://localhost:8080/api/restaurantes,2158,0,0
+1754324949816,1991,500 acessos,200,,Listagem de restaurantes 1-486,text,true,,2872,396,97,97,http://localhost:8080/api/restaurantes,1991,0,0
+1754324943084,8723,500 acessos,200,,Listagem de restaurantes 1-325,text,true,,2872,396,95,95,http://localhost:8080/api/restaurantes,8702,0,0
+1754324948572,3253,500 acessos,200,,Listagem de restaurantes 1-355,text,true,,2872,396,94,94,http://localhost:8080/api/restaurantes,3214,0,0
+1754324946091,5734,500 acessos,200,,Listagem de restaurantes 1-393,text,true,,2872,396,94,94,http://localhost:8080/api/restaurantes,5668,0,0
+1754324943348,8477,500 acessos,200,,Listagem de restaurantes 1-331,text,true,,2872,396,92,92,http://localhost:8080/api/restaurantes,8477,0,0
+1754324942613,9212,500 acessos,200,,Listagem de restaurantes 1-317,text,true,,2872,396,92,92,http://localhost:8080/api/restaurantes,9159,0,0
+1754324942701,9126,500 acessos,200,,Listagem de restaurantes 1-320,text,true,,2872,396,90,90,http://localhost:8080/api/restaurantes,9123,0,0
+1754324950342,1497,500 acessos,200,,Listagem de restaurantes 1-498,text,true,,2872,396,89,89,http://localhost:8080/api/restaurantes,1483,0,0
+1754324949329,2557,500 acessos,200,,Listagem de restaurantes 1-470,text,true,,2872,396,88,88,http://localhost:8080/api/restaurantes,2555,0,0
+1754324946001,5894,500 acessos,200,,Listagem de restaurantes 1-491,text,true,,2872,396,87,87,http://localhost:8080/api/restaurantes,5891,0,0
+1754324947214,4681,500 acessos,200,,Listagem de restaurantes 1-412,text,true,,2872,396,87,87,http://localhost:8080/api/restaurantes,4640,0,0
+1754324949359,2539,500 acessos,200,,Listagem de restaurantes 1-472,text,true,,2872,396,85,85,http://localhost:8080/api/restaurantes,2534,0,0
+1754324942251,9647,500 acessos,200,,Listagem de restaurantes 1-306,text,true,,2872,396,85,85,http://localhost:8080/api/restaurantes,9644,0,0
+1754324947553,4348,500 acessos,200,,Listagem de restaurantes 1-328,text,true,,2872,396,83,83,http://localhost:8080/api/restaurantes,4348,0,0
+1754324946806,5095,500 acessos,200,,Listagem de restaurantes 1-405,text,true,,2872,396,83,83,http://localhost:8080/api/restaurantes,5093,0,0
+1754324936982,14930,500 acessos,200,,Listagem de restaurantes 1-201,text,true,,2872,396,81,81,http://localhost:8080/api/restaurantes,14930,0,0
+1754324943780,8133,500 acessos,200,,Listagem de restaurantes 1-342,text,true,,2872,396,81,81,http://localhost:8080/api/restaurantes,8133,0,0
+1754324942660,9253,500 acessos,200,,Listagem de restaurantes 1-318,text,true,,2872,396,81,81,http://localhost:8080/api/restaurantes,9197,0,0
+1754324945690,6227,500 acessos,200,,Listagem de restaurantes 1-383,text,true,,2872,396,79,79,http://localhost:8080/api/restaurantes,6165,0,0
+1754324949922,2004,500 acessos,200,,Listagem de restaurantes 1-492,text,true,,2872,396,77,77,http://localhost:8080/api/restaurantes,1997,0,0
+1754324947684,4242,500 acessos,200,,Listagem de restaurantes 1-425,text,true,,2872,396,77,77,http://localhost:8080/api/restaurantes,4229,0,0
+1754324946563,5373,500 acessos,200,,Listagem de restaurantes 1-404,text,true,,2872,396,75,75,http://localhost:8080/api/restaurantes,5373,0,0
+1754324950244,1692,500 acessos,200,,Listagem de restaurantes 1-495,text,true,,2872,396,74,74,http://localhost:8080/api/restaurantes,1676,0,0
+1754324947718,4220,500 acessos,200,,Listagem de restaurantes 1-429,text,true,,2872,396,73,73,http://localhost:8080/api/restaurantes,4219,0,0
+1754324947738,4204,500 acessos,200,,Listagem de restaurantes 1-426,text,true,,2872,396,72,72,http://localhost:8080/api/restaurantes,4200,0,0
+1754324941245,10712,500 acessos,200,,Listagem de restaurantes 1-294,text,true,,2872,396,71,71,http://localhost:8080/api/restaurantes,10634,0,0
+1754324946426,5532,500 acessos,200,,Listagem de restaurantes 1-402,text,true,,2872,396,71,71,http://localhost:8080/api/restaurantes,5532,0,0
+1754324948528,3444,500 acessos,200,,Listagem de restaurantes 1-449,text,true,,2872,396,69,69,http://localhost:8080/api/restaurantes,3444,0,0
+1754324948506,3476,500 acessos,200,,Listagem de restaurantes 1-450,text,true,,2872,396,68,68,http://localhost:8080/api/restaurantes,3464,0,0
+1754324945347,6635,500 acessos,200,,Listagem de restaurantes 1-474,text,true,,2872,396,68,68,http://localhost:8080/api/restaurantes,6635,0,0
+1754324949439,2552,500 acessos,200,,Listagem de restaurantes 1-377,text,true,,2872,396,66,66,http://localhost:8080/api/restaurantes,2451,0,0
+1754324950400,1604,500 acessos,200,,Listagem de restaurantes 1-500,text,true,,2872,396,65,65,http://localhost:8080/api/restaurantes,1500,0,0
+1754324943501,8502,500 acessos,200,,Listagem de restaurantes 1-339,text,true,,2872,396,65,65,http://localhost:8080/api/restaurantes,8502,0,0
+1754324947948,4059,500 acessos,200,,Listagem de restaurantes 1-432,text,true,,2872,396,63,63,http://localhost:8080/api/restaurantes,3999,0,0
+1754324943843,8164,500 acessos,200,,Listagem de restaurantes 1-437,text,true,,2872,396,62,62,http://localhost:8080/api/restaurantes,8073,0,0
+1754324944864,7144,500 acessos,200,,Listagem de restaurantes 1-363,text,true,,2872,396,62,62,http://localhost:8080/api/restaurantes,7144,0,0
+1754324943959,8050,500 acessos,200,,Listagem de restaurantes 1-345,text,true,,2872,396,60,60,http://localhost:8080/api/restaurantes,8050,0,0
+1754324938332,13677,500 acessos,200,,Listagem de restaurantes 1-231,text,true,,2872,396,60,60,http://localhost:8080/api/restaurantes,13609,0,0
+1754324948772,3238,500 acessos,200,,Listagem de restaurantes 1-455,text,true,,2872,396,60,60,http://localhost:8080/api/restaurantes,3114,0,0
+1754324949734,2277,500 acessos,200,,Listagem de restaurantes 1-483,text,true,,2872,396,57,57,http://localhost:8080/api/restaurantes,2213,0,0
+1754324949512,2505,500 acessos,200,,Listagem de restaurantes 1-473,text,true,,2872,396,56,56,http://localhost:8080/api/restaurantes,2492,0,0
+1754324950908,1110,500 acessos,200,,Listagem de restaurantes 1-480,text,true,,2872,396,55,55,http://localhost:8080/api/restaurantes,1102,0,0
+1754324945720,6300,500 acessos,200,,Listagem de restaurantes 1-482,text,true,,2872,396,54,54,http://localhost:8080/api/restaurantes,6300,0,0
+1754324948815,3207,500 acessos,200,,Listagem de restaurantes 1-456,text,true,,2872,396,53,53,http://localhost:8080/api/restaurantes,3195,0,0
+1754324940836,11196,500 acessos,200,,Listagem de restaurantes 1-284,text,true,,2872,396,52,52,http://localhost:8080/api/restaurantes,11196,0,0
+1754324944597,7435,500 acessos,200,,Listagem de restaurantes 1-358,text,true,,2872,396,52,52,http://localhost:8080/api/restaurantes,7416,0,0
+1754324948176,3884,500 acessos,200,,Listagem de restaurantes 1-442,text,true,,2872,396,50,50,http://localhost:8080/api/restaurantes,3814,0,0
+1754324948556,3508,500 acessos,200,,Listagem de restaurantes 1-452,text,true,,2872,396,49,49,http://localhost:8080/api/restaurantes,3452,0,0
+1754324946170,5903,500 acessos,200,,Listagem de restaurantes 1-392,text,true,,2872,396,48,48,http://localhost:8080/api/restaurantes,5894,0,0
+1754324946761,5323,500 acessos,200,,Listagem de restaurantes 1-309,text,true,,2872,396,47,47,http://localhost:8080/api/restaurantes,5312,0,0
+1754324949599,2486,500 acessos,200,,Listagem de restaurantes 1-385,text,true,,2872,396,46,46,http://localhost:8080/api/restaurantes,2419,0,0
+1754324938022,14068,500 acessos,200,,Listagem de restaurantes 1-223,text,true,,2872,396,45,45,http://localhost:8080/api/restaurantes,14066,0,0
+1754324945773,6318,500 acessos,200,,Listagem de restaurantes 1-389,text,true,,2872,396,45,45,http://localhost:8080/api/restaurantes,6317,0,0
+1754324949773,2334,500 acessos,200,,Listagem de restaurantes 1-484,text,true,,2872,396,43,43,http://localhost:8080/api/restaurantes,2334,0,0
+1754324949056,3051,500 acessos,200,,Listagem de restaurantes 1-464,text,true,,2872,396,43,43,http://localhost:8080/api/restaurantes,3051,0,0
+1754324936600,15506,login,200,,Listagem de restaurantes 1-490,text,true,,635,246,43,43,http://localhost:8080/api/auth/login,15506,0,1
+1754324946564,5543,500 acessos,200,,Listagem de restaurantes 1-400,text,true,,2872,396,43,43,http://localhost:8080/api/restaurantes,5543,0,0
+1754324946236,5872,500 acessos,200,,Listagem de restaurantes 1-394,text,true,,2872,396,40,40,http://localhost:8080/api/restaurantes,5872,0,0
+1754324948922,3187,500 acessos,200,,Listagem de restaurantes 1-459,text,true,,2872,396,40,40,http://localhost:8080/api/restaurantes,3119,0,0
+1754324944986,7123,500 acessos,200,,Listagem de restaurantes 1-369,text,true,,2872,396,38,38,http://localhost:8080/api/restaurantes,7046,0,0
+1754324947532,4577,500 acessos,200,,Listagem de restaurantes 1-422,text,true,,2872,396,38,38,http://localhost:8080/api/restaurantes,4557,0,0
+1754324949390,2720,500 acessos,200,,Listagem de restaurantes 1-471,text,true,,2872,396,36,36,http://localhost:8080/api/restaurantes,2720,0,0
+1754324945271,6839,500 acessos,200,,Listagem de restaurantes 1-376,text,true,,2872,396,35,35,http://localhost:8080/api/restaurantes,6839,0,0
+1754324948910,3201,500 acessos,200,,Listagem de restaurantes 1-461,text,true,,2872,396,35,35,http://localhost:8080/api/restaurantes,3155,0,0
+1754324949891,2219,500 acessos,200,,Listagem de restaurantes 1-488,text,true,,2872,396,33,33,http://localhost:8080/api/restaurantes,2201,0,0
+1754324942876,9238,500 acessos,200,,Listagem de restaurantes 1-323,text,true,,2872,396,33,33,http://localhost:8080/api/restaurantes,9230,0,0
+1754324945764,6351,500 acessos,200,,Listagem de restaurantes 1-388,text,true,,2872,396,33,33,http://localhost:8080/api/restaurantes,6346,0,0
+1754324950245,1870,500 acessos,200,,Listagem de restaurantes 1-497,text,true,,2872,396,33,33,http://localhost:8080/api/restaurantes,1870,0,0
+1754324949057,3057,500 acessos,200,,Listagem de restaurantes 1-463,text,true,,2872,396,29,29,http://localhost:8080/api/restaurantes,3057,0,0
+1754324950165,1952,500 acessos,200,,Listagem de restaurantes 1-494,text,true,,2872,396,28,28,http://localhost:8080/api/restaurantes,1949,0,0
+1754324946259,5860,500 acessos,200,,Listagem de restaurantes 1-399,text,true,,2872,396,27,27,http://localhost:8080/api/restaurantes,5860,0,0
+1754324948673,3448,500 acessos,200,,Listagem de restaurantes 1-453,text,true,,2872,396,26,26,http://localhost:8080/api/restaurantes,3434,0,0
+1754324950482,1640,500 acessos,200,,Listagem de restaurantes 1-406,text,true,,2872,396,25,25,http://localhost:8080/api/restaurantes,1625,0,0
+1754324950820,1315,500 acessos,200,,Listagem de restaurantes 1-438,text,true,,2872,396,24,24,http://localhost:8080/api/restaurantes,1315,0,0
+1754324946198,5938,500 acessos,200,,Listagem de restaurantes 1-395,text,true,,2872,396,23,23,http://localhost:8080/api/restaurantes,5922,0,0
+1754324948109,4034,500 acessos,200,,Listagem de restaurantes 1-434,text,true,,2872,396,22,22,http://localhost:8080/api/restaurantes,4034,0,0
+1754324948099,4045,500 acessos,200,,Listagem de restaurantes 1-436,text,true,,2872,396,22,22,http://localhost:8080/api/restaurantes,4044,0,0
+1754324947341,4803,500 acessos,200,,Listagem de restaurantes 1-420,text,true,,2872,396,21,21,http://localhost:8080/api/restaurantes,4803,0,0
+1754324948275,3870,500 acessos,200,,Listagem de restaurantes 1-443,text,true,,2872,396,19,19,http://localhost:8080/api/restaurantes,3860,0,0
+1754324942653,9491,500 acessos,200,,Listagem de restaurantes 1-316,text,true,,2872,396,19,19,http://localhost:8080/api/restaurantes,9467,0,0
+1754324947296,4849,500 acessos,200,,Listagem de restaurantes 1-413,text,true,,2872,396,19,19,http://localhost:8080/api/restaurantes,4849,0,0
+1754324949304,2842,500 acessos,200,,Listagem de restaurantes 1-466,text,true,,2872,396,16,16,http://localhost:8080/api/restaurantes,2842,0,0
+1754324946618,5529,500 acessos,200,,Listagem de restaurantes 1-403,text,true,,2872,396,15,15,http://localhost:8080/api/restaurantes,5528,0,0
+1754324946745,5418,500 acessos,200,,Listagem de restaurantes 1-312,text,true,,2872,396,14,14,http://localhost:8080/api/restaurantes,5364,0,0
+1754324948188,3976,500 acessos,200,,Listagem de restaurantes 1-441,text,true,,2872,396,13,13,http://localhost:8080/api/restaurantes,3958,0,0
+1754324944654,7510,500 acessos,200,,Listagem de restaurantes 1-360,text,true,,2872,396,13,13,http://localhost:8080/api/restaurantes,7510,0,0
+1754324950699,1472,500 acessos,200,,Listagem de restaurantes 1-419,text,true,,2872,396,11,11,http://localhost:8080/api/restaurantes,1465,0,0
+1754324942984,9186,500 acessos,200,,Listagem de restaurantes 1-324,text,true,,2872,396,11,11,http://localhost:8080/api/restaurantes,9181,0,0
+1754324951029,1144,500 acessos,200,,Listagem de restaurantes 1-479,text,true,,2872,396,9,9,http://localhost:8080/api/restaurantes,1144,0,0
+1754324950269,1905,500 acessos,200,,Listagem de restaurantes 1-496,text,true,,2872,396,9,9,http://localhost:8080/api/restaurantes,1904,0,0
+1754324948109,4065,500 acessos,200,,Listagem de restaurantes 1-439,text,true,,2872,396,9,9,http://localhost:8080/api/restaurantes,4056,0,0
+1754324949716,2458,500 acessos,200,,Listagem de restaurantes 1-481,text,true,,2872,396,9,9,http://localhost:8080/api/restaurantes,2458,0,0
+1754324950101,2073,500 acessos,200,,Listagem de restaurantes 1-493,text,true,,2872,396,9,9,http://localhost:8080/api/restaurantes,2073,0,0
+1754324947652,4522,500 acessos,200,,Listagem de restaurantes 1-424,text,true,,2872,396,5,5,http://localhost:8080/api/restaurantes,4513,0,0
+1754324951630,544,500 acessos,200,,Listagem de restaurantes 1-477,text,true,,2872,396,5,5,http://localhost:8080/api/restaurantes,544,0,0
+1754324948970,3205,500 acessos,200,,Listagem de restaurantes 1-462,text,true,,2872,396,5,5,http://localhost:8080/api/restaurantes,3203,0,0
+1754324952108,77,500 acessos,200,,Listagem de restaurantes 1-490,text,true,,2872,396,1,1,http://localhost:8080/api/restaurantes,77,0,0
