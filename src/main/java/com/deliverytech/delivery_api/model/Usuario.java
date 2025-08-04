@@ -3,6 +3,7 @@ package com.deliverytech.delivery_api.model;
 import jakarta.persistence.*;
 import lombok.*;
 import java.time.LocalDateTime;
+import com.deliverytech.delivery_api.model.Role;
 
 @Entity
 @Data
